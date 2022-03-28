@@ -1,0 +1,1040 @@
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) TODO LIST
+#======================================================================
+
+# - Find a clean visible style
+# - Add lowlvl Coral Ring
+# - Add lowlvl energy shield belt
+# - Add (high lvl) quality flasks
+# - Rework Essences
+# - Add map highlight
+# - Rework jewels
+# - Add scarabs
+# - Add delve
+# - Add utility flasks
+# - Add highlight for cold res rings until merveil (~lvl12)
+# - Add to github
+
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) VERSION HISTORY
+#======================================================================
+
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) RARE ITEM PROGRESSION
+#======================================================================
+# Highlight best possible ItemLevel Rares in current zone
+#----------------------------------------------------------------------
+
+Show
+	Rarity Rare
+	AreaLevel = 1
+	ItemLevel >= 3
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 2
+	ItemLevel >= 4
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 3
+	ItemLevel >= 5
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 4
+	ItemLevel >= 6
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --
+Show
+	Rarity Rare
+	AreaLevel = 5
+	ItemLevel >= 7
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 6
+	ItemLevel >= 8
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 7
+	ItemLevel >= 9
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 8
+	ItemLevel >= 10
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 9
+	ItemLevel >= 11
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 10
+	ItemLevel >= 12
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 11
+	ItemLevel >= 13
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 12
+	ItemLevel >= 14
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 13
+	ItemLevel >= 15
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 14
+	ItemLevel >= 16
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 15
+	ItemLevel >= 17
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 16
+	ItemLevel >= 18
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --
+Show
+	Rarity Rare
+	AreaLevel = 17
+	ItemLevel >= 19
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 18
+	ItemLevel >= 20
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 19
+	ItemLevel >= 21
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 20
+	ItemLevel >= 22
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 21
+	ItemLevel >= 23
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 22
+	ItemLevel >= 24
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 23
+	ItemLevel >= 25
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 24
+	ItemLevel >= 26
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 25
+	ItemLevel >= 27
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 26
+	ItemLevel >= 28
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 27
+	ItemLevel >= 29
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 28
+	ItemLevel >= 30
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 29
+	ItemLevel >= 31
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 30
+	ItemLevel >= 32
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 31
+	ItemLevel >= 33
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 32
+	ItemLevel >= 34
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 33
+	ItemLevel >= 35
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 34
+	ItemLevel >= 36
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 35
+	ItemLevel >= 37
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 36
+	ItemLevel >= 38
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 37
+	ItemLevel >= 39
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 38
+	ItemLevel >= 40
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 39
+	ItemLevel >= 41
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 40
+	ItemLevel >= 42
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 41
+	ItemLevel >= 43
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 42
+	ItemLevel >= 44
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 43
+	ItemLevel >= 45
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 44
+	ItemLevel >= 46
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 45
+	ItemLevel >= 47
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 46
+	ItemLevel >= 48
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 47
+	ItemLevel >= 49
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 48
+	ItemLevel >= 50
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 49
+	ItemLevel >= 51
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 50
+	ItemLevel >= 52
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 51
+	ItemLevel >= 53
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 52
+	ItemLevel >= 54
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 53
+	ItemLevel >= 55
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 54
+	ItemLevel >= 56
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 55
+	ItemLevel >= 57
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 56
+	ItemLevel >= 58
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 57
+	ItemLevel >= 59
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 58
+	ItemLevel >= 60
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 59
+	ItemLevel >= 61
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 60
+	ItemLevel >= 62
+	SetBorderColor 255 255 119 # Rare
+	
+Show 
+	Rarity Rare
+	
+	# In Maps Rares only drop with +1 ItemLevel. dont forget.
+
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) Weapons
+#======================================================================
+# Enable or disable individual weapons, focus on what's needed
+#----------------------------------------------------------------------
+
+Show
+	Class Wands
+	Rarity > Magic
+
+Show
+	Class Staves
+	Rarity > Magic
+	
+Show
+	Class Daggers
+	Rarity > Magic	
+
+#Show
+#	Class Claws
+#	Rarity > Magic
+		
+#Show
+#	Class "One Hand Swords"
+#	Rarity > Magic
+#----------------------------------------------------------- Weapons --
+#Show
+#	Class Bows
+#	Rarity > Magic
+	
+#Show
+#	Class Quivers
+#	Rarity > Magic
+	
+#Show
+#	Class "One Hand Axes"
+#	Rarity > Magic
+	
+#Show
+#	Class "One Hand Mace"
+#	Rarity > Magic
+	
+Show
+	Class "Sceptre"
+	Rarity > Magic
+#----------------------------------------------------------- Weapons --
+#Show
+#	Class "Two Hand Swords"
+#	Rarity > Magic
+	
+#Show
+#	Class "Two Hand Axes"
+#	Rarity > Magic
+	
+#Show
+#	Class "Two Hand Swords"
+#	Rarity > Magic
+	
+#Show
+#	Class "Quivers"
+#	Rarity > Magic
+
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+###############################################################################
+# Section: ### Helmet #########################################################
+###############################################################################
+#                                                                             #
+#                                                                             #
+Show #Str
+	BaseType "Iron Hat" "Cone Helmet" "Barbute Helmet" "Close Helmet" "Gladiator Helmet" "Reaver Helmet" "Siege Helmet" "Samnite Helmet" "Ezomyte Burgonet" "Royal Burgonet" "Eternal Burgonet"
+
+Show #Dex
+	BaseType "Leather Cap" "Tricorne" "Leather Hood" "Wolf Pelt" "Hunter Hood" "Noble Tricorne" "Ursine Pelt" "Silken Hood" "Sinner Tricorne" "Lion Pelt"
+
+Hide #Int
+	BaseType "Vine Circlet" "Iron Circlet" "Torture Cage" "Tribal Circlet" "Bone Circlet" "Lunaris Circlet" "Steel Circlet" "Necromancer Circlet" "Solaris Circlet" "Mind Cage" "Hubris Circlet"
+	
+Show #Str/Dex
+	BaseType "Battered Helm" "Sallet" "Sorrow Mask" "Visored Sallet" "Gilded Sallet" "Secutor Helm" "Fencer Helm" "Atonement Mask" "Lacquered Helmet" "Fluted Bascinet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Penitent Mask"
+	
+Hide #Str/Int
+	BaseType "Rusted Coif" "Soldier Helmet" "Imp Crown" "Great Helmet" "Crusader Helmet" "Aventail Helmet" "Zealot Helmet" "Demon Crown" "Great Crown" "Magistrate Crown" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Archdemon Crown"
+
+Hide #Dex/Int
+	BaseType "Scare Mask" "Plague Mask" "Gale Crown" "Iron Mask" "Festival Mask" "Golden Mask" "Raven Mask" "Callous Mask" "Winter Crown" "Regicide Mask" "Harlequin Mask" "Vaal Mask" "Deicide Mask" "Blizzard Crown"
+#                                                                             #
+#                                                                             #
+# END: ### Helmet #############################################################
+###############################################################################
+
+###############################################################################
+# Section: ### Body Armor #####################################################
+###############################################################################
+#                                                                             #
+#                                                                             #
+Show #Str
+	BaseType "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Arena Plate" "Lordly Plate" "Bronze Plate" "Battle Plate" "Sun Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Crusader Plate" "Astral Plate" "Gladiator Plate" "Glorious Plate"
+
+Show #Dex
+	BaseType "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Exquisite Leather" "Zodiac Leather" "Assassin's Garb"
+
+Hide #Int 
+	BaseType "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Mage's Vestment" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Occultist's Vestment" "Widowsilk Robe" "Vaal Regalia"
+
+Show #Str/Dex
+	BaseType "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Full Scale Armour" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Full Wyrmscale" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar"
+
+Hide #Str/Int
+	BaseType "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Holy Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Conquest Chainmail" "Elegant Ringmail" "Saint's Hauberk" "Saintly Chainmail"
+
+Hide #Dex/Int
+	BaseType "Padded Vest" "Oiled Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat" "Blood Raiment" "Sadist Garb" "Carnal Armour"
+#                                                                             #
+#                                                                             #
+# END: ### Body Armor #########################################################
+###############################################################################
+
+###############################################################################
+# Section: ### Gloves #########################################################
+###############################################################################
+#                                                                             #
+#                                                                             #
+Show #Str
+	BaseType "Iron Gauntlets" "Taxing Gauntlets" "Plated Gauntlets" "Bronze Gauntlets" "Steel Gauntlets" "Antique Gauntlets" "Gruelling Gauntlets" "Ancient Gauntlets" "Goliath Gauntlets" "Vaal Gauntlets" "Titan Gauntlets" "Debilitation Gauntlets" "Spiked Gloves"
+
+Hide #Dex
+	BaseType "Rawhide Gloves" "Goathide Gloves" "Gauche Gloves" "Deerskin Gloves" "Nubuck Gloves" "Eelskin Gloves" "Southswing Gloves" "Sharkskin Gloves" "Shagreen Gloves" "Stealth Gloves" "Gripped Gloves" "Sinistral Gloves" "Slink Gloves"
+	
+Hide #Int
+	BaseType "Wool Gloves" "Leyline Gloves" "Velvet Gloves" "Silk Gloves" "Embroidered Gloves" "Aetherwind Gloves" "Satin Gloves" "Samite Gloves" "Conjurer Gloves" "Arcanist Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Nexus Gloves"
+	
+Hide #Str/Dex
+	BaseType "Fishscale Gauntlets" "Ironscale Gauntlets" "Bronzescale Gauntlets" "Steelscale Gauntlets" "Serpentscale Gauntlets" "Wyrmscale Gauntlets" "Hydrascale Gauntlets" "Dragonscale Gauntlets"
+	
+Hide #Str/Int
+	BaseType "Chain Gloves" "Ringmail Gloves" "Mesh Gloves" "Riveted Gloves" "Zealot Gloves" "Soldier Gloves" "Legion Gloves" "Crusader Gloves"
+	
+Hide #Dex/Int
+	BaseType "Wrapped Mitts" "Strapped Mitts" "Clasped Mitts" "Trapper Mitts" "Ambush Mitts" "Carnal Mitts" "Assassin's Mitts" "Murder Mitts"
+#                                                                             #
+#                                                                             #
+# END: ### Gloves #############################################################
+###############################################################################
+
+###############################################################################
+# Section: ### Belts ##########################################################
+###############################################################################
+#                                                                             #
+#                                                                             #
+
+Hide 
+	BaseType "Chain Belt"
+	
+Hide
+	BaseType "Rustic Sash"
+
+Hide	
+	BaseType "Stygian Vise"
+
+Hide
+	BaseType "Heavy Belt"
+
+Show
+	BaseType "Leather Belt"
+
+Hide
+	BaseType "Cloth Belt"
+
+Hide
+	BaseType "Studded Belt"
+
+Hide
+	BaseType "Micro-Distillery Belt" "Mechalarm Belt" "Vanguard Belt" "Crystal Belt"
+#                                                                             #
+#                                                                             #
+# END: ### Belts ##############################################################
+###############################################################################
+
+###############################################################################
+# Section: ### Boots ##########################################################
+###############################################################################
+#                                                                             #
+#                                                                             #
+Hide #Str
+	BaseType "Iron Greaves" "Steel Greaves" "Basemetal Treads" "Plated Greaves" "Reinforced Greaves" "Antique Greaves" "Ancient Greaves" "Darksteel Treads" "Goliath Greaves" "Vaal Greaves" "Titan Greaves" "Brimstone Treads"
+	
+Hide #Dex
+	BaseType "Rawhide Boots" "Goathide Boots" "Cloudwhisper Boots" "Deerskin Boots" "Nubuck Boots" "Eelskin Boots" "Sharkskin Boots" "Windbreak Boots" "Shagreen Boots" "Stealth Boots" "Slink Boots" "Stormrider Boots"
+
+Hide #Int
+	BaseType "Wool Shoes" "Velvet Slippers" "Duskwalk Slippers" "Silk Slippers" "Scholar Boots" "Satin Slippers" "Samite Slippers" "Nightwind Slippers" "Conjurer Boots" "Arcanist Slippers" "Sorcerer Boots" "Dreamquest Slippers"
+
+Hide #Str/Dex
+	BaseType "Leatherscale Boots" "Ironscale Boots" "Bronzescale Boots" "Steelscale Boots" "Serpentscale Boots" "Wyrmscale Boots" "Hydrascale Boots" "Dragonscale Boots" "Two-Toned Boots"
+	
+Hide #Str/Int
+	BaseType "Chain Boots" "Ringmail Boots" "Mesh Boots" "Riveted Boots" "Zealot Boots" "Soldier Boots" "Legion Boots" "Crusader Boots" "Two-Toned Boots"
+	
+Hide #Dex/Int
+	BaseType "Wrapped Boots" "Strapped Boots" "Clasped Boots" "Shackled Boots" "Trapper Boots" "Ambush Boots" "Carnal Boots" "Assassin's Boots" "Murder Boots" "Two-Toned Boots"
+#                                                                             #
+#                                                                             #
+# END: ### Boots ##############################################################
+###############################################################################
+
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) FLASK PROGRESSION
+#======================================================================
+# Add Description
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+# LIFE FLASKS
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Small Life Flask"
+	DropLevel >= 1
+	ItemLevel <= 3
+	
+Show
+	BaseType "Medium Life Flask"
+	DropLevel >= 3
+	ItemLevel <= 6
+
+Show
+	BaseType "Large Life Flask"
+	DropLevel >= 6
+	ItemLevel <= 12
+	
+Show
+	BaseType "Greater Life Flask"
+	DropLevel >= 12
+	ItemLevel <= 18
+#------------------------------------------------- FLASK PROGRESSION --
+Show
+	BaseType "Grand Life Flask"
+	DropLevel >= 18
+	ItemLevel <= 24
+
+Show
+	BaseType "Giant Life Flask"
+	DropLevel >= 24
+	ItemLevel <= 30
+	
+Show
+	BaseType "Colossal Life Flask"
+	DropLevel >= 30
+	ItemLevel <= 36
+
+Show
+	BaseType "Sacred Life Flask"
+	DropLevel >= 36
+	ItemLevel <= 42	
+	
+Show
+	BaseType "Hallowed Life Flask"
+	DropLevel >= 42
+	ItemLevel <= 50
+#------------------------------------------------- FLASK PROGRESSION --	
+Show
+	BaseType "Sanctified Life Flask"
+	DropLevel >= 50
+	ItemLevel <= 60	
+	
+Show
+	BaseType "Divine Life Flask"
+	DropLevel >= 60
+	ItemLevel <= 65
+
+Show
+	BaseType "Eternal Life Flask"
+	DropLevel >= 65
+	#ItemLevel <= 100
+	
+#-----------------------------------------------------------------------
+# MANA FLASKS
+#-----------------------------------------------------------------------
+	
+Show
+	BaseType "Small Mana Flask"
+	DropLevel >= 1
+	ItemLevel <= 3
+	
+Show
+	BaseType "Medium Mana Flask"
+	DropLevel >= 3
+	ItemLevel <= 6
+
+Show
+	BaseType "Large Mana Flask"
+	DropLevel >= 6
+	ItemLevel <= 12
+	
+Show
+	BaseType "Greater Mana Flask"
+	DropLevel >= 12
+	ItemLevel <= 18
+#------------------------------------------------- FLASK PROGRESSION --
+Show
+	BaseType "Grand Mana Flask"
+	DropLevel >= 18
+	ItemLevel <= 24
+	
+Show
+	BaseType "Giant Mana Flask"
+	DropLevel >= 24
+	ItemLevel <= 30
+	
+Show
+	BaseType "Colossal Mana Flask"
+	DropLevel >= 30
+	ItemLevel <= 36
+
+Show
+	BaseType "Sacred Mana Flask"
+	DropLevel >= 36
+	ItemLevel <= 42	
+#------------------------------------------------- FLASK PROGRESSION --
+Show
+	BaseType "Hallowed Mana Flask"
+	DropLevel >= 42
+	ItemLevel <= 50
+	
+Show
+	BaseType "Sanctified Mana Flask"
+	DropLevel >= 50
+	ItemLevel <= 60	
+	
+Show
+	BaseType "Divine Mana Flask"
+	DropLevel >= 60
+	ItemLevel <= 65
+
+Show
+	BaseType "Eternal Mana Flask"
+	DropLevel >= 65
+	#ItemLevel <= 100
+	
+#-----------------------------------------------------------------------
+# HYBRID FLASKS
+#-----------------------------------------------------------------------
+	
+Show
+	BaseType "Small Hybrid Flask"
+	DropLevel >= 10
+	ItemLevel <= 20
+	
+Show
+	BaseType "Medium Hybrid Flask"
+	DropLevel >= 20
+	ItemLevel <= 30
+
+Show
+	BaseType "Large Hybrid Flask"
+	DropLevel >= 30
+	ItemLevel <= 40
+#------------------------------------------------- FLASK PROGRESSION --	
+Show
+	BaseType "Colossal Hybrid Flask"
+	DropLevel >= 40
+	ItemLevel <= 50
+
+Show
+	BaseType "Sacred Hybrid Flask"
+	DropLevel >= 50
+	ItemLevel <= 60
+	
+Show
+	BaseType "Hallowed Hybrid Flask"
+	DropLevel >= 60
+	#ItemLevel <= 30
+	
+########################################################################
+#
+# Common
+# Never changing rules; for all classes and types
+#
+########################################################################
+
+Show # Chromatic Orb vendor recipe
+	SocketGroup RGB
+	#SetTextColor 255 166 77
+	PlayAlertSound 1 50
+	PlayEffect Red
+	
+Show # 3 Linked Sockets until item level 25
+	ItemLevel < 25
+	LinkedSockets >= 3
+	
+Show # 4 Linked Sockets, useful for early level skill gem setups
+	LinkedSockets = 4
+	PlayEffect White
+	
+Show # 5 and 6 linked sockets
+	LinkedSockets >= 5
+	PlayEffect Red
+	
+Show # 6 Sockets 
+	Sockets = 6
+	
+Show # Alteration Shards
+	HasExplicitMod "of the Crystal" "of the Prism" "of the Kaleidoscope" "of Variegation" "of the Rainbow" "of the Span"
+	SetTextColor 170 158 130
+
+Show # Alchemy Shards
+	HasExplicitMod "Magpie's" "Pirate's" "Reanimator's" "Flame Spinner's" "of Intercepting" "of Walling" "of Blocking" "Combatant's" "Weaponmaster's" "of the Lost" "of Banishment" "of Eviction" "of Expulsion" "of Exile" "of Bameth" "of Freezing" "of Ignition" "of Shocking" "of Burning" "of Combusting" "of Conflagrating"
+	SetTextColor 170 158 130
+	SetBorderColor 170 158 130
+	
+########################################################################
+#
+# Skill Gems
+# 
+#
+########################################################################
+
+#-----------------------------------------------------------------------
+#
+# Quality first
+# 
+#-----------------------------------------------------------------------
+
+Show
+	Class "Skill Gems"
+	Quality >= 1
+	SetTextColor 0 0 0 255
+    SetBackgroundColor 27 162 155 255
+    SetBorderColor 0 0 0 255
+    MinimapIcon 2 White Circle
+    PlayEffect White
+	
+#-----------------------------------------------------------------------
+#
+# EXPENSIVE ONES (ALCHEMY ORB)
+# 
+#-----------------------------------------------------------------------
+
+Show
+	BaseType "Multistrike Support" "Cast on Melee Kill Support" "Cast when Damage Taken Support" "Brutality Support" "Multiple Totems Support" "Cast On Critical Strike Support" "Greater Multiple Projectiles Support" "Chain Support" "Cluster Traps Support" "Vile Toxins Support" "Withering Touch Support" "Cast when Stunned Support" "Curse On Hit Support" "Increased Area of Effect Support" "Spell Echo Support" "Cast while Channelling Support" "Decay Support" "Ignite Proliferation Support" "Immolate Support" "Bonechill Support"
+	Class "Skill Gems"
+	SetBorderColor 27 162 155 255
+    MinimapIcon 2 White Circle
+    PlayEffect White
+	
+#-----------------------------------------------------------------------
+#
+# EXPENSIVE ONES (ORB OF CHANCE)
+# 
+#-----------------------------------------------------------------------
+
+#-----------------------------------------------------------------------
+#
+# Vaal
+# 
+#-----------------------------------------------------------------------
+
+Show
+	Class "Gems"
+	BaseType "Vaal"
+
+########################################################################
+#
+# ESSENCES
+# 
+#
+########################################################################
+
+Show
+	BaseType "Essence" "Remnant of Corruption"
+	Class Currency
+	#DropLevel = 68 Doesn't work
+	SetTextColor 0 0 0 255
+    MinimapIcon 0 White Circle
+    SetBackgroundColor 153 121 184 255
+    SetBorderColor 0 0 0 255
+    PlayEffect White
+	
+########################################################################
+#
+# CURRENCY
+# Sorted by their rarity/usefulness
+#
+########################################################################
+
+Show # Currency Tier 9
+    BaseType "Mirror of Kalandra"
+    SetTextColor 0 0 0 255
+    MinimapIcon 0 Yellow Diamond
+    SetBackgroundColor 170 158 130 255
+    SetBorderColor 0 0 0 255
+    PlayEffect Yellow
+    PlayAlertSoundPositional 10 200
+
+Show # Currency Tier 8
+    BaseType "Exalted Orb"
+    SetTextColor 0 0 0 255
+    MinimapIcon 0 Yellow Diamond
+    SetBackgroundColor 170 158 130 255
+    SetBorderColor 0 0 0 255
+    PlayEffect Yellow
+    PlayAlertSoundPositional 9 200
+    
+Show # Currency Tier 7
+    BaseType "Divine Orb" "Blessed Orb" "Regal Orb" "Vaal Orb" "Orb of Annulment"
+    SetTextColor 0 0 0 255
+    MinimapIcon 1 Yellow Diamond
+    SetBackgroundColor 170 158 130 255
+    SetBorderColor 0 0 0 255
+    PlayEffect Yellow
+    PlayAlertSoundPositional 8 100
+    
+Show # Currency Tier 6
+    BaseType "Orb of Scouring" "Orb of Regret"
+    SetTextColor 0 0 0 255
+    MinimapIcon 1 Yellow Diamond
+    SetBackgroundColor 170 158 130 255
+    SetBorderColor 0 0 0 255
+    PlayEffect Yellow
+    PlayAlertSoundPositional 7 100
+    
+Show # Currency Tier 5
+    BaseType "Cartographer's Chisel" "Glassblower's Bauble" "Gemcutter's Prism"
+    SetTextColor 0 0 0 255
+    MinimapIcon 1 Yellow Diamond
+    SetBackgroundColor 170 158 130 255
+    SetBorderColor 0 0 0 255
+    PlayEffect Yellow
+    PlayAlertSoundPositional 6 100
+    
+Show # Currency Tier 4
+    BaseType "Chaos Orb" "Alchemy Shard" "Orb of Alchemy" "Orb of Fusing"
+    SetTextColor 0 0 0 255
+    MinimapIcon 1 Yellow Diamond
+    SetBackgroundColor 170 158 130 255
+    SetBorderColor 0 0 0 255
+    PlayEffect Yellow
+    PlayAlertSoundPositional 5 100
+    
+Show # Currency Tier 3
+    BaseType "Alteration Shard" "Orb of Alteration" "Orb of Chance" "Jeweller's Orb" "Chromatic Orb"
+    SetTextColor 0 0 0 255
+    MinimapIcon 2 Yellow Diamond
+    SetBackgroundColor 170 158 130 255
+    SetBorderColor 0 0 0 255
+    PlayEffect Yellow
+    PlayAlertSoundPositional 4 100
+    
+Show # Currency Tier 2
+    BaseType "Transmutation Shard" "Orb of Transmutation" "Orb of Augmentation" "Armourer's Scrap" "Blacksmith's Whetstone"
+    SetTextColor 0 0 0 255
+    MinimapIcon 2 Yellow Diamond
+    SetBackgroundColor 170 158 130 255
+    SetBorderColor 0 0 0 255
+    PlayEffect Yellow
+    #PlayAlertSoundPositional 4 100
+    
+Show # Currency Tier 1
+    BaseType "Scroll Fragment" "Scroll of Wisdom" "Portal Scroll" "Albino Rhoa Feather"
+    SetTextColor 0 0 0 255
+    # MinimapIcon 2 Yellow Diamond
+    SetBackgroundColor 170 158 130 255
+    SetBorderColor 0 0 0 255
+    # PlayEffect Yellow
+    # PlayAlertSoundPositional 4 100
+   
+Show # Silver Coins
+    BaseType "Silver Coin"
+    SetTextColor 0 0 0 255
+    MinimapIcon 2 Yellow Diamond
+    SetBackgroundColor 170 130 142 255
+    SetBorderColor 0 0 0 255
+    PlayEffect Yellow
+    #PlayAlertSoundPositional 1 100
+    
+Show # Perandus Coins
+    BaseType "Perandus Coin"
+    SetTextColor 0 0 0 255
+    MinimapIcon 2 Yellow Diamond
+    SetBackgroundColor 170 130 142 255
+    SetBorderColor 0 0 0 255
+    PlayEffect Yellow
+    #PlayAlertSoundPositional 1 100
+    
+Show
+    BaseType "Cartographer's Sextant" "Cartographer's Seal"
+    Class "Stackable Currency"
+    SetTextColor 0 0 0 255
+    SetBackgroundColor 130 170 158 255
+    SetBorderColor 0 0 0 255
+    MinimapIcon 2 Yellow Diamond
+    PlayEffect Yellow
+
+Show
+    BaseType "Vial of" "Blessing of" "Splinter of"
+    Class "Stackable Currency"
+    SetTextColor 0 0 0 255
+    SetBackgroundColor 130 142 170 255
+    SetBorderColor 0 0 0 255
+    MinimapIcon 2 Yellow Diamond
+    PlayEffect Yellow
+    
+Show # Fallback for new currency
+    Class Currency
+	
+########################################################################
+#
+# LOW PRIORITY
+# Can be overwritten by rules above
+#
+########################################################################
+
+Show
+	Class "Divination Card"
+	SetTextColor 0 0 0 255
+    SetBackgroundColor 162 185 240 255
+    SetBorderColor 0 0 0 255
+    MinimapIcon 2 Blue Square
+    PlayEffect Blue
+	
+Show
+	Class "Quest Item"
+	SetTextColor 0 0 0 255
+    SetBackgroundColor 157 242 149 255
+
+Show
+	Class "Fragment" "Map"
+	
+Show
+	Rarity >= Unique
+
+Hide
