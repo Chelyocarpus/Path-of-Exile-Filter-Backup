@@ -9,13 +9,14 @@
 # - Add lowlvl energy shield belt
 # - Add (high lvl) quality flasks
 # - Rework Essences
+# - Rework Currency
+# - Rework Vendor Recipes
 # - Add map highlight
 # - Rework jewels
 # - Add scarabs
 # - Add delve
 # - Add utility flasks
 # - Add highlight for cold res rings until merveil (~lvl12)
-# - Add to github
 
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
@@ -402,9 +403,10 @@ Show
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x) Weapons
+# x) WEAPONS
 #======================================================================
 # Enable or disable individual weapons, focus on what's needed
+# Currently shows everything above the rarity Magic
 #----------------------------------------------------------------------
 
 Show
@@ -419,58 +421,62 @@ Show
 	Class Daggers
 	Rarity > Magic	
 
-#Show
-#	Class Claws
-#	Rarity > Magic
+Show
+	Class Claws
+	Rarity > Magic
 		
-#Show
-#	Class "One Hand Swords"
-#	Rarity > Magic
-#----------------------------------------------------------- Weapons --
-#Show
-#	Class Bows
-#	Rarity > Magic
+Show
+	Class "One Hand Swords"
+	Rarity > Magic
+#----------------------------------------------------------- WEAPONS --
+Show
+	Class Bows
+	Rarity > Magic
 	
-#Show
-#	Class Quivers
-#	Rarity > Magic
+Show
+	Class Quivers
+	Rarity > Magic
 	
-#Show
-#	Class "One Hand Axes"
-#	Rarity > Magic
+Show
+	Class "One Hand Axes"
+	Rarity > Magic
 	
-#Show
-#	Class "One Hand Mace"
-#	Rarity > Magic
+Show
+	Class "One Hand Mace"
+	Rarity > Magic
 	
 Show
 	Class "Sceptre"
 	Rarity > Magic
-#----------------------------------------------------------- Weapons --
-#Show
-#	Class "Two Hand Swords"
-#	Rarity > Magic
+#----------------------------------------------------------- WEAPONS --
+Show
+	Class "Two Hand Swords"
+	Rarity > Magic
 	
-#Show
-#	Class "Two Hand Axes"
-#	Rarity > Magic
+Show
+	Class "Two Hand Axes"
+	Rarity > Magic
 	
-#Show
-#	Class "Two Hand Swords"
-#	Rarity > Magic
+Show
+	Class "Two Hand Swords"
+	Rarity > Magic
 	
-#Show
-#	Class "Quivers"
-#	Rarity > Magic
+Show
+	Class "Quivers"
+	Rarity > Magic
 
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
-###############################################################################
-# Section: ### Helmet #########################################################
-###############################################################################
-#                                                                             #
-#                                                                             #
+#======================================================================
+# x) GEAR
+#======================================================================
+# Enable or disable individual gear, focus on what's needed
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+# HELMETS
+#----------------------------------------------------------------------
 Show #Str
 	BaseType "Iron Hat" "Cone Helmet" "Barbute Helmet" "Close Helmet" "Gladiator Helmet" "Reaver Helmet" "Siege Helmet" "Samnite Helmet" "Ezomyte Burgonet" "Royal Burgonet" "Eternal Burgonet"
 
@@ -488,16 +494,11 @@ Hide #Str/Int
 
 Hide #Dex/Int
 	BaseType "Scare Mask" "Plague Mask" "Gale Crown" "Iron Mask" "Festival Mask" "Golden Mask" "Raven Mask" "Callous Mask" "Winter Crown" "Regicide Mask" "Harlequin Mask" "Vaal Mask" "Deicide Mask" "Blizzard Crown"
-#                                                                             #
-#                                                                             #
-# END: ### Helmet #############################################################
-###############################################################################
 
-###############################################################################
-# Section: ### Body Armor #####################################################
-###############################################################################
-#                                                                             #
-#                                                                             #
+#----------------------------------------------------------------------
+# BODY ARMOR
+#----------------------------------------------------------------------
+
 Show #Str
 	BaseType "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Arena Plate" "Lordly Plate" "Bronze Plate" "Battle Plate" "Sun Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Crusader Plate" "Astral Plate" "Gladiator Plate" "Glorious Plate"
 
@@ -515,16 +516,11 @@ Hide #Str/Int
 
 Hide #Dex/Int
 	BaseType "Padded Vest" "Oiled Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat" "Blood Raiment" "Sadist Garb" "Carnal Armour"
-#                                                                             #
-#                                                                             #
-# END: ### Body Armor #########################################################
-###############################################################################
 
-###############################################################################
-# Section: ### Gloves #########################################################
-###############################################################################
-#                                                                             #
-#                                                                             #
+#----------------------------------------------------------------------
+# Gloves
+#----------------------------------------------------------------------
+
 Show #Str
 	BaseType "Iron Gauntlets" "Taxing Gauntlets" "Plated Gauntlets" "Bronze Gauntlets" "Steel Gauntlets" "Antique Gauntlets" "Gruelling Gauntlets" "Ancient Gauntlets" "Goliath Gauntlets" "Vaal Gauntlets" "Titan Gauntlets" "Debilitation Gauntlets" "Spiked Gloves"
 
@@ -542,16 +538,10 @@ Hide #Str/Int
 	
 Hide #Dex/Int
 	BaseType "Wrapped Mitts" "Strapped Mitts" "Clasped Mitts" "Trapper Mitts" "Ambush Mitts" "Carnal Mitts" "Assassin's Mitts" "Murder Mitts"
-#                                                                             #
-#                                                                             #
-# END: ### Gloves #############################################################
-###############################################################################
 
-###############################################################################
-# Section: ### Belts ##########################################################
-###############################################################################
-#                                                                             #
-#                                                                             #
+#----------------------------------------------------------------------
+# BELTS
+#----------------------------------------------------------------------
 
 Hide 
 	BaseType "Chain Belt"
@@ -576,16 +566,11 @@ Hide
 
 Hide
 	BaseType "Micro-Distillery Belt" "Mechalarm Belt" "Vanguard Belt" "Crystal Belt"
-#                                                                             #
-#                                                                             #
-# END: ### Belts ##############################################################
-###############################################################################
+	
+#----------------------------------------------------------------------
+# BOOTS
+#----------------------------------------------------------------------
 
-###############################################################################
-# Section: ### Boots ##########################################################
-###############################################################################
-#                                                                             #
-#                                                                             #
 Hide #Str
 	BaseType "Iron Greaves" "Steel Greaves" "Basemetal Treads" "Plated Greaves" "Reinforced Greaves" "Antique Greaves" "Ancient Greaves" "Darksteel Treads" "Goliath Greaves" "Vaal Greaves" "Titan Greaves" "Brimstone Treads"
 	
@@ -603,10 +588,6 @@ Hide #Str/Int
 	
 Hide #Dex/Int
 	BaseType "Wrapped Boots" "Strapped Boots" "Clasped Boots" "Shackled Boots" "Trapper Boots" "Ambush Boots" "Carnal Boots" "Assassin's Boots" "Murder Boots" "Two-Toned Boots"
-#                                                                             #
-#                                                                             #
-# END: ### Boots ##############################################################
-###############################################################################
 
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
@@ -778,19 +759,15 @@ Show
 	BaseType "Hallowed Hybrid Flask"
 	DropLevel >= 60
 	#ItemLevel <= 30
-	
-########################################################################
-#
-# Common
-# Never changing rules; for all classes and types
-#
-########################################################################
 
-Show # Chromatic Orb vendor recipe
-	SocketGroup RGB
-	#SetTextColor 255 166 77
-	PlayAlertSound 1 50
-	PlayEffect Red
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) SOCKETS & LINKS
+#======================================================================
+# Add Description
+#----------------------------------------------------------------------
 	
 Show # 3 Linked Sockets until item level 25
 	ItemLevel < 25
@@ -802,6 +779,21 @@ Show # 4 Linked Sockets, useful for early level skill gem setups
 	
 Show # 5 and 6 linked sockets
 	LinkedSockets >= 5
+	PlayEffect Red
+
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) VENDOR RECIPES
+#======================================================================
+# Add Description
+#----------------------------------------------------------------------
+
+Show # Chromatic Orb vendor recipe
+	SocketGroup RGB
+	#SetTextColor 255 166 77
+	PlayAlertSound 1 50
 	PlayEffect Red
 	
 Show # 6 Sockets 
