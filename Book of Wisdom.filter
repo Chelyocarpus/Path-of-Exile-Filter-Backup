@@ -4,20 +4,20 @@
 # x) TODO LIST
 #======================================================================
 
-# - Find a clean visible style
-# - Add lowlvl Coral Ring
+# - Add lowlvl Coral Ring DONE
 # - Add lowlvl energy shield belt
 # - Add (high lvl) quality flasks (maybe to Vendor Recipes)
 # - Rework Essences
 # - Rework Currency
 # - Rework Vendor Recipes
+# - Rework Skill Gems
 # - Add map highlight
 # - Rework jewels
-# - Add scarabs
 # - Add delve
 # - Add utility flasks
 # - Add section for Rings & Amulets
-# - Add highlight for cold res rings until merveil (~lvl12)
+# - Add highlight for cold res rings until merveil (~lvl12) DONE
+# - Add support for identified items + high res mods + high life mods
 
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
@@ -28,6 +28,50 @@
 
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) SOCKETS & LINKS
+#======================================================================
+# Add Description
+#----------------------------------------------------------------------
+	
+Show # 3 Linked Sockets until item level 25
+	ItemLevel < 25
+	LinkedSockets = 3
+	
+Show # 4 Linked Sockets, useful for early level skill gem setups
+	LinkedSockets = 4
+	PlayEffect White
+	
+Show # 5 and 6 linked sockets
+	LinkedSockets >= 5
+	PlayEffect Red
+
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) VENDOR RECIPES
+#======================================================================
+# Add Description
+#----------------------------------------------------------------------
+
+Show # Chromatic Orb
+	SocketGroup RGB
+	SetTextColor 170 158 130 # Currency
+	
+Show # 6 Sockets 
+	Sockets = 6
+	SetTextColor 170 158 130 # Currency
+	
+Show # Alteration Shards
+	HasExplicitMod "of the Crystal" "of the Prism" "of the Kaleidoscope" "of Variegation" "of the Rainbow" "of the Span"
+	SetTextColor 170 158 130
+
+Show # Alchemy Shards
+	HasExplicitMod "Magpie's" "Pirate's" "Reanimator's" "Flame Spinner's" "of Intercepting" "of Walling" "of Blocking" "Combatant's" "Weaponmaster's" "of the Lost" "of Banishment" "of Eviction" "of Expulsion" "of Exile" "of Bameth" "of Freezing" "of Ignition" "of Shocking" "of Burning" "of Combusting" "of Conflagrating"
+	SetTextColor 170 158 130
+	SetBorderColor 170 158 130
 
 #======================================================================
 # x) RARE ITEM PROGRESSION
@@ -411,19 +455,19 @@ Show
 #----------------------------------------------------------------------
 
 Show
-	Class Wands
+	Class "Wands"
 	Rarity > Magic
 
 Show
-	Class Staves
+	Class "Staves"
 	Rarity > Magic
 	
 Show
-	Class Daggers
+	Class "Daggers"
 	Rarity > Magic	
 
 Show
-	Class Claws
+	Class "Claws"
 	Rarity > Magic
 		
 Show
@@ -431,11 +475,11 @@ Show
 	Rarity > Magic
 #----------------------------------------------------------- WEAPONS --
 Show
-	Class Bows
+	Class "Bows"
 	Rarity > Magic
 	
 Show
-	Class Quivers
+	Class "Quivers"
 	Rarity > Magic
 	
 Show
@@ -484,16 +528,16 @@ Show #Str
 Show #Dex
 	BaseType "Leather Cap" "Tricorne" "Leather Hood" "Wolf Pelt" "Hunter Hood" "Noble Tricorne" "Ursine Pelt" "Silken Hood" "Sinner Tricorne" "Lion Pelt"
 
-Hide #Int
+Show #Int
 	BaseType "Vine Circlet" "Iron Circlet" "Torture Cage" "Tribal Circlet" "Bone Circlet" "Lunaris Circlet" "Steel Circlet" "Necromancer Circlet" "Solaris Circlet" "Mind Cage" "Hubris Circlet"
 	
 Show #Str/Dex
 	BaseType "Battered Helm" "Sallet" "Sorrow Mask" "Visored Sallet" "Gilded Sallet" "Secutor Helm" "Fencer Helm" "Atonement Mask" "Lacquered Helmet" "Fluted Bascinet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Penitent Mask"
 	
-Hide #Str/Int
+Show #Str/Int
 	BaseType "Rusted Coif" "Soldier Helmet" "Imp Crown" "Great Helmet" "Crusader Helmet" "Aventail Helmet" "Zealot Helmet" "Demon Crown" "Great Crown" "Magistrate Crown" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Archdemon Crown"
 
-Hide #Dex/Int
+Show #Dex/Int
 	BaseType "Scare Mask" "Plague Mask" "Gale Crown" "Iron Mask" "Festival Mask" "Golden Mask" "Raven Mask" "Callous Mask" "Winter Crown" "Regicide Mask" "Harlequin Mask" "Vaal Mask" "Deicide Mask" "Blizzard Crown"
 
 #----------------------------------------------------------------------
@@ -506,16 +550,16 @@ Show #Str
 Show #Dex
 	BaseType "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Exquisite Leather" "Zodiac Leather" "Assassin's Garb"
 
-Hide #Int 
+Show #Int 
 	BaseType "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Mage's Vestment" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Occultist's Vestment" "Widowsilk Robe" "Vaal Regalia"
 
 Show #Str/Dex
 	BaseType "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Full Scale Armour" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Full Wyrmscale" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar"
 
-Hide #Str/Int
+Show #Str/Int
 	BaseType "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Holy Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Conquest Chainmail" "Elegant Ringmail" "Saint's Hauberk" "Saintly Chainmail"
 
-Hide #Dex/Int
+Show #Dex/Int
 	BaseType "Padded Vest" "Oiled Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat" "Blood Raiment" "Sadist Garb" "Carnal Armour"
 
 #----------------------------------------------------------------------
@@ -525,70 +569,91 @@ Hide #Dex/Int
 Show #Str
 	BaseType "Iron Gauntlets" "Taxing Gauntlets" "Plated Gauntlets" "Bronze Gauntlets" "Steel Gauntlets" "Antique Gauntlets" "Gruelling Gauntlets" "Ancient Gauntlets" "Goliath Gauntlets" "Vaal Gauntlets" "Titan Gauntlets" "Debilitation Gauntlets" "Spiked Gloves"
 
-Hide #Dex
+Show #Dex
 	BaseType "Rawhide Gloves" "Goathide Gloves" "Gauche Gloves" "Deerskin Gloves" "Nubuck Gloves" "Eelskin Gloves" "Southswing Gloves" "Sharkskin Gloves" "Shagreen Gloves" "Stealth Gloves" "Gripped Gloves" "Sinistral Gloves" "Slink Gloves"
 	
-Hide #Int
+Show #Int
 	BaseType "Wool Gloves" "Leyline Gloves" "Velvet Gloves" "Silk Gloves" "Embroidered Gloves" "Aetherwind Gloves" "Satin Gloves" "Samite Gloves" "Conjurer Gloves" "Arcanist Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Nexus Gloves"
 	
-Hide #Str/Dex
+Show #Str/Dex
 	BaseType "Fishscale Gauntlets" "Ironscale Gauntlets" "Bronzescale Gauntlets" "Steelscale Gauntlets" "Serpentscale Gauntlets" "Wyrmscale Gauntlets" "Hydrascale Gauntlets" "Dragonscale Gauntlets"
 	
-Hide #Str/Int
+Show #Str/Int
 	BaseType "Chain Gloves" "Ringmail Gloves" "Mesh Gloves" "Riveted Gloves" "Zealot Gloves" "Soldier Gloves" "Legion Gloves" "Crusader Gloves"
 	
-Hide #Dex/Int
+Show #Dex/Int
 	BaseType "Wrapped Mitts" "Strapped Mitts" "Clasped Mitts" "Trapper Mitts" "Ambush Mitts" "Carnal Mitts" "Assassin's Mitts" "Murder Mitts"
 
 #----------------------------------------------------------------------
 # BELTS
 #----------------------------------------------------------------------
 
-Hide 
+Show 
 	BaseType "Chain Belt"
 	
-Hide
+Show
 	BaseType "Rustic Sash"
 
-Hide	
+Show	
 	BaseType "Stygian Vise"
 
-Hide
+Show
 	BaseType "Heavy Belt"
 
 Show
 	BaseType "Leather Belt"
 
-Hide
+Show
 	BaseType "Cloth Belt"
 
-Hide
+Show
 	BaseType "Studded Belt"
 
-Hide
+Show
 	BaseType "Micro-Distillery Belt" "Mechalarm Belt" "Vanguard Belt" "Crystal Belt"
 	
 #----------------------------------------------------------------------
 # BOOTS
 #----------------------------------------------------------------------
 
-Hide #Str
+Show #Str
 	BaseType "Iron Greaves" "Steel Greaves" "Basemetal Treads" "Plated Greaves" "Reinforced Greaves" "Antique Greaves" "Ancient Greaves" "Darksteel Treads" "Goliath Greaves" "Vaal Greaves" "Titan Greaves" "Brimstone Treads"
 	
-Hide #Dex
+Show #Dex
 	BaseType "Rawhide Boots" "Goathide Boots" "Cloudwhisper Boots" "Deerskin Boots" "Nubuck Boots" "Eelskin Boots" "Sharkskin Boots" "Windbreak Boots" "Shagreen Boots" "Stealth Boots" "Slink Boots" "Stormrider Boots"
 
-Hide #Int
+Show #Int
 	BaseType "Wool Shoes" "Velvet Slippers" "Duskwalk Slippers" "Silk Slippers" "Scholar Boots" "Satin Slippers" "Samite Slippers" "Nightwind Slippers" "Conjurer Boots" "Arcanist Slippers" "Sorcerer Boots" "Dreamquest Slippers"
 
-Hide #Str/Dex
+Show #Str/Dex
 	BaseType "Leatherscale Boots" "Ironscale Boots" "Bronzescale Boots" "Steelscale Boots" "Serpentscale Boots" "Wyrmscale Boots" "Hydrascale Boots" "Dragonscale Boots" "Two-Toned Boots"
 	
-Hide #Str/Int
+Show #Str/Int
 	BaseType "Chain Boots" "Ringmail Boots" "Mesh Boots" "Riveted Boots" "Zealot Boots" "Soldier Boots" "Legion Boots" "Crusader Boots" "Two-Toned Boots"
 	
-Hide #Dex/Int
+Show #Dex/Int
 	BaseType "Wrapped Boots" "Strapped Boots" "Clasped Boots" "Shackled Boots" "Trapper Boots" "Ambush Boots" "Carnal Boots" "Assassin's Boots" "Murder Boots" "Two-Toned Boots"
+
+#----------------------------------------------------------------------
+# AMULETS
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Talisman"
+
+#----------------------------------------------------------------------
+# RINGS
+#----------------------------------------------------------------------
+
+Show # White Blue Coral Ring until Merveil
+	BaseType "Coral Ring"
+	AreaLevel <= 12
+	Rarity < Rare
+
+Show # White Blue Sapphire Ring until Merveil
+	BaseType "Sapphire Ring"
+	AreaLevel <= 12
+	Rarity < Rare
 
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
@@ -765,269 +830,77 @@ Show
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x) SOCKETS & LINKS
-#======================================================================
-# Add Description
-#----------------------------------------------------------------------
-	
-Show # 3 Linked Sockets until item level 25
-	ItemLevel < 25
-	LinkedSockets >= 3
-	
-Show # 4 Linked Sockets, useful for early level skill gem setups
-	LinkedSockets = 4
-	PlayEffect White
-	
-Show # 5 and 6 linked sockets
-	LinkedSockets >= 5
-	PlayEffect Red
-
-
-#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
-
-#======================================================================
-# x) VENDOR RECIPES
+# x) SKILL GEMS
 #======================================================================
 # Add Description
 #----------------------------------------------------------------------
 
-Show # Chromatic Orb vendor recipe
-	SocketGroup RGB
-	#SetTextColor 255 166 77
-	PlayAlertSound 1 50
-	PlayEffect Red
-	
-Show # 6 Sockets 
-	Sockets = 6
-	
-Show # Alteration Shards
-	HasExplicitMod "of the Crystal" "of the Prism" "of the Kaleidoscope" "of Variegation" "of the Rainbow" "of the Span"
-	SetTextColor 170 158 130
-
-Show # Alchemy Shards
-	HasExplicitMod "Magpie's" "Pirate's" "Reanimator's" "Flame Spinner's" "of Intercepting" "of Walling" "of Blocking" "Combatant's" "Weaponmaster's" "of the Lost" "of Banishment" "of Eviction" "of Expulsion" "of Exile" "of Bameth" "of Freezing" "of Ignition" "of Shocking" "of Burning" "of Combusting" "of Conflagrating"
-	SetTextColor 170 158 130
-	SetBorderColor 170 158 130
-	
-########################################################################
-#
-# Skill Gems
-# 
-#
-########################################################################
-
 #-----------------------------------------------------------------------
-#
-# Quality first
-# 
-#-----------------------------------------------------------------------
-
-Show
-	Class "Skill Gems"
-	Quality >= 1
-	SetTextColor 0 0 0 255
-    SetBackgroundColor 27 162 155 255
-    SetBorderColor 0 0 0 255
-    MinimapIcon 2 White Circle
-    PlayEffect White
-	
-#-----------------------------------------------------------------------
-#
-# EXPENSIVE ONES (ALCHEMY ORB)
-# 
-#-----------------------------------------------------------------------
-
-Show
-	BaseType "Multistrike Support" "Cast on Melee Kill Support" "Cast when Damage Taken Support" "Brutality Support" "Multiple Totems Support" "Cast On Critical Strike Support" "Greater Multiple Projectiles Support" "Chain Support" "Cluster Traps Support" "Vile Toxins Support" "Withering Touch Support" "Cast when Stunned Support" "Curse On Hit Support" "Increased Area of Effect Support" "Spell Echo Support" "Cast while Channelling Support" "Decay Support" "Ignite Proliferation Support" "Immolate Support" "Bonechill Support"
-	Class "Skill Gems"
-	SetBorderColor 27 162 155 255
-    MinimapIcon 2 White Circle
-    PlayEffect White
-	
-#-----------------------------------------------------------------------
-#
-# EXPENSIVE ONES (ORB OF CHANCE)
-# 
+# DROP ONLY
 #-----------------------------------------------------------------------
 
 #-----------------------------------------------------------------------
-#
-# Vaal
-# 
+# QUALITY
+#-----------------------------------------------------------------------
+
+Show 
+	Class "Active Skill Gems" "Support Skill Gems"
+	Quality > 0
+
+#-----------------------------------------------------------------------
+# NORMAL SKILL GEMS
+#-----------------------------------------------------------------------
+
+Show # Skill Gems until Library
+	Class "Active Skill Gems" "Support Skill Gems"
+	AreaLevel <= 31
+	
+#-----------------------------------------------------------------------
+# VAAL SKILL GEMS
 #-----------------------------------------------------------------------
 
 Show
 	Class "Gems"
 	BaseType "Vaal"
 
-########################################################################
-#
-# ESSENCES
-# 
-#
-########################################################################
 
-Show
-	BaseType "Essence" "Remnant of Corruption"
-	Class Currency
-	#DropLevel = 68 Doesn't work
-	SetTextColor 0 0 0 255
-    MinimapIcon 0 White Circle
-    SetBackgroundColor 153 121 184 255
-    SetBorderColor 0 0 0 255
-    PlayEffect White
-	
-########################################################################
-#
-# CURRENCY
-# Sorted by their rarity/usefulness
-#
-########################################################################
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
-Show # Currency Tier 9
-    BaseType "Mirror of Kalandra"
-    SetTextColor 0 0 0 255
-    MinimapIcon 0 Yellow Diamond
-    SetBackgroundColor 170 158 130 255
-    SetBorderColor 0 0 0 255
-    PlayEffect Yellow
-    PlayAlertSoundPositional 10 200
+#======================================================================
+# x) ESSENCES
+#======================================================================
 
-Show # Currency Tier 8
-    BaseType "Exalted Orb"
-    SetTextColor 0 0 0 255
-    MinimapIcon 0 Yellow Diamond
-    SetBackgroundColor 170 158 130 255
-    SetBorderColor 0 0 0 255
-    PlayEffect Yellow
-    PlayAlertSoundPositional 9 200
-    
-Show # Currency Tier 7
-    BaseType "Divine Orb" "Blessed Orb" "Regal Orb" "Vaal Orb" "Orb of Annulment"
-    SetTextColor 0 0 0 255
-    MinimapIcon 1 Yellow Diamond
-    SetBackgroundColor 170 158 130 255
-    SetBorderColor 0 0 0 255
-    PlayEffect Yellow
-    PlayAlertSoundPositional 8 100
-    
-Show # Currency Tier 6
-    BaseType "Orb of Scouring" "Orb of Regret"
-    SetTextColor 0 0 0 255
-    MinimapIcon 1 Yellow Diamond
-    SetBackgroundColor 170 158 130 255
-    SetBorderColor 0 0 0 255
-    PlayEffect Yellow
-    PlayAlertSoundPositional 7 100
-    
-Show # Currency Tier 5
-    BaseType "Cartographer's Chisel" "Glassblower's Bauble" "Gemcutter's Prism"
-    SetTextColor 0 0 0 255
-    MinimapIcon 1 Yellow Diamond
-    SetBackgroundColor 170 158 130 255
-    SetBorderColor 0 0 0 255
-    PlayEffect Yellow
-    PlayAlertSoundPositional 6 100
-    
-Show # Currency Tier 4
-    BaseType "Chaos Orb" "Alchemy Shard" "Orb of Alchemy" "Orb of Fusing"
-    SetTextColor 0 0 0 255
-    MinimapIcon 1 Yellow Diamond
-    SetBackgroundColor 170 158 130 255
-    SetBorderColor 0 0 0 255
-    PlayEffect Yellow
-    PlayAlertSoundPositional 5 100
-    
-Show # Currency Tier 3
-    BaseType "Alteration Shard" "Orb of Alteration" "Orb of Chance" "Jeweller's Orb" "Chromatic Orb"
-    SetTextColor 0 0 0 255
-    MinimapIcon 2 Yellow Diamond
-    SetBackgroundColor 170 158 130 255
-    SetBorderColor 0 0 0 255
-    PlayEffect Yellow
-    PlayAlertSoundPositional 4 100
-    
-Show # Currency Tier 2
-    BaseType "Transmutation Shard" "Orb of Transmutation" "Orb of Augmentation" "Armourer's Scrap" "Blacksmith's Whetstone"
-    SetTextColor 0 0 0 255
-    MinimapIcon 2 Yellow Diamond
-    SetBackgroundColor 170 158 130 255
-    SetBorderColor 0 0 0 255
-    PlayEffect Yellow
-    #PlayAlertSoundPositional 4 100
-    
-Show # Currency Tier 1
-    BaseType "Scroll Fragment" "Scroll of Wisdom" "Portal Scroll" "Albino Rhoa Feather"
-    SetTextColor 0 0 0 255
-    # MinimapIcon 2 Yellow Diamond
-    SetBackgroundColor 170 158 130 255
-    SetBorderColor 0 0 0 255
-    # PlayEffect Yellow
-    # PlayAlertSoundPositional 4 100
-   
-Show # Silver Coins
-    BaseType "Silver Coin"
-    SetTextColor 0 0 0 255
-    MinimapIcon 2 Yellow Diamond
-    SetBackgroundColor 170 130 142 255
-    SetBorderColor 0 0 0 255
-    PlayEffect Yellow
-    #PlayAlertSoundPositional 1 100
-    
-Show # Perandus Coins
-    BaseType "Perandus Coin"
-    SetTextColor 0 0 0 255
-    MinimapIcon 2 Yellow Diamond
-    SetBackgroundColor 170 130 142 255
-    SetBorderColor 0 0 0 255
-    PlayEffect Yellow
-    #PlayAlertSoundPositional 1 100
-    
-Show
-    BaseType "Cartographer's Sextant" "Cartographer's Seal"
-    Class "Stackable Currency"
-    SetTextColor 0 0 0 255
-    SetBackgroundColor 130 170 158 255
-    SetBorderColor 0 0 0 255
-    MinimapIcon 2 Yellow Diamond
-    PlayEffect Yellow
 
-Show
-    BaseType "Vial of" "Blessing of" "Splinter of"
-    Class "Stackable Currency"
-    SetTextColor 0 0 0 255
-    SetBackgroundColor 130 142 170 255
-    SetBorderColor 0 0 0 255
-    MinimapIcon 2 Yellow Diamond
-    PlayEffect Yellow
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) CURRENCY
+#======================================================================
     
 Show # Fallback for new currency
     Class Currency
-	
-########################################################################
-#
-# LOW PRIORITY
-# Can be overwritten by rules above
-#
-########################################################################
+	CustomAlertSound "zombie3.wav"
+
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) Unsorted
+#======================================================================
+
+Show #Misc Items / League Specific
+	Class "Relic" "Pieces" "Misc Map Items" "Atlas Upgrade Item" "Map Fragments" "Incubator" "Expedition Logbook" "Incursion Item" "Memory" "Heist Tool" "Heist Gear" "Heist Brooch" "Heist Cloak" "Labyrinth Item" "Labyrinth Trinket" "Contract" "Blueprint"
 
 Show
-	Class "Divination Card"
-	SetTextColor 0 0 0 255
-    SetBackgroundColor 162 185 240 255
-    SetBorderColor 0 0 0 255
-    MinimapIcon 2 Blue Square
-    PlayEffect Blue
-	
-Show
-	Class "Quest Item"
-	SetTextColor 0 0 0 255
-    SetBackgroundColor 157 242 149 255
+	Class "Divination Cards"
 
 Show
-	Class "Fragment" "Map"
-	
+	Class "Maps"
+
 Show
-	Rarity >= Unique
+	Class "Jewels"
+
+Show
+    Rarity Unique
 
 Hide
