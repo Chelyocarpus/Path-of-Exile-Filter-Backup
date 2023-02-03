@@ -14,10 +14,11 @@
 # - Add map highlight
 # - Rework jewels
 # - Add delve
-# - Add utility flasks
+# - Add utility flasks, maybe handle via HasExplicitModifier and ItemLevel
 # - Add section for Rings & Amulets
 # - Add highlight for cold res rings until merveil (~lvl12) DONE
 # - Add support for identified items + high res mods + high life mods
+# - Flask progression: change ItemLevel to AreaLevel instead 
 
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
@@ -26,6 +27,7 @@
 # x) VERSION HISTORY
 #======================================================================
 
+# https://github.com/Chelyocarpus/Path-of-Exile-Filter-Backup/commits/main/Book%20of%20Wisdom.filter
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
@@ -645,13 +647,8 @@ Show
 # RINGS
 #----------------------------------------------------------------------
 
-Show # White Blue Coral Ring until Merveil
-	BaseType "Coral Ring"
-	AreaLevel <= 12
-	Rarity < Rare
-
-Show # White Blue Sapphire Ring until Merveil
-	BaseType "Sapphire Ring"
+Show # White & Blue Coral Ring until Merveil
+	BaseType "Coral Ring" "Sapphire Ring"
 	AreaLevel <= 12
 	Rarity < Rare
 
@@ -659,14 +656,23 @@ Show # White Blue Sapphire Ring until Merveil
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x) FLASK PROGRESSION
+# x) FLASKS
 #======================================================================
-# Add Description
+# Handling for flasks. Includes styling, level progression and other
+# conditions
 #----------------------------------------------------------------------
+
 
 #----------------------------------------------------------------------
 # LIFE FLASKS
 #----------------------------------------------------------------------
+
+Show
+	BaseType "Life Flask"
+	Rarity < Unique
+	SetTextColor 255 85 85
+	CustomAlertSound "potion.wav"
+	Continue
 
 Show
 	BaseType "Small Life Flask"
@@ -687,7 +693,7 @@ Show
 	BaseType "Greater Life Flask"
 	DropLevel >= 12
 	ItemLevel <= 18
-#------------------------------------------------- FLASK PROGRESSION --
+#------------------------------------------------------------ FLASKS --
 Show
 	BaseType "Grand Life Flask"
 	DropLevel >= 18
@@ -712,7 +718,7 @@ Show
 	BaseType "Hallowed Life Flask"
 	DropLevel >= 42
 	ItemLevel <= 50
-#------------------------------------------------- FLASK PROGRESSION --	
+#------------------------------------------------------------ FLASKS --	
 Show
 	BaseType "Sanctified Life Flask"
 	DropLevel >= 50
@@ -731,7 +737,14 @@ Show
 #-----------------------------------------------------------------------
 # MANA FLASKS
 #-----------------------------------------------------------------------
-	
+
+Show
+	BaseType "Mana Flask"
+	Rarity < Unique
+	SetTextColor 85 85 255
+	CustomAlertSound "potion.wav"
+	Continue
+
 Show
 	BaseType "Small Mana Flask"
 	DropLevel >= 1
@@ -751,7 +764,7 @@ Show
 	BaseType "Greater Mana Flask"
 	DropLevel >= 12
 	ItemLevel <= 18
-#------------------------------------------------- FLASK PROGRESSION --
+#------------------------------------------------------------ FLASKS --
 Show
 	BaseType "Grand Mana Flask"
 	DropLevel >= 18
@@ -771,7 +784,7 @@ Show
 	BaseType "Sacred Mana Flask"
 	DropLevel >= 36
 	ItemLevel <= 42	
-#------------------------------------------------- FLASK PROGRESSION --
+#------------------------------------------------------------ FLASKS --
 Show
 	BaseType "Hallowed Mana Flask"
 	DropLevel >= 42
@@ -795,7 +808,14 @@ Show
 #-----------------------------------------------------------------------
 # HYBRID FLASKS
 #-----------------------------------------------------------------------
-	
+
+Show
+	BaseType "Hybrid Flask"
+	Rarity < Unique
+	SetTextColor 187 85 255
+	CustomAlertSound "potion.wav"
+	Continue
+
 Show
 	BaseType "Small Hybrid Flask"
 	DropLevel >= 10
@@ -810,7 +830,7 @@ Show
 	BaseType "Large Hybrid Flask"
 	DropLevel >= 30
 	ItemLevel <= 40
-#------------------------------------------------- FLASK PROGRESSION --	
+#------------------------------------------------------------ FLASKS --
 Show
 	BaseType "Colossal Hybrid Flask"
 	DropLevel >= 40
@@ -825,6 +845,12 @@ Show
 	BaseType "Hallowed Hybrid Flask"
 	DropLevel >= 60
 	#ItemLevel <= 30
+
+#-----------------------------------------------------------------------
+# UTILITY FLASKS
+#-----------------------------------------------------------------------
+
+
 
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
