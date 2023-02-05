@@ -13,12 +13,12 @@
 # - Rework Skill Gems
 # - Add map highlight
 # - Rework jewels
-# - Add delve
-# - Add utility flasks, maybe handle via HasExplicitModifier and ItemLevel
+# - Add delve DONE
+# - Add utility flasks DONE
 # - Add section for Rings & Amulets
 # - Add highlight for cold res rings until merveil (~lvl12) DONE
 # - Add support for identified items + high res mods + high life mods
-# - Flask progression: change ItemLevel to AreaLevel instead 
+# - Flask progression: change ItemLevel to AreaLevel instead DONE
 
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
@@ -37,7 +37,7 @@
 # Add Description
 #----------------------------------------------------------------------
 	
-Show # 3 Linked Sockets until item level 25
+Show # 3 Linked Sockets until ItemLevel 25
 	ItemLevel < 25
 	LinkedSockets = 3
 	
@@ -677,62 +677,62 @@ Show
 Show
 	BaseType "Small Life Flask"
 	DropLevel >= 1
-	ItemLevel <= 3
+	AreaLevel <= 3
 	
 Show
 	BaseType "Medium Life Flask"
 	DropLevel >= 3
-	ItemLevel <= 6
+	AreaLevel <= 6
 
 Show
 	BaseType "Large Life Flask"
 	DropLevel >= 6
-	ItemLevel <= 12
+	AreaLevel <= 12
 	
 Show
 	BaseType "Greater Life Flask"
 	DropLevel >= 12
-	ItemLevel <= 18
+	AreaLevel <= 18
 #------------------------------------------------------------ FLASKS --
 Show
 	BaseType "Grand Life Flask"
 	DropLevel >= 18
-	ItemLevel <= 24
+	AreaLevel <= 24
 
 Show
 	BaseType "Giant Life Flask"
 	DropLevel >= 24
-	ItemLevel <= 30
+	AreaLevel <= 30
 	
 Show
 	BaseType "Colossal Life Flask"
 	DropLevel >= 30
-	ItemLevel <= 36
+	AreaLevel <= 36
 
 Show
 	BaseType "Sacred Life Flask"
 	DropLevel >= 36
-	ItemLevel <= 42	
+	AreaLevel <= 42	
 	
 Show
 	BaseType "Hallowed Life Flask"
 	DropLevel >= 42
-	ItemLevel <= 50
+	AreaLevel <= 50
 #------------------------------------------------------------ FLASKS --	
 Show
 	BaseType "Sanctified Life Flask"
 	DropLevel >= 50
-	ItemLevel <= 60	
+	AreaLevel <= 60	
 	
 Show
 	BaseType "Divine Life Flask"
 	DropLevel >= 60
-	ItemLevel <= 65
+	AreaLevel <= 65
 
 Show
 	BaseType "Eternal Life Flask"
 	DropLevel >= 65
-	#ItemLevel <= 100
+	#AreaLevel <= 100
 	
 #-----------------------------------------------------------------------
 # MANA FLASKS
@@ -748,62 +748,62 @@ Show
 Show
 	BaseType "Small Mana Flask"
 	DropLevel >= 1
-	ItemLevel <= 3
-	
+	AreaLevel <= 3
+
 Show
 	BaseType "Medium Mana Flask"
 	DropLevel >= 3
-	ItemLevel <= 6
+	AreaLevel <= 6
 
 Show
 	BaseType "Large Mana Flask"
 	DropLevel >= 6
-	ItemLevel <= 12
+	AreaLevel <= 12
 	
 Show
 	BaseType "Greater Mana Flask"
 	DropLevel >= 12
-	ItemLevel <= 18
+	AreaLevel <= 18
 #------------------------------------------------------------ FLASKS --
 Show
 	BaseType "Grand Mana Flask"
 	DropLevel >= 18
-	ItemLevel <= 24
+	AreaLevel <= 24
 	
 Show
 	BaseType "Giant Mana Flask"
 	DropLevel >= 24
-	ItemLevel <= 30
+	AreaLevel <= 30
 	
 Show
 	BaseType "Colossal Mana Flask"
 	DropLevel >= 30
-	ItemLevel <= 36
+	AreaLevel <= 36
 
 Show
 	BaseType "Sacred Mana Flask"
 	DropLevel >= 36
-	ItemLevel <= 42	
+	AreaLevel <= 42	
 #------------------------------------------------------------ FLASKS --
 Show
 	BaseType "Hallowed Mana Flask"
 	DropLevel >= 42
-	ItemLevel <= 50
+	AreaLevel <= 50
 	
 Show
 	BaseType "Sanctified Mana Flask"
 	DropLevel >= 50
-	ItemLevel <= 60	
+	AreaLevel <= 60	
 	
 Show
 	BaseType "Divine Mana Flask"
 	DropLevel >= 60
-	ItemLevel <= 65
+	AreaLevel <= 65
 
 Show
 	BaseType "Eternal Mana Flask"
 	DropLevel >= 65
-	#ItemLevel <= 100
+	#AreaLevel <= 100
 	
 #-----------------------------------------------------------------------
 # HYBRID FLASKS
@@ -819,38 +819,40 @@ Show
 Show
 	BaseType "Small Hybrid Flask"
 	DropLevel >= 10
-	ItemLevel <= 20
+	AreaLevel <= 20
 	
 Show
 	BaseType "Medium Hybrid Flask"
 	DropLevel >= 20
-	ItemLevel <= 30
+	AreaLevel <= 30
 
 Show
 	BaseType "Large Hybrid Flask"
 	DropLevel >= 30
-	ItemLevel <= 40
+	AreaLevel <= 40
 #------------------------------------------------------------ FLASKS --
 Show
 	BaseType "Colossal Hybrid Flask"
 	DropLevel >= 40
-	ItemLevel <= 50
+	AreaLevel <= 50
 
 Show
 	BaseType "Sacred Hybrid Flask"
 	DropLevel >= 50
-	ItemLevel <= 60
+	AreaLevel <= 60
 	
 Show
 	BaseType "Hallowed Hybrid Flask"
 	DropLevel >= 60
-	#ItemLevel <= 30
+	#AreaLevel <= 30
 
 #-----------------------------------------------------------------------
 # UTILITY FLASKS
 #-----------------------------------------------------------------------
 
-
+Show
+	Class "Utility Flask"
+	SetTextColor 255 255 255
 
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
