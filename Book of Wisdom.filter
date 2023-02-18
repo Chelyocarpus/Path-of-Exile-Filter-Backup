@@ -656,6 +656,546 @@ Show # White & Blue Coral Ring until Merveil
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
+# x) LEVEL PROGRESSION FOR GEAR
+#======================================================================
+# 
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+# BODY ARMOUR
+#----------------------------------------------------------------------
+
+# Armour
+Show
+	BaseType "Plate Vest"
+	DropLevel >= 1
+	AreaLevel <= 6
+
+Show
+	BaseType "Chestplate"
+	DropLevel >= 6
+	AreaLevel <= 17
+
+Show
+	BaseType "Copper Plate"
+	DropLevel >= 17
+	AreaLevel <= 21
+
+Show
+	BaseType "War Plate"
+	DropLevel >= 21
+	AreaLevel <= 28
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Full Plate"
+	DropLevel >= 28
+	AreaLevel <= 32
+
+Show
+	BaseType "Arena Plate"
+	DropLevel >= 32
+	AreaLevel <= 35
+
+Show
+	BaseType "Lordly Plate"
+	DropLevel >= 35
+	AreaLevel <= 37
+
+Show
+	BaseType "Bronze Plate"
+	DropLevel >= 37
+	AreaLevel <= 41
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Battle Plate"
+	DropLevel >= 41
+	AreaLevel <= 45
+
+Show
+	BaseType "Sun Plate"
+	DropLevel >= 45
+	AreaLevel <= 49
+
+Show
+	BaseType "Colosseum Plate"
+	DropLevel >= 49
+	AreaLevel <= 53
+
+Show
+	BaseType "Majestic Plate"
+	DropLevel >= 53
+	AreaLevel <= 56
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Golden Plate"
+	DropLevel >= 56
+	AreaLevel <= 59
+
+Show
+	BaseType "Crusader Plate"
+	DropLevel >= 59
+	AreaLevel <= 62
+
+Show
+	BaseType "Astral Plate"
+	DropLevel >= 62
+	AreaLevel <= 65
+
+Show
+	BaseType "Gladiator Plate"
+	DropLevel >= 65
+	AreaLevel <= 68
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Glorious Plate"
+	DropLevel >= 68
+	AreaLevel <= 100
+
+#Evasion
+Show
+	BaseType "Shabby Jerkin"
+	DropLevel >= 1
+	AreaLevel <= 9
+
+Show
+	BaseType "Strapped Leather"
+	DropLevel >= 9
+	AreaLevel <= 17
+
+Show
+	BaseType "Buckskin Tunic"
+	DropLevel >= 17
+	AreaLevel <= 25
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Wild Leather"
+	DropLevel >= 25
+	AreaLevel <= 28
+
+Show
+	BaseType "Full Leather"
+	DropLevel >= 28
+	AreaLevel <= 32
+
+Show
+	BaseType "Sun Leather"
+	DropLevel >= 32
+	AreaLevel <= 35
+
+Show
+	BaseType "Thief's Garb"
+	DropLevel >= 35
+	AreaLevel <= 37
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Eelskin Tunic"
+	DropLevel >= 37
+	AreaLevel <= 41
+
+Show
+	BaseType "Frontier Leather"
+	DropLevel >= 41
+	AreaLevel <= 45
+
+Show
+	BaseType "Glorious Leather"
+	DropLevel >= 45
+	AreaLevel <= 49
+
+Show
+	BaseType "Coronal Leather"
+	DropLevel >= 49
+	AreaLevel <= 53
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Cutthroat's Garb"
+	DropLevel >= 53
+	AreaLevel <= 56
+
+Show
+	BaseType "Sharkskin Tunic"
+	DropLevel >= 56
+	AreaLevel <= 59
+
+Show
+	BaseType "Destiny Leather"
+	DropLevel >= 59
+	AreaLevel <= 62
+
+Show
+	BaseType "Exquisite Leather"
+	DropLevel >= 62
+	AreaLevel <= 65
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Zodiac Leather"
+	DropLevel >= 65
+	AreaLevel <= 68
+
+Show
+	BaseType "Assassin's Garb"
+	DropLevel >= 68
+	AreaLevel <= 100
+
+#Energy Shield
+Show
+	BaseType "Simple Robe"
+	DropLevel >= 1
+	AreaLevel <= 11
+
+Show
+	BaseType "Silken Vest"
+	DropLevel >= 11
+	AreaLevel <= 18
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Scholar's Robe"
+	DropLevel >= 18
+	AreaLevel <= 25
+
+Show
+	BaseType "Silken Garb"
+	DropLevel >= 25
+	AreaLevel <= 28
+
+Show
+	BaseType "Mage's Vestment"
+	DropLevel >= 28
+	AreaLevel <= 32
+
+Show
+	BaseType "Silk Robe"
+	DropLevel >= 32
+	AreaLevel <= 35
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Cabalist Regalia"
+	DropLevel >= 35
+	AreaLevel <= 37
+
+Show
+	BaseType "Sage's Robe"
+	DropLevel >= 37
+	AreaLevel <= 41
+
+Show
+	BaseType "Silken Wrap"
+	DropLevel >= 41
+	AreaLevel <= 45
+
+Show
+	BaseType "Conjurer's Vestment"
+	DropLevel >= 45
+	AreaLevel <= 49
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Spidersilk Robe"
+	DropLevel >= 49
+	AreaLevel <= 53
+
+Show
+	BaseType "Destroyer Regalia"
+	DropLevel >= 53
+	AreaLevel <= 56
+
+Show
+	BaseType "Savant's Robe"
+	DropLevel >= 56
+	AreaLevel <= 59
+
+Show
+	BaseType "Necromancer Silks"
+	DropLevel >= 59
+	AreaLevel <= 62
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Occultist's Vestment"
+	DropLevel >= 62
+	AreaLevel <= 65
+
+Show
+	BaseType "Widowsilk Robe"
+	DropLevel >= 65
+	AreaLevel <= 68
+
+Show
+	BaseType "Vaal Regalia"
+	DropLevel >= 68
+	AreaLevel <= 100
+
+#I DUNNO
+Show
+	BaseType "Scale Vest"
+	DropLevel >= 1
+	AreaLevel <= 8
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Light Brigandine"
+	DropLevel >= 8
+	AreaLevel <= 17
+
+Show
+	BaseType "Scale Doublet"
+	DropLevel >= 17
+	AreaLevel <= 21
+
+Show
+	BaseType "Infantry Brigandine"
+	DropLevel >= 21
+	AreaLevel <= 28
+
+Show
+	BaseType "Full Scale Armour"
+	DropLevel >= 28
+	AreaLevel <= 32
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Soldier's Brigandine"
+	DropLevel >= 32
+	AreaLevel <= 35
+
+Show
+	BaseType "Field Lamellar"
+	DropLevel >= 35
+	AreaLevel <= 38
+
+Show
+	BaseType "Wyrmscale Doublet"
+	DropLevel >= 38
+	AreaLevel <= 42
+
+Show
+	BaseType "Hussar Brigandine"
+	DropLevel >= 42
+	AreaLevel <= 46
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Full Wyrmscale"
+	DropLevel >= 46
+	AreaLevel <= 50
+
+Show
+	BaseType "Commander's Brigandine"
+	DropLevel >= 50
+	AreaLevel <= 54
+
+Show
+	BaseType "Battle Lamellar"
+	DropLevel >= 54
+	AreaLevel <= 57
+
+Show
+	BaseType "Dragonscale Doublet"
+	DropLevel >= 57
+	AreaLevel <= 60
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Desert Brigandine"
+	DropLevel >= 60
+	AreaLevel <= 63
+
+Show
+	BaseType "Full Dragonscale"
+	DropLevel >= 63
+	AreaLevel <= 66
+
+Show
+	BaseType "General's Brigandine"
+	DropLevel >= 66
+	AreaLevel <= 69
+
+Show
+	BaseType "Triumphant Lamellar"
+	DropLevel >= 69
+	AreaLevel <= 100
+
+# I DUNNO
+Show
+	BaseType "Chainmail Vest"
+	DropLevel >= 1
+	AreaLevel <= 8
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Chainmail Tunic"
+	DropLevel >= 8
+	AreaLevel <= 17
+
+Show
+	BaseType "Ringmail Coat"
+	DropLevel >= 17
+	AreaLevel <= 21
+
+Show
+	BaseType "Chainmail Doublet"
+	DropLevel >= 21
+	AreaLevel <= 28
+
+Show
+	BaseType "Full Ringmail"
+	DropLevel >= 28
+	AreaLevel <= 32
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Full Chainmail"
+	DropLevel >= 32
+	AreaLevel <= 35
+
+Show
+	BaseType "Holy Chainmail"
+	DropLevel >= 35
+	AreaLevel <= 39
+
+Show
+	BaseType "Latticed Ringmail"
+	DropLevel >= 39
+	AreaLevel <= 43
+
+Show
+	BaseType "Crusader Chainmail"
+	DropLevel >= 43
+	AreaLevel <= 47
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Ornate Ringmail"
+	DropLevel >= 47
+	AreaLevel <= 51
+
+Show
+	BaseType "Chain Hauberk"
+	DropLevel >= 51
+	AreaLevel <= 55
+
+Show
+	BaseType "Devout Chainmail"
+	DropLevel >= 55
+	AreaLevel <= 58
+
+Show
+	BaseType "Loricated Ringmail"
+	DropLevel >= 58
+	AreaLevel <= 61
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Conquest Chainmail"
+	DropLevel >= 61
+	AreaLevel <= 64
+
+Show
+	BaseType "Elegant Ringmail"
+	DropLevel >= 64
+	AreaLevel <= 67
+
+Show
+	BaseType "Saint's Hauberk"
+	DropLevel >= 67
+	AreaLevel <= 70
+
+Show
+	BaseType "Saintly Chainmail"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+#I DUNNO
+Show
+	BaseType "Padded Vest"
+	DropLevel >= 1
+	AreaLevel <= 9
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Oiled Vest"
+	DropLevel >= 9
+	AreaLevel <= 18
+
+Show
+	BaseType "Padded Jacket"
+	DropLevel >= 18
+	AreaLevel <= 22
+
+Show
+	BaseType "Oiled Coat"
+	DropLevel >= 22
+	AreaLevel <= 28
+
+Show
+	BaseType "Scarlet Raiment"
+	DropLevel >= 28
+	AreaLevel <= 32
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Waxed Garb"
+	DropLevel >= 32
+	AreaLevel <= 35
+
+Show
+	BaseType "Bone Armour"
+	DropLevel >= 35
+	AreaLevel <= 40
+
+Show
+	BaseType "Quilted Jacket"
+	DropLevel >= 40
+	AreaLevel <= 44
+
+Show
+	BaseType "Sleek Coat"
+	DropLevel >= 44
+	AreaLevel <= 48
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Crimson Raiment"
+	DropLevel >= 48
+	AreaLevel <= 52
+
+Show
+	BaseType "Lacquered Garb"
+	DropLevel >= 52
+	AreaLevel <= 56
+
+Show
+	BaseType "Crypt Armour"
+	DropLevel >= 56
+	AreaLevel <= 59
+
+Show
+	BaseType "Sentinel Jacket"
+	DropLevel >= 59
+	AreaLevel <= 62
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Varnished Coat"
+	DropLevel >= 62
+	AreaLevel <= 65
+
+Show
+	BaseType "Blood Raiment"
+	DropLevel >= 65
+	AreaLevel <= 68
+
+Show
+	BaseType "Sadist Garb"
+	DropLevel >= 68
+	AreaLevel <= 71
+
+Show
+	BaseType "Carnal Armour"
+	DropLevel >= 71
+	AreaLevel <= 100
+
+#I DUNNO
+Show
+	BaseType "Grasping Mail"
+	DropLevel >= 70
+	AreaLevel <= 72
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Sacrificial Garb"
+	DropLevel >= 72
+	AreaLevel <= 100
+
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
 # x) FLASKS
 #======================================================================
 # Handling for flasks. Includes styling, level progression and other
