@@ -1192,6 +1192,701 @@ Show
 	DropLevel >= 72
 	AreaLevel <= 100
 
+#----------------------------------------------------------------------
+# BOOTS
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Iron Greaves"
+	DropLevel >= 1
+	AreaLevel <= 9
+
+Show
+	BaseType "Steel Greaves"
+	DropLevel >= 9
+	AreaLevel <= 20
+
+Show
+	BaseType "Basemetal Treads"
+	DropLevel >= 20
+	AreaLevel <= 23
+
+Show
+	BaseType "Plated Greaves"
+	DropLevel >= 23
+	AreaLevel <= 33
+
+Show
+	BaseType "Reinforced Greaves"
+	DropLevel >= 33
+	AreaLevel <= 37
+
+Show
+	BaseType "Antique Greaves"
+	DropLevel >= 37
+	AreaLevel <= 46
+
+Show
+	BaseType "Ancient Greaves"
+	DropLevel >= 46
+	AreaLevel <= 50
+
+Show
+	BaseType "Darksteel Treads"
+	DropLevel >= 50
+	AreaLevel <= 54
+
+Show
+	BaseType "Goliath Greaves"
+	DropLevel >= 54
+	AreaLevel <= 62
+
+Show
+	BaseType "Vaal Greaves"
+	DropLevel >= 62
+	AreaLevel <= 68
+
+Show
+	BaseType "Titan Greaves"
+	DropLevel >= 68
+	AreaLevel <= 80
+
+Show
+	BaseType "Brimstone Treads"
+	DropLevel >= 80
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Rawhide Boots"
+	DropLevel >= 1
+	AreaLevel <= 12
+
+Show
+	BaseType "Goathide Boots"
+	DropLevel >= 12
+	AreaLevel <= 20
+
+Show
+	BaseType "Cloudwhisper Boots"
+	DropLevel >= 20
+	AreaLevel <= 22
+
+Show
+	BaseType "Deerskin Boots"
+	DropLevel >= 22
+	AreaLevel <= 34
+
+Show
+	BaseType "Nubuck Boots"
+	DropLevel >= 34
+	AreaLevel <= 39
+
+Show
+	BaseType "Eelskin Boots"
+	DropLevel >= 39
+	AreaLevel <= 44
+
+Show
+	BaseType "Sharkskin Boots"
+	DropLevel >= 44
+	AreaLevel <= 50
+
+Show
+	BaseType "Windbreak Boots"
+	DropLevel >= 50
+	AreaLevel <= 55
+
+Show
+	BaseType "Shagreen Boots"
+	DropLevel >= 55
+	AreaLevel <= 62
+
+Show
+	BaseType "Stealth Boots"
+	DropLevel >= 62
+	AreaLevel <= 69
+
+Show
+	BaseType "Slink Boots"
+	DropLevel >= 69
+	AreaLevel <= 80
+
+Show
+	BaseType "Stormrider Boots"
+	DropLevel >= 80
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Wool Shoes"
+	DropLevel >= 1
+	AreaLevel <= 9
+
+Show
+	BaseType "Velvet Slippers"
+	DropLevel >= 9
+	AreaLevel <= 20
+
+Show
+	BaseType "Duskwalk Slippers"
+	DropLevel >= 20
+	AreaLevel <= 22
+
+Show
+	BaseType "Silk Slippers"
+	DropLevel >= 22
+	AreaLevel <= 32
+
+Show
+	BaseType "Scholar Boots"
+	DropLevel >= 32
+	AreaLevel <= 38
+
+Show
+	BaseType "Satin Slippers"
+	DropLevel >= 38
+	AreaLevel <= 44
+
+Show
+	BaseType "Samite Slippers"
+	DropLevel >= 44
+	AreaLevel <= 50
+
+Show
+	BaseType "Nightwind Slippers"
+	DropLevel >= 50
+	AreaLevel <= 53
+
+Show
+	BaseType "Conjurer Boots"
+	DropLevel >= 53
+	AreaLevel <= 61
+
+Show
+	BaseType "Arcanist Slippers"
+	DropLevel >= 61
+	AreaLevel <= 67
+
+Show
+	BaseType "Sorcerer Boots"
+	DropLevel >= 67
+	AreaLevel <= 80
+
+Show
+	BaseType "Dreamquest Slippers"
+	DropLevel >= 80
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Leatherscale Boots"
+	DropLevel >= 6
+	AreaLevel <= 18
+
+Show
+	BaseType "Ironscale Boots"
+	DropLevel >= 18
+	AreaLevel <= 30
+
+Show
+	BaseType "Bronzescale Boots"
+	DropLevel >= 30
+	AreaLevel <= 36
+
+Show
+	BaseType "Steelscale Boots"
+	DropLevel >= 36
+	AreaLevel <= 42
+
+Show
+	BaseType "Serpentscale Boots"
+	DropLevel >= 42
+	AreaLevel <= 51
+
+Show
+	BaseType "Wyrmscale Boots"
+	DropLevel >= 51
+	AreaLevel <= 59
+
+Show
+	BaseType "Hydrascale Boots"
+	DropLevel >= 59
+	AreaLevel <= 65
+
+Show
+	BaseType "Dragonscale Boots"
+	DropLevel >= 65
+	AreaLevel <= 70
+
+Show
+	BaseType "Two-Toned Boots"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Chain Boots"
+	DropLevel >= 5
+	AreaLevel <= 13
+
+Show
+	BaseType "Ringmail Boots"
+	DropLevel >= 13
+	AreaLevel <= 28
+
+Show
+	BaseType "Mesh Boots"
+	DropLevel >= 28
+	AreaLevel <= 36
+
+Show
+	BaseType "Riveted Boots"
+	DropLevel >= 36
+	AreaLevel <= 40
+
+Show
+	BaseType "Zealot Boots"
+	DropLevel >= 40
+	AreaLevel <= 49
+
+Show
+	BaseType "Soldier Boots"
+	DropLevel >= 49
+	AreaLevel <= 58
+
+Show
+	BaseType "Legion Boots"
+	DropLevel >= 58
+	AreaLevel <= 64
+
+Show
+	BaseType "Crusader Boots"
+	DropLevel >= 64
+	AreaLevel <= 70
+
+Show
+	BaseType "Two-Toned Boots"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Wrapped Boots"
+	DropLevel >= 6
+	AreaLevel <= 16
+
+Show
+	BaseType "Strapped Boots"
+	DropLevel >= 16
+	AreaLevel <= 27
+
+Show
+	BaseType "Clasped Boots"
+	DropLevel >= 27
+	AreaLevel <= 34
+
+Show
+	BaseType "Shackled Boots"
+	DropLevel >= 34
+	AreaLevel <= 41
+
+Show
+	BaseType "Trapper Boots"
+	DropLevel >= 41
+	AreaLevel <= 47
+
+Show
+	BaseType "Ambush Boots"
+	DropLevel >= 47
+	AreaLevel <= 55
+
+Show
+	BaseType "Carnal Boots"
+	DropLevel >= 55
+	AreaLevel <= 63
+
+Show
+	BaseType "Assassin's Boots"
+	DropLevel >= 63
+	AreaLevel <= 69
+
+Show
+	BaseType "Murder Boots"
+	DropLevel >= 69
+	AreaLevel <= 70
+
+Show
+	BaseType "Fugitive Boots"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Two-Toned Boots"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Runic Greaves"
+	DropLevel >= 24
+	AreaLevel <= 48
+
+Show
+	BaseType "Runic Sollerets"
+	DropLevel >= 48
+	AreaLevel <= 69
+
+Show
+	BaseType "Runic Sabatons"
+	DropLevel >= 69
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# Gloves
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Iron Gauntlets"
+	DropLevel >= 1
+	AreaLevel <= 10
+
+Show
+	BaseType "Taxing Gauntlets"
+	DropLevel >= 10
+	AreaLevel <= 11
+
+Show
+	BaseType "Plated Gauntlets"
+	DropLevel >= 11
+	AreaLevel <= 23
+
+Show
+	BaseType "Bronze Gauntlets"
+	DropLevel >= 23
+	AreaLevel <= 35
+
+Show
+	BaseType "Steel Gauntlets"
+	DropLevel >= 35
+	AreaLevel <= 39
+
+Show
+	BaseType "Antique Gauntlets"
+	DropLevel >= 39
+	AreaLevel <= 40
+
+Show
+	BaseType "Gruelling Gauntlets"
+	DropLevel >= 40
+	AreaLevel <= 47
+
+Show
+	BaseType "Ancient Gauntlets"
+	DropLevel >= 47
+	AreaLevel <= 53
+
+Show
+	BaseType "Goliath Gauntlets"
+	DropLevel >= 53
+	AreaLevel <= 63
+
+Show
+	BaseType "Vaal Gauntlets"
+	DropLevel >= 63
+	AreaLevel <= 69
+
+Show
+	BaseType "Titan Gauntlets"
+	DropLevel >= 69
+	AreaLevel <= 70
+
+Show
+	BaseType "Debilitation Gauntlets"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Spiked Gloves"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Rawhide Gloves"
+	DropLevel >= 1
+	AreaLevel <= 9
+
+Show
+	BaseType "Goathide Gloves"
+	DropLevel >= 9
+	AreaLevel <= 10
+
+Show
+	BaseType "Gauche Gloves"
+	DropLevel >= 10
+	AreaLevel <= 21
+
+Show
+	BaseType "Deerskin Gloves"
+	DropLevel >= 21
+	AreaLevel <= 33
+
+Show
+	BaseType "Nubuck Gloves"
+	DropLevel >= 33
+	AreaLevel <= 38
+
+Show
+	BaseType "Eelskin Gloves"
+	DropLevel >= 38
+	AreaLevel <= 40
+
+Show
+	BaseType "Southswing Gloves"
+	DropLevel >= 40
+	AreaLevel <= 45
+
+Show
+	BaseType "Sharkskin Gloves"
+	DropLevel >= 45
+	AreaLevel <= 54
+
+Show
+	BaseType "Shagreen Gloves"
+	DropLevel >= 54
+	AreaLevel <= 62
+
+Show
+	BaseType "Stealth Gloves"
+	DropLevel >= 62
+	AreaLevel <= 70
+
+Show
+	BaseType "Gripped Gloves"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Sinistral Gloves"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Slink Gloves"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Wool Gloves"
+	DropLevel >= 1
+	AreaLevel <= 10
+
+Show
+	BaseType "Leyline Gloves"
+	DropLevel >= 10
+	AreaLevel <= 12
+
+Show
+	BaseType "Velvet Gloves"
+	DropLevel >= 12
+	AreaLevel <= 25
+
+Show
+	BaseType "Silk Gloves"
+	DropLevel >= 25
+	AreaLevel <= 36
+
+Show
+	BaseType "Embroidered Gloves"
+	DropLevel >= 36
+	AreaLevel <= 40
+
+Show
+	BaseType "Aetherwind Gloves"
+	DropLevel >= 40
+	AreaLevel <= 41
+
+Show
+	BaseType "Satin Gloves"
+	DropLevel >= 41
+	AreaLevel <= 47
+
+Show
+	BaseType "Samite Gloves"
+	DropLevel >= 47
+	AreaLevel <= 55
+
+Show
+	BaseType "Conjurer Gloves"
+	DropLevel >= 55
+	AreaLevel <= 60
+
+Show
+	BaseType "Arcanist Gloves"
+	DropLevel >= 60
+	AreaLevel <= 69
+
+Show
+	BaseType "Sorcerer Gloves"
+	DropLevel >= 69
+	AreaLevel <= 70
+
+Show
+	BaseType "Fingerless Silk Gloves"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Nexus Gloves"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Fishscale Gauntlets"
+	DropLevel >= 1
+	AreaLevel <= 15
+
+Show
+	BaseType "Ironscale Gauntlets"
+	DropLevel >= 15
+	AreaLevel <= 27
+
+Show
+	BaseType "Bronzescale Gauntlets"
+	DropLevel >= 27
+	AreaLevel <= 36
+
+Show
+	BaseType "Steelscale Gauntlets"
+	DropLevel >= 36
+	AreaLevel <= 43
+
+Show
+	BaseType "Serpentscale Gauntlets"
+	DropLevel >= 43
+	AreaLevel <= 49
+
+Show
+	BaseType "Wyrmscale Gauntlets"
+	DropLevel >= 49
+	AreaLevel <= 59
+
+Show
+	BaseType "Hydrascale Gauntlets"
+	DropLevel >= 59
+	AreaLevel <= 67
+
+Show
+	BaseType "Dragonscale Gauntlets"
+	DropLevel >= 67
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Chain Gloves"
+	DropLevel >= 7
+	AreaLevel <= 19
+
+Show
+	BaseType "Ringmail Gloves"
+	DropLevel >= 19
+	AreaLevel <= 32
+
+Show
+	BaseType "Mesh Gloves"
+	DropLevel >= 32
+	AreaLevel <= 37
+
+Show
+	BaseType "Riveted Gloves"
+	DropLevel >= 37
+	AreaLevel <= 43
+
+Show
+	BaseType "Zealot Gloves"
+	DropLevel >= 43
+	AreaLevel <= 51
+
+Show
+	BaseType "Soldier Gloves"
+	DropLevel >= 51
+	AreaLevel <= 57
+
+Show
+	BaseType "Legion Gloves"
+	DropLevel >= 57
+	AreaLevel <= 66
+
+Show
+	BaseType "Crusader Gloves"
+	DropLevel >= 66
+	AreaLevel <= 70
+
+Show
+	BaseType "Apothecary's Gloves"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Wrapped Mitts"
+	DropLevel >= 5
+	AreaLevel <= 16
+
+Show
+	BaseType "Strapped Mitts"
+	DropLevel >= 16
+	AreaLevel <= 31
+
+Show
+	BaseType "Clasped Mitts"
+	DropLevel >= 31
+	AreaLevel <= 36
+
+Show
+	BaseType "Trapper Mitts"
+	DropLevel >= 36
+	AreaLevel <= 45
+
+Show
+	BaseType "Ambush Mitts"
+	DropLevel >= 45
+	AreaLevel <= 50
+
+Show
+	BaseType "Carnal Mitts"
+	DropLevel >= 50
+	AreaLevel <= 58
+
+Show
+	BaseType "Assassin's Mitts"
+	DropLevel >= 58
+	AreaLevel <= 67
+
+Show
+	BaseType "Murder Mitts"
+	DropLevel >= 67
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Runic Gloves"
+	DropLevel >= 24
+	AreaLevel <= 48
+
+Show
+	BaseType "Runic Gages"
+	DropLevel >= 48
+	AreaLevel <= 69
+
+Show
+	BaseType "Runic Gauntlets"
+	DropLevel >= 69
+	AreaLevel <= 100
+
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
