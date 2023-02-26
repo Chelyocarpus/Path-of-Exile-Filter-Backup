@@ -1,0 +1,4513 @@
+#======================================================================
+# x) RARE ITEM PROGRESSION
+#======================================================================
+# Highlight best possible ItemLevel Rares in current zone
+#----------------------------------------------------------------------
+
+Show
+	Rarity Rare
+	AreaLevel = 1
+	ItemLevel >= 3
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 2
+	ItemLevel >= 4
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 3
+	ItemLevel >= 5
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 4
+	ItemLevel >= 6
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --
+Show
+	Rarity Rare
+	AreaLevel = 5
+	ItemLevel >= 7
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 6
+	ItemLevel >= 8
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 7
+	ItemLevel >= 9
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 8
+	ItemLevel >= 10
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 9
+	ItemLevel >= 11
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 10
+	ItemLevel >= 12
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 11
+	ItemLevel >= 13
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 12
+	ItemLevel >= 14
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 13
+	ItemLevel >= 15
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 14
+	ItemLevel >= 16
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 15
+	ItemLevel >= 17
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 16
+	ItemLevel >= 18
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --
+Show
+	Rarity Rare
+	AreaLevel = 17
+	ItemLevel >= 19
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 18
+	ItemLevel >= 20
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 19
+	ItemLevel >= 21
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 20
+	ItemLevel >= 22
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 21
+	ItemLevel >= 23
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 22
+	ItemLevel >= 24
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 23
+	ItemLevel >= 25
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 24
+	ItemLevel >= 26
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 25
+	ItemLevel >= 27
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 26
+	ItemLevel >= 28
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 27
+	ItemLevel >= 29
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 28
+	ItemLevel >= 30
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 29
+	ItemLevel >= 31
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 30
+	ItemLevel >= 32
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 31
+	ItemLevel >= 33
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 32
+	ItemLevel >= 34
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 33
+	ItemLevel >= 35
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 34
+	ItemLevel >= 36
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 35
+	ItemLevel >= 37
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 36
+	ItemLevel >= 38
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 37
+	ItemLevel >= 39
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 38
+	ItemLevel >= 40
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 39
+	ItemLevel >= 41
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 40
+	ItemLevel >= 42
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 41
+	ItemLevel >= 43
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 42
+	ItemLevel >= 44
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 43
+	ItemLevel >= 45
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 44
+	ItemLevel >= 46
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 45
+	ItemLevel >= 47
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 46
+	ItemLevel >= 48
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 47
+	ItemLevel >= 49
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 48
+	ItemLevel >= 50
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 49
+	ItemLevel >= 51
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 50
+	ItemLevel >= 52
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 51
+	ItemLevel >= 53
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 52
+	ItemLevel >= 54
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 53
+	ItemLevel >= 55
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 54
+	ItemLevel >= 56
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 55
+	ItemLevel >= 57
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 56
+	ItemLevel >= 58
+	SetBorderColor 255 255 119 # Rare
+#--------------------------------------------- RARE ITEM PROGRESSION --	
+Show
+	Rarity Rare
+	AreaLevel = 57
+	ItemLevel >= 59
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 58
+	ItemLevel >= 60
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 59
+	ItemLevel >= 61
+	SetBorderColor 255 255 119 # Rare
+	
+Show
+	Rarity Rare
+	AreaLevel = 60
+	ItemLevel >= 62
+	SetBorderColor 255 255 119 # Rare
+	
+Show 
+	Rarity Rare
+	
+	# In Maps Rares only drop with +1 ItemLevel. dont forget.
+
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) LEVEL PROGRESSION FOR WEAPONS
+#======================================================================
+# 
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+#  CLAWS
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Nailed Fist"
+	DropLevel >= 1
+	AreaLevel <= 7
+
+Show
+	BaseType "Sharktooth Claw"
+	DropLevel >= 7
+	AreaLevel <= 12
+
+Show
+	BaseType "Awl"
+	DropLevel >= 12
+	AreaLevel <= 17
+
+Show
+	BaseType "Cat's Paw"
+	DropLevel >= 17
+	AreaLevel <= 22
+
+Show
+	BaseType "Blinder"
+	DropLevel >= 22
+	AreaLevel <= 26
+
+Show
+	BaseType "Timeworn Claw"
+	DropLevel >= 26
+	AreaLevel <= 30
+
+Show
+	BaseType "Shadow Fangs"
+	DropLevel >= 30
+	AreaLevel <= 30
+
+Show
+	BaseType "Sparkling Claw"
+	DropLevel >= 30
+	AreaLevel <= 34
+
+Show
+	BaseType "Fright Claw"
+	DropLevel >= 34
+	AreaLevel <= 36
+
+Show
+	BaseType "Double Claw"
+	DropLevel >= 36
+	AreaLevel <= 37
+
+Show
+	BaseType "Thresher Claw"
+	DropLevel >= 37
+	AreaLevel <= 40
+
+Show
+	BaseType "Gouger"
+	DropLevel >= 40
+	AreaLevel <= 43
+
+Show
+	BaseType "Tiger's Paw"
+	DropLevel >= 43
+	AreaLevel <= 46
+
+Show
+	BaseType "Gut Ripper"
+	DropLevel >= 46
+	AreaLevel <= 49
+
+Show
+	BaseType "Prehistoric Claw"
+	DropLevel >= 49
+	AreaLevel <= 50
+
+Show
+	BaseType "Malign Fangs"
+	DropLevel >= 50
+	AreaLevel <= 52
+
+Show
+	BaseType "Noble Claw"
+	DropLevel >= 52
+	AreaLevel <= 55
+
+Show
+	BaseType "Eagle Claw"
+	DropLevel >= 55
+	AreaLevel <= 57
+
+Show
+	BaseType "Twin Claw"
+	DropLevel >= 57
+	AreaLevel <= 58
+
+Show
+	BaseType "Great White Claw"
+	DropLevel >= 58
+	AreaLevel <= 60
+
+Show
+	BaseType "Throat Stabber"
+	DropLevel >= 60
+	AreaLevel <= 62
+
+Show
+	BaseType "Hellion's Paw"
+	DropLevel >= 62
+	AreaLevel <= 64
+
+Show
+	BaseType "Eye Gouger"
+	DropLevel >= 64
+	AreaLevel <= 66
+
+Show
+	BaseType "Vaal Claw"
+	DropLevel >= 66
+	AreaLevel <= 68
+
+Show
+	BaseType "Imperial Claw"
+	DropLevel >= 68
+	AreaLevel <= 70
+
+Show
+	BaseType "Terror Claw"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Void Fangs"
+	DropLevel >= 70
+	AreaLevel <= 72
+
+Show
+	BaseType "Gemini Claw"
+	DropLevel >= 72
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+#  SCEPTRE
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Driftwood Sceptre"
+	DropLevel >= 1
+	AreaLevel <= 5
+
+Show
+	BaseType "Darkwood Sceptre"
+	DropLevel >= 5
+	AreaLevel <= 10
+
+Show
+	BaseType "Bronze Sceptre"
+	DropLevel >= 10
+	AreaLevel <= 15
+
+Show
+	BaseType "Quartz Sceptre"
+	DropLevel >= 15
+	AreaLevel <= 20
+
+Show
+	BaseType "Iron Sceptre"
+	DropLevel >= 20
+	AreaLevel <= 24
+
+Show
+	BaseType "Ochre Sceptre"
+	DropLevel >= 24
+	AreaLevel <= 28
+
+Show
+	BaseType "Ritual Sceptre"
+	DropLevel >= 28
+	AreaLevel <= 30
+
+Show
+	BaseType "Oscillating Sceptre"
+	DropLevel >= 30
+	AreaLevel <= 32
+
+Show
+	BaseType "Shadow Sceptre"
+	DropLevel >= 32
+	AreaLevel <= 35
+
+Show
+	BaseType "Grinning Fetish"
+	DropLevel >= 35
+	AreaLevel <= 36
+
+Show
+	BaseType "Horned Sceptre"
+	DropLevel >= 36
+	AreaLevel <= 38
+
+Show
+	BaseType "Sekhem"
+	DropLevel >= 38
+	AreaLevel <= 41
+
+Show
+	BaseType "Crystal Sceptre"
+	DropLevel >= 41
+	AreaLevel <= 44
+
+Show
+	BaseType "Lead Sceptre"
+	DropLevel >= 44
+	AreaLevel <= 47
+
+Show
+	BaseType "Blood Sceptre"
+	DropLevel >= 47
+	AreaLevel <= 50
+
+Show
+	BaseType "Royal Sceptre"
+	DropLevel >= 50
+	AreaLevel <= 50
+
+Show
+	BaseType "Stabilising Sceptre"
+	DropLevel >= 50
+	AreaLevel <= 53
+
+Show
+	BaseType "Abyssal Sceptre"
+	DropLevel >= 53
+	AreaLevel <= 55
+
+Show
+	BaseType "Stag Sceptre"
+	DropLevel >= 55
+	AreaLevel <= 56
+
+Show
+	BaseType "Karui Sceptre"
+	DropLevel >= 56
+	AreaLevel <= 58
+
+Show
+	BaseType "Tyrant's Sekhem"
+	DropLevel >= 58
+	AreaLevel <= 60
+
+Show
+	BaseType "Opal Sceptre"
+	DropLevel >= 60
+	AreaLevel <= 62
+
+Show
+	BaseType "Platinum Sceptre"
+	DropLevel >= 62
+	AreaLevel <= 64
+
+Show
+	BaseType "Vaal Sceptre"
+	DropLevel >= 64
+	AreaLevel <= 66
+
+Show
+	BaseType "Carnal Sceptre"
+	DropLevel >= 66
+	AreaLevel <= 68
+
+Show
+	BaseType "Void Sceptre"
+	DropLevel >= 68
+	AreaLevel <= 70
+
+Show
+	BaseType "Alternating Sceptre"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Sambar Sceptre"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+#  ONE-HANDED MACE
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Driftwood Club"
+	DropLevel >= 1
+	AreaLevel <= 5
+
+Show
+	BaseType "Tribal Club"
+	DropLevel >= 5
+	AreaLevel <= 10
+
+Show
+	BaseType "Spiked Club"
+	DropLevel >= 10
+	AreaLevel <= 15
+
+Show
+	BaseType "Stone Hammer"
+	DropLevel >= 15
+	AreaLevel <= 20
+
+Show
+	BaseType "War Hammer"
+	DropLevel >= 20
+	AreaLevel <= 24
+
+Show
+	BaseType "Bladed Mace"
+	DropLevel >= 24
+	AreaLevel <= 28
+
+Show
+	BaseType "Ceremonial Mace"
+	DropLevel >= 28
+	AreaLevel <= 30
+
+Show
+	BaseType "Flare Mace"
+	DropLevel >= 30
+	AreaLevel <= 32
+
+Show
+	BaseType "Dream Mace"
+	DropLevel >= 32
+	AreaLevel <= 34
+
+Show
+	BaseType "Wyrm Mace"
+	DropLevel >= 34
+	AreaLevel <= 35
+
+Show
+	BaseType "Petrified Club"
+	DropLevel >= 35
+	AreaLevel <= 38
+
+Show
+	BaseType "Barbed Club"
+	DropLevel >= 38
+	AreaLevel <= 41
+
+Show
+	BaseType "Rock Breaker"
+	DropLevel >= 41
+	AreaLevel <= 44
+
+Show
+	BaseType "Battle Hammer"
+	DropLevel >= 44
+	AreaLevel <= 47
+
+Show
+	BaseType "Flanged Mace"
+	DropLevel >= 47
+	AreaLevel <= 50
+
+Show
+	BaseType "Crack Mace"
+	DropLevel >= 50
+	AreaLevel <= 50
+
+Show
+	BaseType "Ornate Mace"
+	DropLevel >= 50
+	AreaLevel <= 53
+
+Show
+	BaseType "Phantom Mace"
+	DropLevel >= 53
+	AreaLevel <= 55
+
+Show
+	BaseType "Dragon Mace"
+	DropLevel >= 55
+	AreaLevel <= 56
+
+Show
+	BaseType "Ancestral Club"
+	DropLevel >= 56
+	AreaLevel <= 58
+
+Show
+	BaseType "Tenderizer"
+	DropLevel >= 58
+	AreaLevel <= 60
+
+Show
+	BaseType "Gavel"
+	DropLevel >= 60
+	AreaLevel <= 62
+
+Show
+	BaseType "Legion Hammer"
+	DropLevel >= 62
+	AreaLevel <= 64
+
+Show
+	BaseType "Pernach"
+	DropLevel >= 64
+	AreaLevel <= 66
+
+Show
+	BaseType "Auric Mace"
+	DropLevel >= 66
+	AreaLevel <= 68
+
+Show
+	BaseType "Nightmare Mace"
+	DropLevel >= 68
+	AreaLevel <= 70
+
+Show
+	BaseType "Behemoth Mace"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Boom Mace"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+#  TWO-HANDED MACE
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Driftwood Maul"
+	DropLevel >= 1
+	AreaLevel <= 8
+
+Show
+	BaseType "Tribal Maul"
+	DropLevel >= 8
+	AreaLevel <= 12
+
+Show
+	BaseType "Mallet"
+	DropLevel >= 12
+	AreaLevel <= 17
+
+Show
+	BaseType "Sledgehammer"
+	DropLevel >= 17
+	AreaLevel <= 22
+
+Show
+	BaseType "Jagged Maul"
+	DropLevel >= 22
+	AreaLevel <= 27
+
+Show
+	BaseType "Brass Maul"
+	DropLevel >= 27
+	AreaLevel <= 30
+
+Show
+	BaseType "Blunt Force Condenser"
+	DropLevel >= 30
+	AreaLevel <= 32
+
+Show
+	BaseType "Fright Maul"
+	DropLevel >= 32
+	AreaLevel <= 34
+
+Show
+	BaseType "Morning Star"
+	DropLevel >= 34
+	AreaLevel <= 36
+
+Show
+	BaseType "Totemic Maul"
+	DropLevel >= 36
+	AreaLevel <= 40
+
+Show
+	BaseType "Great Mallet"
+	DropLevel >= 40
+	AreaLevel <= 44
+
+Show
+	BaseType "Steelhead"
+	DropLevel >= 44
+	AreaLevel <= 48
+
+Show
+	BaseType "Spiny Maul"
+	DropLevel >= 48
+	AreaLevel <= 50
+
+Show
+	BaseType "Crushing Force Magnifier"
+	DropLevel >= 50
+	AreaLevel <= 51
+
+Show
+	BaseType "Plated Maul"
+	DropLevel >= 51
+	AreaLevel <= 54
+
+Show
+	BaseType "Dread Maul"
+	DropLevel >= 54
+	AreaLevel <= 56
+
+Show
+	BaseType "Solar Maul"
+	DropLevel >= 56
+	AreaLevel <= 57
+
+Show
+	BaseType "Karui Maul"
+	DropLevel >= 57
+	AreaLevel <= 59
+
+Show
+	BaseType "Colossus Mallet"
+	DropLevel >= 59
+	AreaLevel <= 61
+
+Show
+	BaseType "Piledriver"
+	DropLevel >= 61
+	AreaLevel <= 63
+
+Show
+	BaseType "Meatgrinder"
+	DropLevel >= 63
+	AreaLevel <= 65
+
+Show
+	BaseType "Imperial Maul"
+	DropLevel >= 65
+	AreaLevel <= 67
+
+Show
+	BaseType "Terror Maul"
+	DropLevel >= 67
+	AreaLevel <= 69
+
+Show
+	BaseType "Coronal Maul"
+	DropLevel >= 69
+	AreaLevel <= 70
+
+Show
+	BaseType "Impact Force Propagator"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# ONE-HANDED AXE
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Rusted Hatchet"
+	DropLevel >= 1
+	AreaLevel <= 6
+
+Show
+	BaseType "Jade Hatchet"
+	DropLevel >= 6
+	AreaLevel <= 11
+
+Show
+	BaseType "Boarding Axe"
+	DropLevel >= 11
+	AreaLevel <= 16
+
+Show
+	BaseType "Cleaver"
+	DropLevel >= 16
+	AreaLevel <= 21
+
+Show
+	BaseType "Broad Axe"
+	DropLevel >= 21
+	AreaLevel <= 25
+
+Show
+	BaseType "Arming Axe"
+	DropLevel >= 25
+	AreaLevel <= 29
+
+Show
+	BaseType "Decorative Axe"
+	DropLevel >= 29
+	AreaLevel <= 30
+
+Show
+	BaseType "Maltreatment Axe"
+	DropLevel >= 30
+	AreaLevel <= 33
+
+Show
+	BaseType "Spectral Axe"
+	DropLevel >= 33
+	AreaLevel <= 35
+
+Show
+	BaseType "Etched Hatchet"
+	DropLevel >= 35
+	AreaLevel <= 36
+
+Show
+	BaseType "Jasper Axe"
+	DropLevel >= 36
+	AreaLevel <= 39
+
+Show
+	BaseType "Tomahawk"
+	DropLevel >= 39
+	AreaLevel <= 42
+
+Show
+	BaseType "Wrist Chopper"
+	DropLevel >= 42
+	AreaLevel <= 45
+
+Show
+	BaseType "War Axe"
+	DropLevel >= 45
+	AreaLevel <= 48
+
+Show
+	BaseType "Chest Splitter"
+	DropLevel >= 48
+	AreaLevel <= 50
+
+Show
+	BaseType "Disapprobation Axe"
+	DropLevel >= 50
+	AreaLevel <= 51
+
+Show
+	BaseType "Ceremonial Axe"
+	DropLevel >= 51
+	AreaLevel <= 54
+
+Show
+	BaseType "Wraith Axe"
+	DropLevel >= 54
+	AreaLevel <= 56
+
+Show
+	BaseType "Engraved Hatchet"
+	DropLevel >= 56
+	AreaLevel <= 57
+
+Show
+	BaseType "Karui Axe"
+	DropLevel >= 57
+	AreaLevel <= 59
+
+Show
+	BaseType "Siege Axe"
+	DropLevel >= 59
+	AreaLevel <= 61
+
+Show
+	BaseType "Reaver Axe"
+	DropLevel >= 61
+	AreaLevel <= 63
+
+Show
+	BaseType "Butcher Axe"
+	DropLevel >= 63
+	AreaLevel <= 65
+
+Show
+	BaseType "Vaal Hatchet"
+	DropLevel >= 65
+	AreaLevel <= 67
+
+Show
+	BaseType "Royal Axe"
+	DropLevel >= 67
+	AreaLevel <= 69
+
+Show
+	BaseType "Infernal Axe"
+	DropLevel >= 69
+	AreaLevel <= 70
+
+Show
+	BaseType "Psychotic Axe"
+	DropLevel >= 70
+	AreaLevel <= 71
+
+Show
+	BaseType "Runic Hatchet"
+	DropLevel >= 71
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# TWO-HANDED AXE
+#----------------------------------------------------------------------
+Show
+	BaseType "Stone Axe"
+	DropLevel >= 1
+	AreaLevel <= 9
+
+Show
+	BaseType "Jade Chopper"
+	DropLevel >= 9
+	AreaLevel <= 13
+
+Show
+	BaseType "Woodsplitter"
+	DropLevel >= 13
+	AreaLevel <= 18
+
+Show
+	BaseType "Poleaxe"
+	DropLevel >= 18
+	AreaLevel <= 23
+
+Show
+	BaseType "Double Axe"
+	DropLevel >= 23
+	AreaLevel <= 28
+
+Show
+	BaseType "Gilded Axe"
+	DropLevel >= 28
+	AreaLevel <= 30
+
+Show
+	BaseType "Prime Cleaver"
+	DropLevel >= 30
+	AreaLevel <= 33
+
+Show
+	BaseType "Shadow Axe"
+	DropLevel >= 33
+	AreaLevel <= 36
+
+Show
+	BaseType "Dagger Axe"
+	DropLevel >= 36
+	AreaLevel <= 37
+
+Show
+	BaseType "Jasper Chopper"
+	DropLevel >= 37
+	AreaLevel <= 41
+
+Show
+	BaseType "Timber Axe"
+	DropLevel >= 41
+	AreaLevel <= 45
+
+Show
+	BaseType "Headsman Axe"
+	DropLevel >= 45
+	AreaLevel <= 49
+
+Show
+	BaseType "Labrys"
+	DropLevel >= 49
+	AreaLevel <= 50
+
+Show
+	BaseType "Honed Cleaver"
+	DropLevel >= 50
+	AreaLevel <= 52
+
+Show
+	BaseType "Noble Axe"
+	DropLevel >= 52
+	AreaLevel <= 55
+
+Show
+	BaseType "Abyssal Axe"
+	DropLevel >= 55
+	AreaLevel <= 58
+
+Show
+	BaseType "Karui Chopper"
+	DropLevel >= 58
+	AreaLevel <= 59
+
+Show
+	BaseType "Talon Axe"
+	DropLevel >= 59
+	AreaLevel <= 60
+
+Show
+	BaseType "Sundering Axe"
+	DropLevel >= 60
+	AreaLevel <= 62
+
+Show
+	BaseType "Ezomyte Axe"
+	DropLevel >= 62
+	AreaLevel <= 64
+
+Show
+	BaseType "Vaal Axe"
+	DropLevel >= 64
+	AreaLevel <= 66
+
+Show
+	BaseType "Despot Axe"
+	DropLevel >= 66
+	AreaLevel <= 68
+
+Show
+	BaseType "Void Axe"
+	DropLevel >= 68
+	AreaLevel <= 70
+
+Show
+	BaseType "Apex Cleaver"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Fleshripper"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# ONE-HANDED SWORD
+#----------------------------------------------------------------------
+Show
+	BaseType "Charan's Sword"
+	DropLevel >= 1
+	AreaLevel <= 1
+
+Show
+	BaseType "Rusted Sword"
+	DropLevel >= 1
+	AreaLevel <= 5
+
+Show
+	BaseType "Copper Sword"
+	DropLevel >= 5
+	AreaLevel <= 10
+
+Show
+	BaseType "Sabre"
+	DropLevel >= 10
+	AreaLevel <= 15
+
+Show
+	BaseType "Broad Sword"
+	DropLevel >= 15
+	AreaLevel <= 20
+
+Show
+	BaseType "War Sword"
+	DropLevel >= 20
+	AreaLevel <= 24
+
+Show
+	BaseType "Ancient Sword"
+	DropLevel >= 24
+	AreaLevel <= 28
+
+Show
+	BaseType "Elegant Sword"
+	DropLevel >= 28
+	AreaLevel <= 30
+
+Show
+	BaseType "Fickle Spiritblade"
+	DropLevel >= 30
+	AreaLevel <= 32
+
+Show
+	BaseType "Dusk Blade"
+	DropLevel >= 32
+	AreaLevel <= 34
+
+Show
+	BaseType "Hook Sword"
+	DropLevel >= 34
+	AreaLevel <= 35
+
+Show
+	BaseType "Variscite Blade"
+	DropLevel >= 35
+	AreaLevel <= 38
+
+Show
+	BaseType "Cutlass"
+	DropLevel >= 38
+	AreaLevel <= 41
+
+Show
+	BaseType "Baselard"
+	DropLevel >= 41
+	AreaLevel <= 44
+
+Show
+	BaseType "Battle Sword"
+	DropLevel >= 44
+	AreaLevel <= 47
+
+Show
+	BaseType "Elder Sword"
+	DropLevel >= 47
+	AreaLevel <= 50
+
+Show
+	BaseType "Capricious Spiritblade"
+	DropLevel >= 50
+	AreaLevel <= 50
+
+Show
+	BaseType "Graceful Sword"
+	DropLevel >= 50
+	AreaLevel <= 53
+
+Show
+	BaseType "Twilight Blade"
+	DropLevel >= 53
+	AreaLevel <= 55
+
+Show
+	BaseType "Grappler"
+	DropLevel >= 55
+	AreaLevel <= 56
+
+Show
+	BaseType "Gemstone Sword"
+	DropLevel >= 56
+	AreaLevel <= 58
+
+Show
+	BaseType "Corsair Sword"
+	DropLevel >= 58
+	AreaLevel <= 60
+
+Show
+	BaseType "Gladius"
+	DropLevel >= 60
+	AreaLevel <= 62
+
+Show
+	BaseType "Legion Sword"
+	DropLevel >= 62
+	AreaLevel <= 64
+
+Show
+	BaseType "Vaal Blade"
+	DropLevel >= 64
+	AreaLevel <= 66
+
+Show
+	BaseType "Eternal Sword"
+	DropLevel >= 66
+	AreaLevel <= 68
+
+Show
+	BaseType "Midnight Blade"
+	DropLevel >= 68
+	AreaLevel <= 70
+
+Show
+	BaseType "Anarchic Spiritblade"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Tiger Hook"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# THRUSTING SWORD
+#----------------------------------------------------------------------
+Show
+	BaseType "Rusted Spike"
+	DropLevel >= 1
+	AreaLevel <= 7
+
+Show
+	BaseType "Whalebone Rapier"
+	DropLevel >= 7
+	AreaLevel <= 12
+
+Show
+	BaseType "Battered Foil"
+	DropLevel >= 12
+	AreaLevel <= 17
+
+Show
+	BaseType "Basket Rapier"
+	DropLevel >= 17
+	AreaLevel <= 22
+
+Show
+	BaseType "Jagged Foil"
+	DropLevel >= 22
+	AreaLevel <= 26
+
+Show
+	BaseType "Antique Rapier"
+	DropLevel >= 26
+	AreaLevel <= 30
+
+Show
+	BaseType "Elegant Foil"
+	DropLevel >= 30
+	AreaLevel <= 34
+
+Show
+	BaseType "Thorn Rapier"
+	DropLevel >= 34
+	AreaLevel <= 36
+
+Show
+	BaseType "Smallsword"
+	DropLevel >= 36
+	AreaLevel <= 37
+
+Show
+	BaseType "Wyrmbone Rapier"
+	DropLevel >= 37
+	AreaLevel <= 40
+
+Show
+	BaseType "Burnished Foil"
+	DropLevel >= 40
+	AreaLevel <= 43
+
+Show
+	BaseType "Estoc"
+	DropLevel >= 43
+	AreaLevel <= 46
+
+Show
+	BaseType "Serrated Foil"
+	DropLevel >= 46
+	AreaLevel <= 49
+
+Show
+	BaseType "Primeval Rapier"
+	DropLevel >= 49
+	AreaLevel <= 52
+
+Show
+	BaseType "Fancy Foil"
+	DropLevel >= 52
+	AreaLevel <= 55
+
+Show
+	BaseType "Apex Rapier"
+	DropLevel >= 55
+	AreaLevel <= 57
+
+Show
+	BaseType "Courtesan Sword"
+	DropLevel >= 57
+	AreaLevel <= 58
+
+Show
+	BaseType "Dragonbone Rapier"
+	DropLevel >= 58
+	AreaLevel <= 60
+
+Show
+	BaseType "Tempered Foil"
+	DropLevel >= 60
+	AreaLevel <= 62
+
+Show
+	BaseType "Pecoraro"
+	DropLevel >= 62
+	AreaLevel <= 64
+
+Show
+	BaseType "Spiraled Foil"
+	DropLevel >= 64
+	AreaLevel <= 66
+
+Show
+	BaseType "Vaal Rapier"
+	DropLevel >= 66
+	AreaLevel <= 68
+
+Show
+	BaseType "Jewelled Foil"
+	DropLevel >= 68
+	AreaLevel <= 70
+
+Show
+	BaseType "Harpy Rapier"
+	DropLevel >= 70
+	AreaLevel <= 72
+
+Show
+	BaseType "Dragoon Sword"
+	DropLevel >= 72
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# TWO-HANDED SWORD
+#----------------------------------------------------------------------
+Show
+	BaseType "Corroded Blade"
+	DropLevel >= 1
+	AreaLevel <= 8
+
+Show
+	BaseType "Longsword"
+	DropLevel >= 8
+	AreaLevel <= 12
+
+Show
+	BaseType "Bastard Sword"
+	DropLevel >= 12
+	AreaLevel <= 17
+
+Show
+	BaseType "Two-Handed Sword"
+	DropLevel >= 17
+	AreaLevel <= 22
+
+Show
+	BaseType "Etched Greatsword"
+	DropLevel >= 22
+	AreaLevel <= 27
+
+Show
+	BaseType "Ornate Sword"
+	DropLevel >= 27
+	AreaLevel <= 30
+
+Show
+	BaseType "Rebuking Blade"
+	DropLevel >= 30
+	AreaLevel <= 32
+
+Show
+	BaseType "Spectral Sword"
+	DropLevel >= 32
+	AreaLevel <= 35
+
+Show
+	BaseType "Curved Blade"
+	DropLevel >= 35
+	AreaLevel <= 36
+
+Show
+	BaseType "Butcher Sword"
+	DropLevel >= 36
+	AreaLevel <= 40
+
+Show
+	BaseType "Footman Sword"
+	DropLevel >= 40
+	AreaLevel <= 44
+
+Show
+	BaseType "Highland Blade"
+	DropLevel >= 44
+	AreaLevel <= 48
+
+Show
+	BaseType "Engraved Greatsword"
+	DropLevel >= 48
+	AreaLevel <= 50
+
+Show
+	BaseType "Blasting Blade"
+	DropLevel >= 50
+	AreaLevel <= 51
+
+Show
+	BaseType "Tiger Sword"
+	DropLevel >= 51
+	AreaLevel <= 54
+
+Show
+	BaseType "Wraith Sword"
+	DropLevel >= 54
+	AreaLevel <= 56
+
+Show
+	BaseType "Lithe Blade"
+	DropLevel >= 56
+	AreaLevel <= 57
+
+Show
+	BaseType "Headman's Sword"
+	DropLevel >= 57
+	AreaLevel <= 59
+
+Show
+	BaseType "Reaver Sword"
+	DropLevel >= 59
+	AreaLevel <= 61
+
+Show
+	BaseType "Ezomyte Blade"
+	DropLevel >= 61
+	AreaLevel <= 63
+
+Show
+	BaseType "Vaal Greatsword"
+	DropLevel >= 63
+	AreaLevel <= 65
+
+Show
+	BaseType "Lion Sword"
+	DropLevel >= 65
+	AreaLevel <= 67
+
+Show
+	BaseType "Infernal Sword"
+	DropLevel >= 67
+	AreaLevel <= 70
+
+Show
+	BaseType "Banishing Blade"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Exquisite Blade"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# BOW
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Crude Bow"
+	DropLevel >= 1
+	AreaLevel <= 5
+
+Show
+	BaseType "Short Bow"
+	DropLevel >= 5
+	AreaLevel <= 9
+
+Show
+	BaseType "Long Bow"
+	DropLevel >= 9
+	AreaLevel <= 14
+
+Show
+	BaseType "Composite Bow"
+	DropLevel >= 14
+	AreaLevel <= 18
+
+Show
+	BaseType "Recurve Bow"
+	DropLevel >= 18
+	AreaLevel <= 23
+
+Show
+	BaseType "Bone Bow"
+	DropLevel >= 23
+	AreaLevel <= 28
+
+Show
+	BaseType "Royal Bow"
+	DropLevel >= 28
+	AreaLevel <= 30
+
+Show
+	BaseType "Hedron Bow"
+	DropLevel >= 30
+	AreaLevel <= 32
+
+Show
+	BaseType "Death Bow"
+	DropLevel >= 32
+	AreaLevel <= 35
+
+Show
+	BaseType "Grove Bow"
+	DropLevel >= 35
+	AreaLevel <= 36
+
+Show
+	BaseType "Reflex Bow"
+	DropLevel >= 36
+	AreaLevel <= 38
+
+Show
+	BaseType "Decurve Bow"
+	DropLevel >= 38
+	AreaLevel <= 41
+
+Show
+	BaseType "Compound Bow"
+	DropLevel >= 41
+	AreaLevel <= 44
+
+Show
+	BaseType "Sniper Bow"
+	DropLevel >= 44
+	AreaLevel <= 47
+
+Show
+	BaseType "Ivory Bow"
+	DropLevel >= 47
+	AreaLevel <= 50
+
+Show
+	BaseType "Foundry Bow"
+	DropLevel >= 50
+	AreaLevel <= 50
+
+Show
+	BaseType "Highborn Bow"
+	DropLevel >= 50
+	AreaLevel <= 53
+
+Show
+	BaseType "Decimation Bow"
+	DropLevel >= 53
+	AreaLevel <= 56
+
+Show
+	BaseType "Thicket Bow"
+	DropLevel >= 56
+	AreaLevel <= 57
+
+Show
+	BaseType "Steelwood Bow"
+	DropLevel >= 57
+	AreaLevel <= 58
+
+Show
+	BaseType "Citadel Bow"
+	DropLevel >= 58
+	AreaLevel <= 60
+
+Show
+	BaseType "Ranger Bow"
+	DropLevel >= 60
+	AreaLevel <= 62
+
+Show
+	BaseType "Assassin Bow"
+	DropLevel >= 62
+	AreaLevel <= 64
+
+Show
+	BaseType "Spine Bow"
+	DropLevel >= 64
+	AreaLevel <= 66
+
+Show
+	BaseType "Imperial Bow"
+	DropLevel >= 66
+	AreaLevel <= 68
+
+Show
+	BaseType "Harbinger Bow"
+	DropLevel >= 68
+	AreaLevel <= 70
+
+Show
+	BaseType "Solarine Bow"
+	DropLevel >= 70
+	AreaLevel <= 71
+
+Show
+	BaseType "Maraketh Bow"
+	DropLevel >= 71
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# DAGGER
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Glass Shank"
+	DropLevel >= 1
+	AreaLevel <= 5
+
+Show
+	BaseType "Skinning Knife"
+	DropLevel >= 5
+	AreaLevel <= 15
+
+Show
+	BaseType "Stiletto"
+	DropLevel >= 15
+	AreaLevel <= 30
+
+Show
+	BaseType "Flaying Knife"
+	DropLevel >= 30
+	AreaLevel <= 30
+
+Show
+	BaseType "Hollowpoint Dagger"
+	DropLevel >= 30
+	AreaLevel <= 36
+
+Show
+	BaseType "Prong Dagger"
+	DropLevel >= 36
+	AreaLevel <= 41
+
+Show
+	BaseType "Poignard"
+	DropLevel >= 41
+	AreaLevel <= 50
+
+Show
+	BaseType "Pressurised Dagger"
+	DropLevel >= 50
+	AreaLevel <= 51
+
+Show
+	BaseType "Trisula"
+	DropLevel >= 51
+	AreaLevel <= 56
+
+Show
+	BaseType "Gutting Knife"
+	DropLevel >= 56
+	AreaLevel <= 60
+
+Show
+	BaseType "Ambusher"
+	DropLevel >= 60
+	AreaLevel <= 70
+
+Show
+	BaseType "Pneumatic Dagger"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Sai"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# RUNIC DAGGER
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Carving Knife"
+	DropLevel >= 10
+	AreaLevel <= 20
+
+Show
+	BaseType "Boot Knife"
+	DropLevel >= 20
+	AreaLevel <= 24
+
+Show
+	BaseType "Copper Kris"
+	DropLevel >= 24
+	AreaLevel <= 28
+
+Show
+	BaseType "Skean"
+	DropLevel >= 28
+	AreaLevel <= 30
+
+Show
+	BaseType "Flickerflame Blade"
+	DropLevel >= 30
+	AreaLevel <= 32
+
+Show
+	BaseType "Imp Dagger"
+	DropLevel >= 32
+	AreaLevel <= 38
+
+Show
+	BaseType "Butcher Knife"
+	DropLevel >= 38
+	AreaLevel <= 44
+
+Show
+	BaseType "Boot Blade"
+	DropLevel >= 44
+	AreaLevel <= 47
+
+Show
+	BaseType "Golden Kris"
+	DropLevel >= 47
+	AreaLevel <= 50
+
+Show
+	BaseType "Flashfire Blade"
+	DropLevel >= 50
+	AreaLevel <= 50
+
+Show
+	BaseType "Royal Skean"
+	DropLevel >= 50
+	AreaLevel <= 53
+
+Show
+	BaseType "Fiend Dagger"
+	DropLevel >= 53
+	AreaLevel <= 58
+
+Show
+	BaseType "Slaughter Knife"
+	DropLevel >= 58
+	AreaLevel <= 62
+
+Show
+	BaseType "Ezomyte Dagger"
+	DropLevel >= 62
+	AreaLevel <= 64
+
+Show
+	BaseType "Platinum Kris"
+	DropLevel >= 64
+	AreaLevel <= 66
+
+Show
+	BaseType "Imperial Skean"
+	DropLevel >= 66
+	AreaLevel <= 68
+
+Show
+	BaseType "Demon Dagger"
+	DropLevel >= 68
+	AreaLevel <= 70
+
+Show
+	BaseType "Infernal Blade"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# STAFF
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Gnarled Branch"
+	DropLevel >= 1
+	AreaLevel <= 9
+
+Show
+	BaseType "Primitive Staff"
+	DropLevel >= 9
+	AreaLevel <= 18
+
+Show
+	BaseType "Long Staff"
+	DropLevel >= 18
+	AreaLevel <= 28
+
+Show
+	BaseType "Royal Staff"
+	DropLevel >= 28
+	AreaLevel <= 30
+
+Show
+	BaseType "Transformer Staff"
+	DropLevel >= 30
+	AreaLevel <= 36
+
+Show
+	BaseType "Crescent Staff"
+	DropLevel >= 36
+	AreaLevel <= 37
+
+Show
+	BaseType "Woodful Staff"
+	DropLevel >= 37
+	AreaLevel <= 45
+
+Show
+	BaseType "Quarterstaff"
+	DropLevel >= 45
+	AreaLevel <= 50
+
+Show
+	BaseType "Reciprocation Staff"
+	DropLevel >= 50
+	AreaLevel <= 52
+
+Show
+	BaseType "Highborn Staff"
+	DropLevel >= 52
+	AreaLevel <= 57
+
+Show
+	BaseType "Moon Staff"
+	DropLevel >= 57
+	AreaLevel <= 58
+
+Show
+	BaseType "Primordial Staff"
+	DropLevel >= 58
+	AreaLevel <= 62
+
+Show
+	BaseType "Lathi"
+	DropLevel >= 62
+	AreaLevel <= 66
+
+Show
+	BaseType "Imperial Staff"
+	DropLevel >= 66
+	AreaLevel <= 70
+
+Show
+	BaseType "Battery Staff"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Eclipse Staff"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# COMBAT STAFF
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Iron Staff"
+	DropLevel >= 13
+	AreaLevel <= 23
+
+Show
+	BaseType "Coiled Staff"
+	DropLevel >= 23
+	AreaLevel <= 30
+
+Show
+	BaseType "Capacity Rod"
+	DropLevel >= 30
+	AreaLevel <= 33
+
+Show
+	BaseType "Vile Staff"
+	DropLevel >= 33
+	AreaLevel <= 41
+
+Show
+	BaseType "Military Staff"
+	DropLevel >= 41
+	AreaLevel <= 49
+
+Show
+	BaseType "Serpentine Staff"
+	DropLevel >= 49
+	AreaLevel <= 50
+
+Show
+	BaseType "Potentiality Rod"
+	DropLevel >= 50
+	AreaLevel <= 55
+
+Show
+	BaseType "Foul Staff"
+	DropLevel >= 55
+	AreaLevel <= 60
+
+Show
+	BaseType "Ezomyte Staff"
+	DropLevel >= 60
+	AreaLevel <= 64
+
+Show
+	BaseType "Maelstr�m Staff"
+	DropLevel >= 64
+	AreaLevel <= 68
+
+Show
+	BaseType "Judgement Staff"
+	DropLevel >= 68
+	AreaLevel <= 70
+
+Show
+	BaseType "Eventuality Rod"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# WAND
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Driftwood Wand"
+	DropLevel >= 1
+	AreaLevel <= 6
+
+Show
+	BaseType "Goat's Horn"
+	DropLevel >= 6
+	AreaLevel <= 12
+
+Show
+	BaseType "Carved Wand"
+	DropLevel >= 12
+	AreaLevel <= 18
+
+Show
+	BaseType "Quartz Wand"
+	DropLevel >= 18
+	AreaLevel <= 20
+
+Show
+	BaseType "Calling Wand"
+	DropLevel >= 20
+	AreaLevel <= 24
+
+Show
+	BaseType "Spiraled Wand"
+	DropLevel >= 24
+	AreaLevel <= 30
+
+Show
+	BaseType "Assembler Wand"
+	DropLevel >= 30
+	AreaLevel <= 30
+
+Show
+	BaseType "Sage Wand"
+	DropLevel >= 30
+	AreaLevel <= 34
+
+Show
+	BaseType "Pagan Wand"
+	DropLevel >= 34
+	AreaLevel <= 35
+
+Show
+	BaseType "Faun's Horn"
+	DropLevel >= 35
+	AreaLevel <= 40
+
+Show
+	BaseType "Engraved Wand"
+	DropLevel >= 40
+	AreaLevel <= 45
+
+Show
+	BaseType "Crystal Wand"
+	DropLevel >= 45
+	AreaLevel <= 49
+
+Show
+	BaseType "Serpent Wand"
+	DropLevel >= 49
+	AreaLevel <= 50
+
+Show
+	BaseType "Congregator Wand"
+	DropLevel >= 50
+	AreaLevel <= 50
+
+Show
+	BaseType "Convening Wand"
+	DropLevel >= 50
+	AreaLevel <= 53
+
+Show
+	BaseType "Omen Wand"
+	DropLevel >= 53
+	AreaLevel <= 55
+
+Show
+	BaseType "Heathen Wand"
+	DropLevel >= 55
+	AreaLevel <= 56
+
+Show
+	BaseType "Demon's Horn"
+	DropLevel >= 56
+	AreaLevel <= 59
+
+Show
+	BaseType "Imbued Wand"
+	DropLevel >= 59
+	AreaLevel <= 62
+
+Show
+	BaseType "Opal Wand"
+	DropLevel >= 62
+	AreaLevel <= 65
+
+Show
+	BaseType "Tornado Wand"
+	DropLevel >= 65
+	AreaLevel <= 68
+
+Show
+	BaseType "Prophecy Wand"
+	DropLevel >= 68
+	AreaLevel <= 70
+
+Show
+	BaseType "Accumulator Wand"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Profane Wand"
+	DropLevel >= 70
+	AreaLevel <= 72
+
+Show
+	BaseType "Convoking Wand"
+	DropLevel >= 72
+	AreaLevel <= 100
+
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) LEVEL PROGRESSION FOR GEAR
+#======================================================================
+# 
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+# BODY ARMOUR
+#----------------------------------------------------------------------
+
+# Armour
+Show
+	BaseType "Plate Vest"
+	DropLevel >= 1
+	AreaLevel <= 6
+
+Show
+	BaseType "Chestplate"
+	DropLevel >= 6
+	AreaLevel <= 17
+
+Show
+	BaseType "Copper Plate"
+	DropLevel >= 17
+	AreaLevel <= 21
+
+Show
+	BaseType "War Plate"
+	DropLevel >= 21
+	AreaLevel <= 28
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Full Plate"
+	DropLevel >= 28
+	AreaLevel <= 32
+
+Show
+	BaseType "Arena Plate"
+	DropLevel >= 32
+	AreaLevel <= 35
+
+Show
+	BaseType "Lordly Plate"
+	DropLevel >= 35
+	AreaLevel <= 37
+
+Show
+	BaseType "Bronze Plate"
+	DropLevel >= 37
+	AreaLevel <= 41
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Battle Plate"
+	DropLevel >= 41
+	AreaLevel <= 45
+
+Show
+	BaseType "Sun Plate"
+	DropLevel >= 45
+	AreaLevel <= 49
+
+Show
+	BaseType "Colosseum Plate"
+	DropLevel >= 49
+	AreaLevel <= 53
+
+Show
+	BaseType "Majestic Plate"
+	DropLevel >= 53
+	AreaLevel <= 56
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Golden Plate"
+	DropLevel >= 56
+	AreaLevel <= 59
+
+Show
+	BaseType "Crusader Plate"
+	DropLevel >= 59
+	AreaLevel <= 62
+
+Show
+	BaseType "Astral Plate"
+	DropLevel >= 62
+	AreaLevel <= 65
+
+Show
+	BaseType "Gladiator Plate"
+	DropLevel >= 65
+	AreaLevel <= 68
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Glorious Plate"
+	DropLevel >= 68
+	AreaLevel <= 100
+
+#Evasion
+Show
+	BaseType "Shabby Jerkin"
+	DropLevel >= 1
+	AreaLevel <= 9
+
+Show
+	BaseType "Strapped Leather"
+	DropLevel >= 9
+	AreaLevel <= 17
+
+Show
+	BaseType "Buckskin Tunic"
+	DropLevel >= 17
+	AreaLevel <= 25
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Wild Leather"
+	DropLevel >= 25
+	AreaLevel <= 28
+
+Show
+	BaseType "Full Leather"
+	DropLevel >= 28
+	AreaLevel <= 32
+
+Show
+	BaseType "Sun Leather"
+	DropLevel >= 32
+	AreaLevel <= 35
+
+Show
+	BaseType "Thief's Garb"
+	DropLevel >= 35
+	AreaLevel <= 37
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Eelskin Tunic"
+	DropLevel >= 37
+	AreaLevel <= 41
+
+Show
+	BaseType "Frontier Leather"
+	DropLevel >= 41
+	AreaLevel <= 45
+
+Show
+	BaseType "Glorious Leather"
+	DropLevel >= 45
+	AreaLevel <= 49
+
+Show
+	BaseType "Coronal Leather"
+	DropLevel >= 49
+	AreaLevel <= 53
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Cutthroat's Garb"
+	DropLevel >= 53
+	AreaLevel <= 56
+
+Show
+	BaseType "Sharkskin Tunic"
+	DropLevel >= 56
+	AreaLevel <= 59
+
+Show
+	BaseType "Destiny Leather"
+	DropLevel >= 59
+	AreaLevel <= 62
+
+Show
+	BaseType "Exquisite Leather"
+	DropLevel >= 62
+	AreaLevel <= 65
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Zodiac Leather"
+	DropLevel >= 65
+	AreaLevel <= 68
+
+Show
+	BaseType "Assassin's Garb"
+	DropLevel >= 68
+	AreaLevel <= 100
+
+#Energy Shield
+Show
+	BaseType "Simple Robe"
+	DropLevel >= 1
+	AreaLevel <= 11
+
+Show
+	BaseType "Silken Vest"
+	DropLevel >= 11
+	AreaLevel <= 18
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Scholar's Robe"
+	DropLevel >= 18
+	AreaLevel <= 25
+
+Show
+	BaseType "Silken Garb"
+	DropLevel >= 25
+	AreaLevel <= 28
+
+Show
+	BaseType "Mage's Vestment"
+	DropLevel >= 28
+	AreaLevel <= 32
+
+Show
+	BaseType "Silk Robe"
+	DropLevel >= 32
+	AreaLevel <= 35
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Cabalist Regalia"
+	DropLevel >= 35
+	AreaLevel <= 37
+
+Show
+	BaseType "Sage's Robe"
+	DropLevel >= 37
+	AreaLevel <= 41
+
+Show
+	BaseType "Silken Wrap"
+	DropLevel >= 41
+	AreaLevel <= 45
+
+Show
+	BaseType "Conjurer's Vestment"
+	DropLevel >= 45
+	AreaLevel <= 49
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Spidersilk Robe"
+	DropLevel >= 49
+	AreaLevel <= 53
+
+Show
+	BaseType "Destroyer Regalia"
+	DropLevel >= 53
+	AreaLevel <= 56
+
+Show
+	BaseType "Savant's Robe"
+	DropLevel >= 56
+	AreaLevel <= 59
+
+Show
+	BaseType "Necromancer Silks"
+	DropLevel >= 59
+	AreaLevel <= 62
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Occultist's Vestment"
+	DropLevel >= 62
+	AreaLevel <= 65
+
+Show
+	BaseType "Widowsilk Robe"
+	DropLevel >= 65
+	AreaLevel <= 68
+
+Show
+	BaseType "Vaal Regalia"
+	DropLevel >= 68
+	AreaLevel <= 100
+
+#I DUNNO
+Show
+	BaseType "Scale Vest"
+	DropLevel >= 1
+	AreaLevel <= 8
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Light Brigandine"
+	DropLevel >= 8
+	AreaLevel <= 17
+
+Show
+	BaseType "Scale Doublet"
+	DropLevel >= 17
+	AreaLevel <= 21
+
+Show
+	BaseType "Infantry Brigandine"
+	DropLevel >= 21
+	AreaLevel <= 28
+
+Show
+	BaseType "Full Scale Armour"
+	DropLevel >= 28
+	AreaLevel <= 32
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Soldier's Brigandine"
+	DropLevel >= 32
+	AreaLevel <= 35
+
+Show
+	BaseType "Field Lamellar"
+	DropLevel >= 35
+	AreaLevel <= 38
+
+Show
+	BaseType "Wyrmscale Doublet"
+	DropLevel >= 38
+	AreaLevel <= 42
+
+Show
+	BaseType "Hussar Brigandine"
+	DropLevel >= 42
+	AreaLevel <= 46
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Full Wyrmscale"
+	DropLevel >= 46
+	AreaLevel <= 50
+
+Show
+	BaseType "Commander's Brigandine"
+	DropLevel >= 50
+	AreaLevel <= 54
+
+Show
+	BaseType "Battle Lamellar"
+	DropLevel >= 54
+	AreaLevel <= 57
+
+Show
+	BaseType "Dragonscale Doublet"
+	DropLevel >= 57
+	AreaLevel <= 60
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Desert Brigandine"
+	DropLevel >= 60
+	AreaLevel <= 63
+
+Show
+	BaseType "Full Dragonscale"
+	DropLevel >= 63
+	AreaLevel <= 66
+
+Show
+	BaseType "General's Brigandine"
+	DropLevel >= 66
+	AreaLevel <= 69
+
+Show
+	BaseType "Triumphant Lamellar"
+	DropLevel >= 69
+	AreaLevel <= 100
+
+# I DUNNO
+Show
+	BaseType "Chainmail Vest"
+	DropLevel >= 1
+	AreaLevel <= 8
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Chainmail Tunic"
+	DropLevel >= 8
+	AreaLevel <= 17
+
+Show
+	BaseType "Ringmail Coat"
+	DropLevel >= 17
+	AreaLevel <= 21
+
+Show
+	BaseType "Chainmail Doublet"
+	DropLevel >= 21
+	AreaLevel <= 28
+
+Show
+	BaseType "Full Ringmail"
+	DropLevel >= 28
+	AreaLevel <= 32
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Full Chainmail"
+	DropLevel >= 32
+	AreaLevel <= 35
+
+Show
+	BaseType "Holy Chainmail"
+	DropLevel >= 35
+	AreaLevel <= 39
+
+Show
+	BaseType "Latticed Ringmail"
+	DropLevel >= 39
+	AreaLevel <= 43
+
+Show
+	BaseType "Crusader Chainmail"
+	DropLevel >= 43
+	AreaLevel <= 47
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Ornate Ringmail"
+	DropLevel >= 47
+	AreaLevel <= 51
+
+Show
+	BaseType "Chain Hauberk"
+	DropLevel >= 51
+	AreaLevel <= 55
+
+Show
+	BaseType "Devout Chainmail"
+	DropLevel >= 55
+	AreaLevel <= 58
+
+Show
+	BaseType "Loricated Ringmail"
+	DropLevel >= 58
+	AreaLevel <= 61
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Conquest Chainmail"
+	DropLevel >= 61
+	AreaLevel <= 64
+
+Show
+	BaseType "Elegant Ringmail"
+	DropLevel >= 64
+	AreaLevel <= 67
+
+Show
+	BaseType "Saint's Hauberk"
+	DropLevel >= 67
+	AreaLevel <= 70
+
+Show
+	BaseType "Saintly Chainmail"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+#I DUNNO
+Show
+	BaseType "Padded Vest"
+	DropLevel >= 1
+	AreaLevel <= 9
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Oiled Vest"
+	DropLevel >= 9
+	AreaLevel <= 18
+
+Show
+	BaseType "Padded Jacket"
+	DropLevel >= 18
+	AreaLevel <= 22
+
+Show
+	BaseType "Oiled Coat"
+	DropLevel >= 22
+	AreaLevel <= 28
+
+Show
+	BaseType "Scarlet Raiment"
+	DropLevel >= 28
+	AreaLevel <= 32
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Waxed Garb"
+	DropLevel >= 32
+	AreaLevel <= 35
+
+Show
+	BaseType "Bone Armour"
+	DropLevel >= 35
+	AreaLevel <= 40
+
+Show
+	BaseType "Quilted Jacket"
+	DropLevel >= 40
+	AreaLevel <= 44
+
+Show
+	BaseType "Sleek Coat"
+	DropLevel >= 44
+	AreaLevel <= 48
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Crimson Raiment"
+	DropLevel >= 48
+	AreaLevel <= 52
+
+Show
+	BaseType "Lacquered Garb"
+	DropLevel >= 52
+	AreaLevel <= 56
+
+Show
+	BaseType "Crypt Armour"
+	DropLevel >= 56
+	AreaLevel <= 59
+
+Show
+	BaseType "Sentinel Jacket"
+	DropLevel >= 59
+	AreaLevel <= 62
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Varnished Coat"
+	DropLevel >= 62
+	AreaLevel <= 65
+
+Show
+	BaseType "Blood Raiment"
+	DropLevel >= 65
+	AreaLevel <= 68
+
+Show
+	BaseType "Sadist Garb"
+	DropLevel >= 68
+	AreaLevel <= 71
+
+Show
+	BaseType "Carnal Armour"
+	DropLevel >= 71
+	AreaLevel <= 100
+
+#I DUNNO
+Show
+	BaseType "Grasping Mail"
+	DropLevel >= 70
+	AreaLevel <= 72
+#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+Show
+	BaseType "Sacrificial Garb"
+	DropLevel >= 72
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# BOOTS
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Iron Greaves"
+	DropLevel >= 1
+	AreaLevel <= 9
+
+Show
+	BaseType "Steel Greaves"
+	DropLevel >= 9
+	AreaLevel <= 20
+
+Show
+	BaseType "Basemetal Treads"
+	DropLevel >= 20
+	AreaLevel <= 23
+
+Show
+	BaseType "Plated Greaves"
+	DropLevel >= 23
+	AreaLevel <= 33
+
+Show
+	BaseType "Reinforced Greaves"
+	DropLevel >= 33
+	AreaLevel <= 37
+
+Show
+	BaseType "Antique Greaves"
+	DropLevel >= 37
+	AreaLevel <= 46
+
+Show
+	BaseType "Ancient Greaves"
+	DropLevel >= 46
+	AreaLevel <= 50
+
+Show
+	BaseType "Darksteel Treads"
+	DropLevel >= 50
+	AreaLevel <= 54
+
+Show
+	BaseType "Goliath Greaves"
+	DropLevel >= 54
+	AreaLevel <= 62
+
+Show
+	BaseType "Vaal Greaves"
+	DropLevel >= 62
+	AreaLevel <= 68
+
+Show
+	BaseType "Titan Greaves"
+	DropLevel >= 68
+	AreaLevel <= 80
+
+Show
+	BaseType "Brimstone Treads"
+	DropLevel >= 80
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Rawhide Boots"
+	DropLevel >= 1
+	AreaLevel <= 12
+
+Show
+	BaseType "Goathide Boots"
+	DropLevel >= 12
+	AreaLevel <= 20
+
+Show
+	BaseType "Cloudwhisper Boots"
+	DropLevel >= 20
+	AreaLevel <= 22
+
+Show
+	BaseType "Deerskin Boots"
+	DropLevel >= 22
+	AreaLevel <= 34
+
+Show
+	BaseType "Nubuck Boots"
+	DropLevel >= 34
+	AreaLevel <= 39
+
+Show
+	BaseType "Eelskin Boots"
+	DropLevel >= 39
+	AreaLevel <= 44
+
+Show
+	BaseType "Sharkskin Boots"
+	DropLevel >= 44
+	AreaLevel <= 50
+
+Show
+	BaseType "Windbreak Boots"
+	DropLevel >= 50
+	AreaLevel <= 55
+
+Show
+	BaseType "Shagreen Boots"
+	DropLevel >= 55
+	AreaLevel <= 62
+
+Show
+	BaseType "Stealth Boots"
+	DropLevel >= 62
+	AreaLevel <= 69
+
+Show
+	BaseType "Slink Boots"
+	DropLevel >= 69
+	AreaLevel <= 80
+
+Show
+	BaseType "Stormrider Boots"
+	DropLevel >= 80
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Wool Shoes"
+	DropLevel >= 1
+	AreaLevel <= 9
+
+Show
+	BaseType "Velvet Slippers"
+	DropLevel >= 9
+	AreaLevel <= 20
+
+Show
+	BaseType "Duskwalk Slippers"
+	DropLevel >= 20
+	AreaLevel <= 22
+
+Show
+	BaseType "Silk Slippers"
+	DropLevel >= 22
+	AreaLevel <= 32
+
+Show
+	BaseType "Scholar Boots"
+	DropLevel >= 32
+	AreaLevel <= 38
+
+Show
+	BaseType "Satin Slippers"
+	DropLevel >= 38
+	AreaLevel <= 44
+
+Show
+	BaseType "Samite Slippers"
+	DropLevel >= 44
+	AreaLevel <= 50
+
+Show
+	BaseType "Nightwind Slippers"
+	DropLevel >= 50
+	AreaLevel <= 53
+
+Show
+	BaseType "Conjurer Boots"
+	DropLevel >= 53
+	AreaLevel <= 61
+
+Show
+	BaseType "Arcanist Slippers"
+	DropLevel >= 61
+	AreaLevel <= 67
+
+Show
+	BaseType "Sorcerer Boots"
+	DropLevel >= 67
+	AreaLevel <= 80
+
+Show
+	BaseType "Dreamquest Slippers"
+	DropLevel >= 80
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Leatherscale Boots"
+	DropLevel >= 6
+	AreaLevel <= 18
+
+Show
+	BaseType "Ironscale Boots"
+	DropLevel >= 18
+	AreaLevel <= 30
+
+Show
+	BaseType "Bronzescale Boots"
+	DropLevel >= 30
+	AreaLevel <= 36
+
+Show
+	BaseType "Steelscale Boots"
+	DropLevel >= 36
+	AreaLevel <= 42
+
+Show
+	BaseType "Serpentscale Boots"
+	DropLevel >= 42
+	AreaLevel <= 51
+
+Show
+	BaseType "Wyrmscale Boots"
+	DropLevel >= 51
+	AreaLevel <= 59
+
+Show
+	BaseType "Hydrascale Boots"
+	DropLevel >= 59
+	AreaLevel <= 65
+
+Show
+	BaseType "Dragonscale Boots"
+	DropLevel >= 65
+	AreaLevel <= 70
+
+Show
+	BaseType "Two-Toned Boots"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Chain Boots"
+	DropLevel >= 5
+	AreaLevel <= 13
+
+Show
+	BaseType "Ringmail Boots"
+	DropLevel >= 13
+	AreaLevel <= 28
+
+Show
+	BaseType "Mesh Boots"
+	DropLevel >= 28
+	AreaLevel <= 36
+
+Show
+	BaseType "Riveted Boots"
+	DropLevel >= 36
+	AreaLevel <= 40
+
+Show
+	BaseType "Zealot Boots"
+	DropLevel >= 40
+	AreaLevel <= 49
+
+Show
+	BaseType "Soldier Boots"
+	DropLevel >= 49
+	AreaLevel <= 58
+
+Show
+	BaseType "Legion Boots"
+	DropLevel >= 58
+	AreaLevel <= 64
+
+Show
+	BaseType "Crusader Boots"
+	DropLevel >= 64
+	AreaLevel <= 70
+
+Show
+	BaseType "Two-Toned Boots"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Wrapped Boots"
+	DropLevel >= 6
+	AreaLevel <= 16
+
+Show
+	BaseType "Strapped Boots"
+	DropLevel >= 16
+	AreaLevel <= 27
+
+Show
+	BaseType "Clasped Boots"
+	DropLevel >= 27
+	AreaLevel <= 34
+
+Show
+	BaseType "Shackled Boots"
+	DropLevel >= 34
+	AreaLevel <= 41
+
+Show
+	BaseType "Trapper Boots"
+	DropLevel >= 41
+	AreaLevel <= 47
+
+Show
+	BaseType "Ambush Boots"
+	DropLevel >= 47
+	AreaLevel <= 55
+
+Show
+	BaseType "Carnal Boots"
+	DropLevel >= 55
+	AreaLevel <= 63
+
+Show
+	BaseType "Assassin's Boots"
+	DropLevel >= 63
+	AreaLevel <= 69
+
+Show
+	BaseType "Murder Boots"
+	DropLevel >= 69
+	AreaLevel <= 70
+
+Show
+	BaseType "Fugitive Boots"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Two-Toned Boots"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Runic Greaves"
+	DropLevel >= 24
+	AreaLevel <= 48
+
+Show
+	BaseType "Runic Sollerets"
+	DropLevel >= 48
+	AreaLevel <= 69
+
+Show
+	BaseType "Runic Sabatons"
+	DropLevel >= 69
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# Gloves
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Iron Gauntlets"
+	DropLevel >= 1
+	AreaLevel <= 10
+
+Show
+	BaseType "Taxing Gauntlets"
+	DropLevel >= 10
+	AreaLevel <= 11
+
+Show
+	BaseType "Plated Gauntlets"
+	DropLevel >= 11
+	AreaLevel <= 23
+
+Show
+	BaseType "Bronze Gauntlets"
+	DropLevel >= 23
+	AreaLevel <= 35
+
+Show
+	BaseType "Steel Gauntlets"
+	DropLevel >= 35
+	AreaLevel <= 39
+
+Show
+	BaseType "Antique Gauntlets"
+	DropLevel >= 39
+	AreaLevel <= 40
+
+Show
+	BaseType "Gruelling Gauntlets"
+	DropLevel >= 40
+	AreaLevel <= 47
+
+Show
+	BaseType "Ancient Gauntlets"
+	DropLevel >= 47
+	AreaLevel <= 53
+
+Show
+	BaseType "Goliath Gauntlets"
+	DropLevel >= 53
+	AreaLevel <= 63
+
+Show
+	BaseType "Vaal Gauntlets"
+	DropLevel >= 63
+	AreaLevel <= 69
+
+Show
+	BaseType "Titan Gauntlets"
+	DropLevel >= 69
+	AreaLevel <= 70
+
+Show
+	BaseType "Debilitation Gauntlets"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Spiked Gloves"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Rawhide Gloves"
+	DropLevel >= 1
+	AreaLevel <= 9
+
+Show
+	BaseType "Goathide Gloves"
+	DropLevel >= 9
+	AreaLevel <= 10
+
+Show
+	BaseType "Gauche Gloves"
+	DropLevel >= 10
+	AreaLevel <= 21
+
+Show
+	BaseType "Deerskin Gloves"
+	DropLevel >= 21
+	AreaLevel <= 33
+
+Show
+	BaseType "Nubuck Gloves"
+	DropLevel >= 33
+	AreaLevel <= 38
+
+Show
+	BaseType "Eelskin Gloves"
+	DropLevel >= 38
+	AreaLevel <= 40
+
+Show
+	BaseType "Southswing Gloves"
+	DropLevel >= 40
+	AreaLevel <= 45
+
+Show
+	BaseType "Sharkskin Gloves"
+	DropLevel >= 45
+	AreaLevel <= 54
+
+Show
+	BaseType "Shagreen Gloves"
+	DropLevel >= 54
+	AreaLevel <= 62
+
+Show
+	BaseType "Stealth Gloves"
+	DropLevel >= 62
+	AreaLevel <= 70
+
+Show
+	BaseType "Gripped Gloves"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Sinistral Gloves"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Slink Gloves"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Wool Gloves"
+	DropLevel >= 1
+	AreaLevel <= 10
+
+Show
+	BaseType "Leyline Gloves"
+	DropLevel >= 10
+	AreaLevel <= 12
+
+Show
+	BaseType "Velvet Gloves"
+	DropLevel >= 12
+	AreaLevel <= 25
+
+Show
+	BaseType "Silk Gloves"
+	DropLevel >= 25
+	AreaLevel <= 36
+
+Show
+	BaseType "Embroidered Gloves"
+	DropLevel >= 36
+	AreaLevel <= 40
+
+Show
+	BaseType "Aetherwind Gloves"
+	DropLevel >= 40
+	AreaLevel <= 41
+
+Show
+	BaseType "Satin Gloves"
+	DropLevel >= 41
+	AreaLevel <= 47
+
+Show
+	BaseType "Samite Gloves"
+	DropLevel >= 47
+	AreaLevel <= 55
+
+Show
+	BaseType "Conjurer Gloves"
+	DropLevel >= 55
+	AreaLevel <= 60
+
+Show
+	BaseType "Arcanist Gloves"
+	DropLevel >= 60
+	AreaLevel <= 69
+
+Show
+	BaseType "Sorcerer Gloves"
+	DropLevel >= 69
+	AreaLevel <= 70
+
+Show
+	BaseType "Fingerless Silk Gloves"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Nexus Gloves"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Fishscale Gauntlets"
+	DropLevel >= 1
+	AreaLevel <= 15
+
+Show
+	BaseType "Ironscale Gauntlets"
+	DropLevel >= 15
+	AreaLevel <= 27
+
+Show
+	BaseType "Bronzescale Gauntlets"
+	DropLevel >= 27
+	AreaLevel <= 36
+
+Show
+	BaseType "Steelscale Gauntlets"
+	DropLevel >= 36
+	AreaLevel <= 43
+
+Show
+	BaseType "Serpentscale Gauntlets"
+	DropLevel >= 43
+	AreaLevel <= 49
+
+Show
+	BaseType "Wyrmscale Gauntlets"
+	DropLevel >= 49
+	AreaLevel <= 59
+
+Show
+	BaseType "Hydrascale Gauntlets"
+	DropLevel >= 59
+	AreaLevel <= 67
+
+Show
+	BaseType "Dragonscale Gauntlets"
+	DropLevel >= 67
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Chain Gloves"
+	DropLevel >= 7
+	AreaLevel <= 19
+
+Show
+	BaseType "Ringmail Gloves"
+	DropLevel >= 19
+	AreaLevel <= 32
+
+Show
+	BaseType "Mesh Gloves"
+	DropLevel >= 32
+	AreaLevel <= 37
+
+Show
+	BaseType "Riveted Gloves"
+	DropLevel >= 37
+	AreaLevel <= 43
+
+Show
+	BaseType "Zealot Gloves"
+	DropLevel >= 43
+	AreaLevel <= 51
+
+Show
+	BaseType "Soldier Gloves"
+	DropLevel >= 51
+	AreaLevel <= 57
+
+Show
+	BaseType "Legion Gloves"
+	DropLevel >= 57
+	AreaLevel <= 66
+
+Show
+	BaseType "Crusader Gloves"
+	DropLevel >= 66
+	AreaLevel <= 70
+
+Show
+	BaseType "Apothecary's Gloves"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Wrapped Mitts"
+	DropLevel >= 5
+	AreaLevel <= 16
+
+Show
+	BaseType "Strapped Mitts"
+	DropLevel >= 16
+	AreaLevel <= 31
+
+Show
+	BaseType "Clasped Mitts"
+	DropLevel >= 31
+	AreaLevel <= 36
+
+Show
+	BaseType "Trapper Mitts"
+	DropLevel >= 36
+	AreaLevel <= 45
+
+Show
+	BaseType "Ambush Mitts"
+	DropLevel >= 45
+	AreaLevel <= 50
+
+Show
+	BaseType "Carnal Mitts"
+	DropLevel >= 50
+	AreaLevel <= 58
+
+Show
+	BaseType "Assassin's Mitts"
+	DropLevel >= 58
+	AreaLevel <= 67
+
+Show
+	BaseType "Murder Mitts"
+	DropLevel >= 67
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Runic Gloves"
+	DropLevel >= 24
+	AreaLevel <= 48
+
+Show
+	BaseType "Runic Gages"
+	DropLevel >= 48
+	AreaLevel <= 69
+
+Show
+	BaseType "Runic Gauntlets"
+	DropLevel >= 69
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# HELMET
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Iron Hat"
+	DropLevel >= 1
+	AreaLevel <= 7
+
+Show
+	BaseType "Cone Helmet"
+	DropLevel >= 7
+	AreaLevel <= 18
+
+Show
+	BaseType "Barbute Helmet"
+	DropLevel >= 18
+	AreaLevel <= 26
+
+Show
+	BaseType "Close Helmet"
+	DropLevel >= 26
+	AreaLevel <= 35
+
+Show
+	BaseType "Gladiator Helmet"
+	DropLevel >= 35
+	AreaLevel <= 40
+
+Show
+	BaseType "Reaver Helmet"
+	DropLevel >= 40
+	AreaLevel <= 48
+
+Show
+	BaseType "Siege Helmet"
+	DropLevel >= 48
+	AreaLevel <= 55
+
+Show
+	BaseType "Samnite Helmet"
+	DropLevel >= 55
+	AreaLevel <= 60
+
+Show
+	BaseType "Ezomyte Burgonet"
+	DropLevel >= 60
+	AreaLevel <= 65
+
+Show
+	BaseType "Royal Burgonet"
+	DropLevel >= 65
+	AreaLevel <= 69
+
+Show
+	BaseType "Eternal Burgonet"
+	DropLevel >= 69
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Leather Cap"
+	DropLevel >= 1
+	AreaLevel <= 10
+
+Show
+	BaseType "Tricorne"
+	DropLevel >= 10
+	AreaLevel <= 20
+
+Show
+	BaseType "Leather Hood"
+	DropLevel >= 20
+	AreaLevel <= 30
+
+Show
+	BaseType "Wolf Pelt"
+	DropLevel >= 30
+	AreaLevel <= 41
+
+Show
+	BaseType "Hunter Hood"
+	DropLevel >= 41
+	AreaLevel <= 47
+
+Show
+	BaseType "Noble Tricorne"
+	DropLevel >= 47
+	AreaLevel <= 55
+
+Show
+	BaseType "Ursine Pelt"
+	DropLevel >= 55
+	AreaLevel <= 60
+
+Show
+	BaseType "Silken Hood"
+	DropLevel >= 60
+	AreaLevel <= 64
+
+Show
+	BaseType "Sinner Tricorne"
+	DropLevel >= 64
+	AreaLevel <= 70
+
+Show
+	BaseType "Lion Pelt"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Vine Circlet"
+	DropLevel >= 1
+	AreaLevel <= 8
+
+Show
+	BaseType "Iron Circlet"
+	DropLevel >= 8
+	AreaLevel <= 17
+
+Show
+	BaseType "Torture Cage"
+	DropLevel >= 17
+	AreaLevel <= 26
+
+Show
+	BaseType "Tribal Circlet"
+	DropLevel >= 26
+	AreaLevel <= 34
+
+Show
+	BaseType "Bone Circlet"
+	DropLevel >= 34
+	AreaLevel <= 39
+
+Show
+	BaseType "Lunaris Circlet"
+	DropLevel >= 39
+	AreaLevel <= 48
+
+Show
+	BaseType "Steel Circlet"
+	DropLevel >= 48
+	AreaLevel <= 54
+
+Show
+	BaseType "Necromancer Circlet"
+	DropLevel >= 54
+	AreaLevel <= 59
+
+Show
+	BaseType "Solaris Circlet"
+	DropLevel >= 59
+	AreaLevel <= 65
+
+Show
+	BaseType "Mind Cage"
+	DropLevel >= 65
+	AreaLevel <= 69
+
+Show
+	BaseType "Hubris Circlet"
+	DropLevel >= 69
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Battered Helm"
+	DropLevel >= 1
+	AreaLevel <= 13
+
+Show
+	BaseType "Sallet"
+	DropLevel >= 13
+	AreaLevel <= 15
+
+Show
+	BaseType "Sorrow Mask"
+	DropLevel >= 15
+	AreaLevel <= 23
+
+Show
+	BaseType "Visored Sallet"
+	DropLevel >= 23
+	AreaLevel <= 33
+
+Show
+	BaseType "Gilded Sallet"
+	DropLevel >= 33
+	AreaLevel <= 36
+
+Show
+	BaseType "Secutor Helm"
+	DropLevel >= 36
+	AreaLevel <= 43
+
+Show
+	BaseType "Fencer Helm"
+	DropLevel >= 43
+	AreaLevel <= 45
+
+Show
+	BaseType "Atonement Mask"
+	DropLevel >= 45
+	AreaLevel <= 51
+
+Show
+	BaseType "Lacquered Helmet"
+	DropLevel >= 51
+	AreaLevel <= 58
+
+Show
+	BaseType "Fluted Bascinet"
+	DropLevel >= 58
+	AreaLevel <= 63
+
+Show
+	BaseType "Pig-Faced Bascinet"
+	DropLevel >= 63
+	AreaLevel <= 67
+
+Show
+	BaseType "Nightmare Bascinet"
+	DropLevel >= 67
+	AreaLevel <= 75
+
+Show
+	BaseType "Penitent Mask"
+	DropLevel >= 75
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Rusted Coif"
+	DropLevel >= 5
+	AreaLevel <= 12
+
+Show
+	BaseType "Soldier Helmet"
+	DropLevel >= 12
+	AreaLevel <= 15
+
+Show
+	BaseType "Imp Crown"
+	DropLevel >= 15
+	AreaLevel <= 22
+
+Show
+	BaseType "Great Helmet"
+	DropLevel >= 22
+	AreaLevel <= 31
+
+Show
+	BaseType "Crusader Helmet"
+	DropLevel >= 31
+	AreaLevel <= 37
+
+Show
+	BaseType "Aventail Helmet"
+	DropLevel >= 37
+	AreaLevel <= 44
+
+Show
+	BaseType "Zealot Helmet"
+	DropLevel >= 44
+	AreaLevel <= 45
+
+Show
+	BaseType "Demon Crown"
+	DropLevel >= 45
+	AreaLevel <= 53
+
+Show
+	BaseType "Great Crown"
+	DropLevel >= 53
+	AreaLevel <= 58
+
+Show
+	BaseType "Magistrate Crown"
+	DropLevel >= 58
+	AreaLevel <= 63
+
+Show
+	BaseType "Prophet Crown"
+	DropLevel >= 63
+	AreaLevel <= 68
+
+Show
+	BaseType "Praetor Crown"
+	DropLevel >= 68
+	AreaLevel <= 73
+
+Show
+	BaseType "Bone Helmet"
+	DropLevel >= 73
+	AreaLevel <= 75
+
+Show
+	BaseType "Archdemon Crown"
+	DropLevel >= 75
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Scare Mask"
+	DropLevel >= 1
+	AreaLevel <= 10
+
+Show
+	BaseType "Plague Mask"
+	DropLevel >= 10
+	AreaLevel <= 15
+
+Show
+	BaseType "Gale Crown"
+	DropLevel >= 15
+	AreaLevel <= 17
+
+Show
+	BaseType "Iron Mask"
+	DropLevel >= 17
+	AreaLevel <= 28
+
+Show
+	BaseType "Festival Mask"
+	DropLevel >= 28
+	AreaLevel <= 35
+
+Show
+	BaseType "Golden Mask"
+	DropLevel >= 35
+	AreaLevel <= 38
+
+Show
+	BaseType "Raven Mask"
+	DropLevel >= 38
+	AreaLevel <= 45
+
+Show
+	BaseType "Callous Mask"
+	DropLevel >= 45
+	AreaLevel <= 45
+
+Show
+	BaseType "Winter Crown"
+	DropLevel >= 45
+	AreaLevel <= 52
+
+Show
+	BaseType "Regicide Mask"
+	DropLevel >= 52
+	AreaLevel <= 57
+
+Show
+	BaseType "Harlequin Mask"
+	DropLevel >= 57
+	AreaLevel <= 62
+
+Show
+	BaseType "Vaal Mask"
+	DropLevel >= 62
+	AreaLevel <= 67
+
+Show
+	BaseType "Deicide Mask"
+	DropLevel >= 67
+	AreaLevel <= 75
+
+Show
+	BaseType "Blizzard Crown"
+	DropLevel >= 75
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Runic Helm"
+	DropLevel >= 25
+	AreaLevel <= 49
+
+Show
+	BaseType "Runic Crest"
+	DropLevel >= 49
+	AreaLevel <= 68
+
+Show
+	BaseType "Runic Crown"
+	DropLevel >= 68
+	AreaLevel <= 100
+
+#----------------------------------------------------------------------
+# SHIELD
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Splintered Tower Shield"
+	DropLevel >= 1
+	AreaLevel <= 5
+
+Show
+	BaseType "Corroded Tower Shield"
+	DropLevel >= 5
+	AreaLevel <= 11
+
+Show
+	BaseType "Rawhide Tower Shield"
+	DropLevel >= 11
+	AreaLevel <= 17
+
+Show
+	BaseType "Cedar Tower Shield"
+	DropLevel >= 17
+	AreaLevel <= 24
+
+Show
+	BaseType "Copper Tower Shield"
+	DropLevel >= 24
+	AreaLevel <= 30
+
+Show
+	BaseType "Exothermic Tower Shield"
+	DropLevel >= 30
+	AreaLevel <= 30
+
+Show
+	BaseType "Reinforced Tower Shield"
+	DropLevel >= 30
+	AreaLevel <= 35
+
+Show
+	BaseType "Painted Tower Shield"
+	DropLevel >= 35
+	AreaLevel <= 39
+
+Show
+	BaseType "Buckskin Tower Shield"
+	DropLevel >= 39
+	AreaLevel <= 43
+
+Show
+	BaseType "Mahogany Tower Shield"
+	DropLevel >= 43
+	AreaLevel <= 47
+
+Show
+	BaseType "Bronze Tower Shield"
+	DropLevel >= 47
+	AreaLevel <= 50
+
+Show
+	BaseType "Magmatic Tower Shield"
+	DropLevel >= 50
+	AreaLevel <= 51
+
+Show
+	BaseType "Girded Tower Shield"
+	DropLevel >= 51
+	AreaLevel <= 55
+
+Show
+	BaseType "Crested Tower Shield"
+	DropLevel >= 55
+	AreaLevel <= 58
+
+Show
+	BaseType "Shagreen Tower Shield"
+	DropLevel >= 58
+	AreaLevel <= 61
+
+Show
+	BaseType "Ebony Tower Shield"
+	DropLevel >= 61
+	AreaLevel <= 64
+
+Show
+	BaseType "Ezomyte Tower Shield"
+	DropLevel >= 64
+	AreaLevel <= 67
+
+Show
+	BaseType "Colossal Tower Shield"
+	DropLevel >= 67
+	AreaLevel <= 70
+
+Show
+	BaseType "Heat-attuned Tower Shield"
+	DropLevel >= 70
+	AreaLevel <= 70
+
+Show
+	BaseType "Pinnacle Tower Shield"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Goathide Buckler"
+	DropLevel >= 1
+	AreaLevel <= 8
+
+Show
+	BaseType "Pine Buckler"
+	DropLevel >= 8
+	AreaLevel <= 16
+
+Show
+	BaseType "Painted Buckler"
+	DropLevel >= 16
+	AreaLevel <= 23
+
+Show
+	BaseType "Hammered Buckler"
+	DropLevel >= 23
+	AreaLevel <= 29
+
+Show
+	BaseType "War Buckler"
+	DropLevel >= 29
+	AreaLevel <= 30
+
+Show
+	BaseType "Endothermic Buckler"
+	DropLevel >= 30
+	AreaLevel <= 34
+
+Show
+	BaseType "Gilded Buckler"
+	DropLevel >= 34
+	AreaLevel <= 38
+
+Show
+	BaseType "Oak Buckler"
+	DropLevel >= 38
+	AreaLevel <= 42
+
+Show
+	BaseType "Enameled Buckler"
+	DropLevel >= 42
+	AreaLevel <= 46
+
+Show
+	BaseType "Corrugated Buckler"
+	DropLevel >= 46
+	AreaLevel <= 50
+
+Show
+	BaseType "Battle Buckler"
+	DropLevel >= 50
+	AreaLevel <= 50
+
+Show
+	BaseType "Polar Buckler"
+	DropLevel >= 50
+	AreaLevel <= 54
+
+Show
+	BaseType "Golden Buckler"
+	DropLevel >= 54
+	AreaLevel <= 57
+
+Show
+	BaseType "Ironwood Buckler"
+	DropLevel >= 57
+	AreaLevel <= 60
+
+Show
+	BaseType "Lacquered Buckler"
+	DropLevel >= 60
+	AreaLevel <= 63
+
+Show
+	BaseType "Vaal Buckler"
+	DropLevel >= 63
+	AreaLevel <= 66
+
+Show
+	BaseType "Crusader Buckler"
+	DropLevel >= 66
+	AreaLevel <= 69
+
+Show
+	BaseType "Imperial Buckler"
+	DropLevel >= 69
+	AreaLevel <= 70
+
+Show
+	BaseType "Cold-attuned Buckler"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Twig Spirit Shield"
+	DropLevel >= 1
+	AreaLevel <= 9
+
+Show
+	BaseType "Yew Spirit Shield"
+	DropLevel >= 9
+	AreaLevel <= 15
+
+Show
+	BaseType "Bone Spirit Shield"
+	DropLevel >= 15
+	AreaLevel <= 23
+
+Show
+	BaseType "Tarnished Spirit Shield"
+	DropLevel >= 23
+	AreaLevel <= 28
+
+Show
+	BaseType "Jingling Spirit Shield"
+	DropLevel >= 28
+	AreaLevel <= 30
+
+Show
+	BaseType "Exhausting Spirit Shield"
+	DropLevel >= 30
+	AreaLevel <= 33
+
+Show
+	BaseType "Brass Spirit Shield"
+	DropLevel >= 33
+	AreaLevel <= 37
+
+Show
+	BaseType "Walnut Spirit Shield"
+	DropLevel >= 37
+	AreaLevel <= 41
+
+Show
+	BaseType "Ivory Spirit Shield"
+	DropLevel >= 41
+	AreaLevel <= 45
+
+Show
+	BaseType "Ancient Spirit Shield"
+	DropLevel >= 45
+	AreaLevel <= 49
+
+Show
+	BaseType "Chiming Spirit Shield"
+	DropLevel >= 49
+	AreaLevel <= 50
+
+Show
+	BaseType "Subsuming Spirit Shield"
+	DropLevel >= 50
+	AreaLevel <= 53
+
+Show
+	BaseType "Thorium Spirit Shield"
+	DropLevel >= 53
+	AreaLevel <= 56
+
+Show
+	BaseType "Lacewood Spirit Shield"
+	DropLevel >= 56
+	AreaLevel <= 59
+
+Show
+	BaseType "Fossilised Spirit Shield"
+	DropLevel >= 59
+	AreaLevel <= 62
+
+Show
+	BaseType "Vaal Spirit Shield"
+	DropLevel >= 62
+	AreaLevel <= 65
+
+Show
+	BaseType "Harmonic Spirit Shield"
+	DropLevel >= 65
+	AreaLevel <= 68
+
+Show
+	BaseType "Titanium Spirit Shield"
+	DropLevel >= 68
+	AreaLevel <= 70
+
+Show
+	BaseType "Transfer-attuned Spirit Shield"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Rotted Round Shield"
+	DropLevel >= 5
+	AreaLevel <= 12
+
+Show
+	BaseType "Fir Round Shield"
+	DropLevel >= 12
+	AreaLevel <= 20
+
+Show
+	BaseType "Studded Round Shield"
+	DropLevel >= 20
+	AreaLevel <= 27
+
+Show
+	BaseType "Scarlet Round Shield"
+	DropLevel >= 27
+	AreaLevel <= 33
+
+Show
+	BaseType "Splendid Round Shield"
+	DropLevel >= 33
+	AreaLevel <= 39
+
+Show
+	BaseType "Maple Round Shield"
+	DropLevel >= 39
+	AreaLevel <= 45
+
+Show
+	BaseType "Spiked Round Shield"
+	DropLevel >= 45
+	AreaLevel <= 49
+
+Show
+	BaseType "Crimson Round Shield"
+	DropLevel >= 49
+	AreaLevel <= 54
+
+Show
+	BaseType "Baroque Round Shield"
+	DropLevel >= 54
+	AreaLevel <= 58
+
+Show
+	BaseType "Teak Round Shield"
+	DropLevel >= 58
+	AreaLevel <= 62
+
+Show
+	BaseType "Spiny Round Shield"
+	DropLevel >= 62
+	AreaLevel <= 66
+
+Show
+	BaseType "Cardinal Round Shield"
+	DropLevel >= 66
+	AreaLevel <= 70
+
+Show
+	BaseType "Elegant Round Shield"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Plank Kite Shield"
+	DropLevel >= 7
+	AreaLevel <= 13
+
+Show
+	BaseType "Linden Kite Shield"
+	DropLevel >= 13
+	AreaLevel <= 20
+
+Show
+	BaseType "Reinforced Kite Shield"
+	DropLevel >= 20
+	AreaLevel <= 27
+
+Show
+	BaseType "Layered Kite Shield"
+	DropLevel >= 27
+	AreaLevel <= 34
+
+Show
+	BaseType "Ceremonial Kite Shield"
+	DropLevel >= 34
+	AreaLevel <= 40
+
+Show
+	BaseType "Etched Kite Shield"
+	DropLevel >= 40
+	AreaLevel <= 46
+
+Show
+	BaseType "Steel Kite Shield"
+	DropLevel >= 46
+	AreaLevel <= 50
+
+Show
+	BaseType "Laminated Kite Shield"
+	DropLevel >= 50
+	AreaLevel <= 55
+
+Show
+	BaseType "Angelic Kite Shield"
+	DropLevel >= 55
+	AreaLevel <= 59
+
+Show
+	BaseType "Branded Kite Shield"
+	DropLevel >= 59
+	AreaLevel <= 62
+
+Show
+	BaseType "Champion Kite Shield"
+	DropLevel >= 62
+	AreaLevel <= 65
+
+Show
+	BaseType "Mosaic Kite Shield"
+	DropLevel >= 65
+	AreaLevel <= 68
+
+Show
+	BaseType "Archon Kite Shield"
+	DropLevel >= 68
+	AreaLevel <= 100
+
+
+Show
+	BaseType "Spiked Bundle"
+	DropLevel >= 5
+	AreaLevel <= 12
+
+Show
+	BaseType "Driftwood Spiked Shield"
+	DropLevel >= 12
+	AreaLevel <= 20
+
+Show
+	BaseType "Alloyed Spiked Shield"
+	DropLevel >= 20
+	AreaLevel <= 27
+
+Show
+	BaseType "Burnished Spiked Shield"
+	DropLevel >= 27
+	AreaLevel <= 33
+
+Show
+	BaseType "Ornate Spiked Shield"
+	DropLevel >= 33
+	AreaLevel <= 39
+
+Show
+	BaseType "Redwood Spiked Shield"
+	DropLevel >= 39
+	AreaLevel <= 45
+
+Show
+	BaseType "Compound Spiked Shield"
+	DropLevel >= 45
+	AreaLevel <= 49
+
+Show
+	BaseType "Polished Spiked Shield"
+	DropLevel >= 49
+	AreaLevel <= 54
+
+Show
+	BaseType "Sovereign Spiked Shield"
+	DropLevel >= 54
+	AreaLevel <= 58
+
+Show
+	BaseType "Alder Spiked Shield"
+	DropLevel >= 58
+	AreaLevel <= 62
+
+Show
+	BaseType "Ezomyte Spiked Shield"
+	DropLevel >= 62
+	AreaLevel <= 66
+
+Show
+	BaseType "Mirrored Spiked Shield"
+	DropLevel >= 66
+	AreaLevel <= 70
+
+Show
+	BaseType "Supreme Spiked Shield"
+	DropLevel >= 70
+	AreaLevel <= 100
+
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# x) FLASKS
+#======================================================================
+# Handling for flasks. Includes styling, level progression and other
+# conditions
+#----------------------------------------------------------------------
+
+
+#----------------------------------------------------------------------
+# LIFE FLASKS
+#----------------------------------------------------------------------
+
+Show
+	BaseType "Life Flask"
+	Rarity < Unique
+	SetTextColor 255 85 85
+	CustomAlertSound "potion.wav"
+	Continue
+
+Show
+	BaseType "Small Life Flask"
+	DropLevel >= 1
+	AreaLevel <= 3
+	
+Show
+	BaseType "Medium Life Flask"
+	DropLevel >= 3
+	AreaLevel <= 6
+
+Show
+	BaseType "Large Life Flask"
+	DropLevel >= 6
+	AreaLevel <= 12
+	
+Show
+	BaseType "Greater Life Flask"
+	DropLevel >= 12
+	AreaLevel <= 18
+#------------------------------------------------------------ FLASKS --
+Show
+	BaseType "Grand Life Flask"
+	DropLevel >= 18
+	AreaLevel <= 24
+
+Show
+	BaseType "Giant Life Flask"
+	DropLevel >= 24
+	AreaLevel <= 30
+	
+Show
+	BaseType "Colossal Life Flask"
+	DropLevel >= 30
+	AreaLevel <= 36
+
+Show
+	BaseType "Sacred Life Flask"
+	DropLevel >= 36
+	AreaLevel <= 42	
+	
+Show
+	BaseType "Hallowed Life Flask"
+	DropLevel >= 42
+	AreaLevel <= 50
+#------------------------------------------------------------ FLASKS --	
+Show
+	BaseType "Sanctified Life Flask"
+	DropLevel >= 50
+	AreaLevel <= 60	
+	
+Show
+	BaseType "Divine Life Flask"
+	DropLevel >= 60
+	AreaLevel <= 65
+
+Show
+	BaseType "Eternal Life Flask"
+	DropLevel >= 65
+	#AreaLevel <= 100
+	
+#-----------------------------------------------------------------------
+# MANA FLASKS
+#-----------------------------------------------------------------------
+
+Show
+	BaseType "Mana Flask"
+	Rarity < Unique
+	SetTextColor 85 85 255
+	CustomAlertSound "potion.wav"
+	Continue
+
+Show
+	BaseType "Small Mana Flask"
+	DropLevel >= 1
+	AreaLevel <= 3
+
+Show
+	BaseType "Medium Mana Flask"
+	DropLevel >= 3
+	AreaLevel <= 6
+
+Show
+	BaseType "Large Mana Flask"
+	DropLevel >= 6
+	AreaLevel <= 12
+	
+Show
+	BaseType "Greater Mana Flask"
+	DropLevel >= 12
+	AreaLevel <= 18
+#------------------------------------------------------------ FLASKS --
+Show
+	BaseType "Grand Mana Flask"
+	DropLevel >= 18
+	AreaLevel <= 24
+	
+Show
+	BaseType "Giant Mana Flask"
+	DropLevel >= 24
+	AreaLevel <= 30
+	
+Show
+	BaseType "Colossal Mana Flask"
+	DropLevel >= 30
+	AreaLevel <= 36
+
+Show
+	BaseType "Sacred Mana Flask"
+	DropLevel >= 36
+	AreaLevel <= 42	
+#------------------------------------------------------------ FLASKS --
+Show
+	BaseType "Hallowed Mana Flask"
+	DropLevel >= 42
+	AreaLevel <= 50
+	
+Show
+	BaseType "Sanctified Mana Flask"
+	DropLevel >= 50
+	AreaLevel <= 60	
+	
+Show
+	BaseType "Divine Mana Flask"
+	DropLevel >= 60
+	AreaLevel <= 65
+
+Show
+	BaseType "Eternal Mana Flask"
+	DropLevel >= 65
+	#AreaLevel <= 100
+	
+#-----------------------------------------------------------------------
+# HYBRID FLASKS
+#-----------------------------------------------------------------------
+
+Show
+	BaseType "Hybrid Flask"
+	Rarity < Unique
+	SetTextColor 187 85 255
+	CustomAlertSound "potion.wav"
+	Continue
+
+Show
+	BaseType "Small Hybrid Flask"
+	DropLevel >= 10
+	AreaLevel <= 20
+	
+Show
+	BaseType "Medium Hybrid Flask"
+	DropLevel >= 20
+	AreaLevel <= 30
+
+Show
+	BaseType "Large Hybrid Flask"
+	DropLevel >= 30
+	AreaLevel <= 40
+#------------------------------------------------------------ FLASKS --
+Show
+	BaseType "Colossal Hybrid Flask"
+	DropLevel >= 40
+	AreaLevel <= 50
+
+Show
+	BaseType "Sacred Hybrid Flask"
+	DropLevel >= 50
+	AreaLevel <= 60
+	
+Show
+	BaseType "Hallowed Hybrid Flask"
+	DropLevel >= 60
+	#AreaLevel <= 30
