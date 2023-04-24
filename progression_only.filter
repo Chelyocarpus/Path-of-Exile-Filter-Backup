@@ -2056,7 +2056,7 @@ Show
 	AreaLevel <= 64
 
 Show
-	BaseType "Maelstr�m Staff"
+	BaseType "Maelström Staff"
 	DropLevel >= 64
 	AreaLevel <= 68
 
@@ -2135,7 +2135,7 @@ Show
 	AreaLevel <= 49
 
 Show
-	BaseType "Serpent Wand"
+	BaseType "Coiled Wand"
 	DropLevel >= 49
 	AreaLevel <= 50
 
@@ -4511,3 +4511,5 @@ Show
 	BaseType "Hallowed Hybrid Flask"
 	DropLevel >= 60
 	#AreaLevel <= 30
+
+Hide
