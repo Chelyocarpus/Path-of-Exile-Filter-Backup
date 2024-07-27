@@ -2,7 +2,7 @@ import os
 import shutil
 
 file1 = "D:/Path-of-Exile-Filter-Backup/Book of Wisdom.filter"
-file2 = "C:/Users/Goliath/Documents/My Games/Path of Exile/Book of Wisdom.filter"
+file2 = "D:\Documents\My Games\Path of Exile\Book of Wisdom.filter"
 
 # Vergleiche die Änderungszeiten der beiden Dateien
 #if os.path.getmtime(file1) < os.path.getmtime(file2):

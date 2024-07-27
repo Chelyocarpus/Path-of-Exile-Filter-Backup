@@ -3193,7 +3193,7 @@ Show
 	AreaLevel <= 10
 
 Show
-	BaseType "Taxing Gauntlets"
+	BaseType "Preserving Gauntlets"
 	DropLevel >= 10
 	AreaLevel <= 11
 
@@ -3218,7 +3218,7 @@ Show
 	AreaLevel <= 40
 
 Show
-	BaseType "Gruelling Gauntlets"
+	BaseType "Guarding Gauntlets"
 	DropLevel >= 40
 	AreaLevel <= 47
 
@@ -3243,7 +3243,7 @@ Show
 	AreaLevel <= 70
 
 Show
-	BaseType "Debilitation Gauntlets"
+	BaseType "Thwarting Gauntlets"
 	DropLevel >= 70
 	AreaLevel <= 70
 
@@ -3264,7 +3264,7 @@ Show
 	AreaLevel <= 10
 
 Show
-	BaseType "Gauche Gloves"
+	BaseType "Tinker Gloves"
 	DropLevel >= 10
 	AreaLevel <= 21
 
@@ -3284,7 +3284,7 @@ Show
 	AreaLevel <= 40
 
 Show
-	BaseType "Southswing Gloves"
+	BaseType "Apprentice Gloves"
 	DropLevel >= 40
 	AreaLevel <= 45
 
@@ -3309,7 +3309,7 @@ Show
 	AreaLevel <= 70
 
 Show
-	BaseType "Sinistral Gloves"
+	BaseType "Trapsetter Gloves"
 	DropLevel >= 70
 	AreaLevel <= 70
 
