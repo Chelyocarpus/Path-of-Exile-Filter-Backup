@@ -1,10 +1,22 @@
+import random
+import string
+import re
+
+# Function to generate a random string of 5 uppercase characters (letters and digits)
+def generate_random_string(length=5):
+    return ''.join(random.choices(string.ascii_uppercase + string.digits, k=length))
+
+# Function to remove the existing random string from the header
+def remove_existing_random_string(header):
+    return re.sub(r'\s*\[\w{5}\]$', '', header)
+
 # Open the file in read mode
 with open('Book of Wisdom.filter', 'r') as file:
     # Read all the lines in the file
     lines = file.readlines()
 
-# Initialize an empty list to store the headers
-headers = []
+# Initialize a dictionary to store the headers and their associated random strings
+header_dict = {}
 
 # Loop through each line in the file
 for i in range(len(lines)):
@@ -12,12 +24,25 @@ for i in range(len(lines)):
     if lines[i].startswith('#======================================================================'):
         # Extract the header name from the line below it
         header_name = lines[i-1].strip()
-        # Add the header to the list of headers
-        if header_name:
-            headers.append(header_name)
+        # Remove existing random string if present
+        header_name_clean = remove_existing_random_string(header_name)
+        # Generate a new random string and store it with the header
+        if header_name_clean:
+            header_dict[header_name_clean] = f"{header_name_clean} [{generate_random_string()}]"
 
-# Open a new file in write mode
-with open('output.txt', 'w') as output_file:
-    # Loop through each header and write it to the output file with a line break
-    for header in headers:
-        output_file.write(header + '\n')
+# Write the modified headers to the output file
+with open('create_toc_output.txt', 'w') as output_file:
+    for original_header, modified_header in header_dict.items():
+        output_file.write(modified_header + '\n')
+
+# Update the input file with the modified headers
+with open('Book of Wisdom.filter', 'w') as file:
+    for i in range(len(lines)):
+        if lines[i].startswith('#======================================================================'):
+            header_name = lines[i-1].strip()
+            header_name_clean = remove_existing_random_string(header_name)
+            if header_name_clean in header_dict:
+                # Replace the original header with the modified header
+                lines[i-1] = header_dict[header_name_clean] + '\n'
+    # Write the updated lines back to the file
+    file.writelines(lines)
