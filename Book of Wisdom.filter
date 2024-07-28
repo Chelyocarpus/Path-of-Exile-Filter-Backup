@@ -1,7 +1,7 @@
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x) TODO LIST
+# TODO LIST
 #======================================================================
 
 # - Add lowlvl Coral Ring DONE
@@ -26,7 +26,7 @@
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x) VERSION HISTORY
+# VERSION HISTORY
 #======================================================================
 
 # https://github.com/Chelyocarpus/Path-of-Exile-Filter-Backup/commits/main/Book%20of%20Wisdom.filter
@@ -35,7 +35,7 @@
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x) VENDOR RECIPES [ID]
+# VENDOR RECIPES
 #======================================================================
 # Add Description
 #----------------------------------------------------------------------
@@ -61,7 +61,7 @@ Show # Alchemy Shards
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x) SOCKETS & LINKS
+# SOCKETS & LINKS
 #======================================================================
 # Add Description
 #----------------------------------------------------------------------
@@ -82,18 +82,7 @@ Show # 5 and 6 linked sockets
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x)
-#======================================================================
-#
-#----------------------------------------------------------------------
-
-Hide #Str
-	BaseType "Iron Greaves" "Steel Greaves" "Basemetal Treads" "Plated Greaves" "Reinforced Greaves" "Antique Greaves" "Ancient Greaves" "Darksteel Treads" "Goliath Greaves" "Vaal Greaves" "Titan Greaves" "Brimstone Treads"
-
-#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
-
-#======================================================================
-# x) RARE ITEM PROGRESSION
+# RARE ITEM PROGRESSION
 #======================================================================
 # Highlight best possible ItemLevel Rares in current zone
 #----------------------------------------------------------------------
@@ -467,7 +456,7 @@ Show
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x) LEVEL PROGRESSION FOR WEAPONS
+# LEVEL PROGRESSION FOR WEAPONS
 #======================================================================
 # Add Description
 #----------------------------------------------------------------------
@@ -2326,7 +2315,7 @@ Show
 	BaseType "War Plate"
 	DropLevel >= 21
 	AreaLevel <= 28
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Full Plate"
 	DropLevel >= 28
@@ -2346,7 +2335,7 @@ Show
 	BaseType "Bronze Plate"
 	DropLevel >= 37
 	AreaLevel <= 41
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Battle Plate"
 	DropLevel >= 41
@@ -2366,7 +2355,7 @@ Show
 	BaseType "Majestic Plate"
 	DropLevel >= 53
 	AreaLevel <= 56
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Golden Plate"
 	DropLevel >= 56
@@ -2386,10 +2375,25 @@ Show
 	BaseType "Gladiator Plate"
 	DropLevel >= 65
 	AreaLevel <= 68
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Glorious Plate"
 	DropLevel >= 68
+	AreaLevel <= 73
+
+Show
+	BaseType "Titan Plate"
+	DropLevel >= 73
+	AreaLevel <= 78
+
+Show
+	BaseType "Legion Plate"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Royal Plate"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 #Evasion
@@ -2407,7 +2411,7 @@ Show
 	BaseType "Buckskin Tunic"
 	DropLevel >= 17
 	AreaLevel <= 25
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Wild Leather"
 	DropLevel >= 25
@@ -2427,7 +2431,7 @@ Show
 	BaseType "Thief's Garb"
 	DropLevel >= 35
 	AreaLevel <= 37
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Eelskin Tunic"
 	DropLevel >= 37
@@ -2447,7 +2451,7 @@ Show
 	BaseType "Coronal Leather"
 	DropLevel >= 49
 	AreaLevel <= 53
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Cutthroat's Garb"
 	DropLevel >= 53
@@ -2467,7 +2471,7 @@ Show
 	BaseType "Exquisite Leather"
 	DropLevel >= 62
 	AreaLevel <= 65
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Zodiac Leather"
 	DropLevel >= 65
@@ -2476,7 +2480,23 @@ Show
 Show
 	BaseType "Assassin's Garb"
 	DropLevel >= 68
+	AreaLevel <= 73
+
+Show
+	BaseType "Supreme Leather"
+	DropLevel >= 73
+	AreaLevel <= 78
+
+Show
+	BaseType "Astral Leather"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Syndicate's Garb"
+	DropLevel >= 84
 	AreaLevel <= 100
+
 
 #Energy Shield
 Show
@@ -2488,7 +2508,7 @@ Show
 	BaseType "Silken Vest"
 	DropLevel >= 11
 	AreaLevel <= 18
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Scholar's Robe"
 	DropLevel >= 18
@@ -2508,7 +2528,7 @@ Show
 	BaseType "Silk Robe"
 	DropLevel >= 32
 	AreaLevel <= 35
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Cabalist Regalia"
 	DropLevel >= 35
@@ -2528,7 +2548,7 @@ Show
 	BaseType "Conjurer's Vestment"
 	DropLevel >= 45
 	AreaLevel <= 49
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Spidersilk Robe"
 	DropLevel >= 49
@@ -2548,7 +2568,7 @@ Show
 	BaseType "Necromancer Silks"
 	DropLevel >= 59
 	AreaLevel <= 62
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Occultist's Vestment"
 	DropLevel >= 62
@@ -2562,14 +2582,30 @@ Show
 Show
 	BaseType "Vaal Regalia"
 	DropLevel >= 68
+	AreaLevel <= 73
+
+Show
+	BaseType "Arcane Vestment"
+	DropLevel >= 73
+	AreaLevel <= 78
+
+Show
+	BaseType "Nightweave Robe"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Twilight Regalia"
+	DropLevel >= 84
 	AreaLevel <= 100
+
 
 #I DUNNO
 Show
 	BaseType "Scale Vest"
 	DropLevel >= 1
 	AreaLevel <= 8
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Light Brigandine"
 	DropLevel >= 8
@@ -2589,7 +2625,7 @@ Show
 	BaseType "Full Scale Armour"
 	DropLevel >= 28
 	AreaLevel <= 32
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Soldier's Brigandine"
 	DropLevel >= 32
@@ -2609,7 +2645,7 @@ Show
 	BaseType "Hussar Brigandine"
 	DropLevel >= 42
 	AreaLevel <= 46
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Full Wyrmscale"
 	DropLevel >= 46
@@ -2629,7 +2665,7 @@ Show
 	BaseType "Dragonscale Doublet"
 	DropLevel >= 57
 	AreaLevel <= 60
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Desert Brigandine"
 	DropLevel >= 60
@@ -2648,14 +2684,30 @@ Show
 Show
 	BaseType "Triumphant Lamellar"
 	DropLevel >= 69
+	AreaLevel <= 73
+
+Show
+	BaseType "Full Wyvernscale"
+	DropLevel >= 73
+	AreaLevel <= 78
+
+Show
+	BaseType "Marshall's Brigandine"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Conquest Lamellar"
+	DropLevel >= 84
 	AreaLevel <= 100
+
 
 # I DUNNO
 Show
 	BaseType "Chainmail Vest"
 	DropLevel >= 1
 	AreaLevel <= 8
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Chainmail Tunic"
 	DropLevel >= 8
@@ -2675,7 +2727,7 @@ Show
 	BaseType "Full Ringmail"
 	DropLevel >= 28
 	AreaLevel <= 32
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Full Chainmail"
 	DropLevel >= 32
@@ -2695,7 +2747,7 @@ Show
 	BaseType "Crusader Chainmail"
 	DropLevel >= 43
 	AreaLevel <= 47
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Ornate Ringmail"
 	DropLevel >= 47
@@ -2715,7 +2767,7 @@ Show
 	BaseType "Loricated Ringmail"
 	DropLevel >= 58
 	AreaLevel <= 61
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Conquest Chainmail"
 	DropLevel >= 61
@@ -2734,14 +2786,30 @@ Show
 Show
 	BaseType "Saintly Chainmail"
 	DropLevel >= 70
+	AreaLevel <= 73
+
+Show
+	BaseType "Grand Ringmail"
+	DropLevel >= 73
+	AreaLevel <= 78
+
+Show
+	BaseType "Paladin's Hauberk"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Sacred Chainmail"
+	DropLevel >= 84
 	AreaLevel <= 100
+
 
 #I DUNNO
 Show
 	BaseType "Padded Vest"
 	DropLevel >= 1
 	AreaLevel <= 9
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Oiled Vest"
 	DropLevel >= 9
@@ -2761,7 +2829,7 @@ Show
 	BaseType "Scarlet Raiment"
 	DropLevel >= 28
 	AreaLevel <= 32
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Waxed Garb"
 	DropLevel >= 32
@@ -2781,7 +2849,7 @@ Show
 	BaseType "Sleek Coat"
 	DropLevel >= 44
 	AreaLevel <= 48
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Crimson Raiment"
 	DropLevel >= 48
@@ -2801,7 +2869,7 @@ Show
 	BaseType "Sentinel Jacket"
 	DropLevel >= 59
 	AreaLevel <= 62
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Varnished Coat"
 	DropLevel >= 62
@@ -2820,6 +2888,21 @@ Show
 Show
 	BaseType "Carnal Armour"
 	DropLevel >= 71
+	AreaLevel <= 73
+
+Show
+	BaseType "Sanguine Raiment"
+	DropLevel >= 73
+	AreaLevel <= 78
+
+Show
+	BaseType "Torturer Garb"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Necrotic Armour"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 #I DUNNO
@@ -2827,11 +2910,12 @@ Show
 	BaseType "Grasping Mail"
 	DropLevel >= 70
 	AreaLevel <= 72
-#---------------------------------------- LEVEL PROGRESSION FOR GEAR --
+
 Show
 	BaseType "Sacrificial Garb"
 	DropLevel >= 72
 	AreaLevel <= 100
+
 
 #----------------------------------------------------------------------
 # BOOTS
@@ -2890,11 +2974,21 @@ Show
 Show
 	BaseType "Titan Greaves"
 	DropLevel >= 68
+	AreaLevel <= 78
+
+Show
+	BaseType "Precursor Greaves"
+	DropLevel >= 78
 	AreaLevel <= 80
 
 Show
 	BaseType "Brimstone Treads"
 	DropLevel >= 80
+	AreaLevel <= 84
+
+Show
+	BaseType "Leviathan Greaves"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
@@ -2951,11 +3045,21 @@ Show
 Show
 	BaseType "Slink Boots"
 	DropLevel >= 69
+	AreaLevel <= 78
+
+Show
+	BaseType "Harpyskin Boots"
+	DropLevel >= 78
 	AreaLevel <= 80
 
 Show
 	BaseType "Stormrider Boots"
 	DropLevel >= 80
+	AreaLevel <= 84
+
+Show
+	BaseType "Velour Boots"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
@@ -3012,6 +3116,11 @@ Show
 Show
 	BaseType "Sorcerer Boots"
 	DropLevel >= 67
+	AreaLevel <= 78
+
+Show
+	BaseType "Sage Slippers"
+	DropLevel >= 78
 	AreaLevel <= 80
 
 Show
@@ -3061,8 +3170,18 @@ Show
 	AreaLevel <= 70
 
 Show
-	BaseType "Two-Toned Boots"
+	BaseType "Two-Toned Boots (Fire and Cold Resistance)"
 	DropLevel >= 70
+	AreaLevel <= 78
+
+Show
+	BaseType "Chimerascale Boots"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Wyvernscale Boots"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
@@ -3107,8 +3226,18 @@ Show
 	AreaLevel <= 70
 
 Show
-	BaseType "Two-Toned Boots"
+	BaseType "Two-Toned Boots (Fire and Lightning Resistance)"
 	DropLevel >= 70
+	AreaLevel <= 78
+
+Show
+	BaseType "Martyr Boots"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Paladin Boots"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
@@ -3163,8 +3292,18 @@ Show
 	AreaLevel <= 70
 
 Show
-	BaseType "Two-Toned Boots"
+	BaseType "Two-Toned Boots (Cold and Lightning Resistance)"
 	DropLevel >= 70
+	AreaLevel <= 78
+
+Show
+	BaseType "Infiltrator Boots"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Phantom Boots"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
@@ -3181,7 +3320,13 @@ Show
 Show
 	BaseType "Runic Sabatons"
 	DropLevel >= 69
+	AreaLevel <= 84
+
+Show
+	BaseType "Warlock Boots"
+	DropLevel >= 84
 	AreaLevel <= 100
+
 
 #----------------------------------------------------------------------
 # Gloves
@@ -3190,16 +3335,16 @@ Show
 Show
 	BaseType "Iron Gauntlets"
 	DropLevel >= 1
-	AreaLevel <= 10
-
-Show
-	BaseType "Preserving Gauntlets"
-	DropLevel >= 10
 	AreaLevel <= 11
 
 Show
 	BaseType "Plated Gauntlets"
 	DropLevel >= 11
+	AreaLevel <= 16
+
+Show
+	BaseType "Preserving Gauntlets"
+	DropLevel >= 16
 	AreaLevel <= 23
 
 Show
@@ -3243,13 +3388,23 @@ Show
 	AreaLevel <= 70
 
 Show
-	BaseType "Thwarting Gauntlets"
+	BaseType "Spiked Gloves"
 	DropLevel >= 70
 	AreaLevel <= 70
 
 Show
-	BaseType "Spiked Gloves"
+	BaseType "Thwarting Gauntlets"
 	DropLevel >= 70
+	AreaLevel <= 78
+
+Show
+	BaseType "Precursor Gauntlets"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Leviathan Gauntlets"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
@@ -3309,13 +3464,23 @@ Show
 	AreaLevel <= 70
 
 Show
-	BaseType "Trapsetter Gloves"
+	BaseType "Slink Gloves"
 	DropLevel >= 70
 	AreaLevel <= 70
 
 Show
-	BaseType "Slink Gloves"
+	BaseType "Trapsetter Gloves"
 	DropLevel >= 70
+	AreaLevel <= 78
+
+Show
+	BaseType "Harpyskin Gloves"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Velour Gloves"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
@@ -3382,7 +3547,13 @@ Show
 Show
 	BaseType "Nexus Gloves"
 	DropLevel >= 70
+	AreaLevel <= 78
+
+Show
+	BaseType "Sage Gloves"
+	DropLevel >= 78
 	AreaLevel <= 100
+
 
 
 Show
@@ -3423,52 +3594,68 @@ Show
 Show
 	BaseType "Dragonscale Gauntlets"
 	DropLevel >= 67
+	AreaLevel <= 78
+
+Show
+	BaseType "Chimerascale Gauntlets"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Wyvernscale Gauntlets"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
-Show
-	BaseType "Chain Gloves"
-	DropLevel >= 7
-	AreaLevel <= 19
 
 Show
-	BaseType "Ringmail Gloves"
-	DropLevel >= 19
-	AreaLevel <= 32
+	BaseType "Fishscale Gauntlets"
+	DropLevel >= 1
+	AreaLevel <= 15
 
 Show
-	BaseType "Mesh Gloves"
-	DropLevel >= 32
-	AreaLevel <= 37
+	BaseType "Ironscale Gauntlets"
+	DropLevel >= 15
+	AreaLevel <= 27
 
 Show
-	BaseType "Riveted Gloves"
-	DropLevel >= 37
+	BaseType "Bronzescale Gauntlets"
+	DropLevel >= 27
+	AreaLevel <= 36
+
+Show
+	BaseType "Steelscale Gauntlets"
+	DropLevel >= 36
 	AreaLevel <= 43
 
 Show
-	BaseType "Zealot Gloves"
+	BaseType "Serpentscale Gauntlets"
 	DropLevel >= 43
-	AreaLevel <= 51
+	AreaLevel <= 49
 
 Show
-	BaseType "Soldier Gloves"
-	DropLevel >= 51
-	AreaLevel <= 57
+	BaseType "Wyrmscale Gauntlets"
+	DropLevel >= 49
+	AreaLevel <= 59
 
 Show
-	BaseType "Legion Gloves"
-	DropLevel >= 57
-	AreaLevel <= 66
+	BaseType "Hydrascale Gauntlets"
+	DropLevel >= 59
+	AreaLevel <= 67
 
 Show
-	BaseType "Crusader Gloves"
-	DropLevel >= 66
-	AreaLevel <= 70
+	BaseType "Dragonscale Gauntlets"
+	DropLevel >= 67
+	AreaLevel <= 78
 
 Show
-	BaseType "Apothecary's Gloves"
-	DropLevel >= 70
+	BaseType "Chimerascale Gauntlets"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Wyvernscale Gauntlets"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
@@ -3510,7 +3697,18 @@ Show
 Show
 	BaseType "Murder Mitts"
 	DropLevel >= 67
+	AreaLevel <= 78
+
+Show
+	BaseType "Infiltrator Mitts"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Phantom Mitts"
+	DropLevel >= 84
 	AreaLevel <= 100
+
 
 
 Show
@@ -3526,7 +3724,13 @@ Show
 Show
 	BaseType "Runic Gauntlets"
 	DropLevel >= 69
+	AreaLevel <= 84
+
+Show
+	BaseType "Warlock Gloves"
+	DropLevel >= 84
 	AreaLevel <= 100
+
 
 #----------------------------------------------------------------------
 # HELMET
@@ -3585,6 +3789,21 @@ Show
 Show
 	BaseType "Eternal Burgonet"
 	DropLevel >= 69
+	AreaLevel <= 73
+
+Show
+	BaseType "General's Helmet"
+	DropLevel >= 73
+	AreaLevel <= 78
+
+Show
+	BaseType "Conqueror's Helmet"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Giantslayer Helmet"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
@@ -3636,6 +3855,21 @@ Show
 Show
 	BaseType "Lion Pelt"
 	DropLevel >= 70
+	AreaLevel <= 73
+
+Show
+	BaseType "Dire Pelt"
+	DropLevel >= 73
+	AreaLevel <= 78
+
+Show
+	BaseType "Grizzly Pelt"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Majestic Pelt"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
@@ -3692,6 +3926,21 @@ Show
 Show
 	BaseType "Hubris Circlet"
 	DropLevel >= 69
+	AreaLevel <= 73
+
+Show
+	BaseType "Moonlit Circlet"
+	DropLevel >= 73
+	AreaLevel <= 78
+
+Show
+	BaseType "Sunfire Circlet"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Lich's Circlet"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
@@ -3753,11 +4002,21 @@ Show
 Show
 	BaseType "Nightmare Bascinet"
 	DropLevel >= 67
+	AreaLevel <= 73
+
+Show
+	BaseType "Knight Helm"
+	DropLevel >= 73
 	AreaLevel <= 75
 
 Show
 	BaseType "Penitent Mask"
 	DropLevel >= 75
+	AreaLevel <= 84
+
+Show
+	BaseType "Haunted Bascinet"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
@@ -3824,12 +4083,28 @@ Show
 Show
 	BaseType "Bone Helmet"
 	DropLevel >= 73
+	AreaLevel <= 73
+
+Show
+	BaseType "Faithful Helmet"
+	DropLevel >= 73
 	AreaLevel <= 75
 
 Show
 	BaseType "Archdemon Crown"
 	DropLevel >= 75
+	AreaLevel <= 78
+
+Show
+	BaseType "Paladin Crown"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Divine Crown"
+	DropLevel >= 84
 	AreaLevel <= 100
+
 
 
 Show
@@ -3895,11 +4170,26 @@ Show
 Show
 	BaseType "Deicide Mask"
 	DropLevel >= 67
+	AreaLevel <= 73
+
+Show
+	BaseType "Jester Mask"
+	DropLevel >= 73
 	AreaLevel <= 75
 
 Show
 	BaseType "Blizzard Crown"
 	DropLevel >= 75
+	AreaLevel <= 78
+
+Show
+	BaseType "Ancient Mask"
+	DropLevel >= 78
+	AreaLevel <= 84
+
+Show
+	BaseType "Torturer's Mask"
+	DropLevel >= 84
 	AreaLevel <= 100
 
 
@@ -3916,7 +4206,13 @@ Show
 Show
 	BaseType "Runic Crown"
 	DropLevel >= 68
+	AreaLevel <= 78
+
+Show
+	BaseType "Conquest Helm"
+	DropLevel >= 78
 	AreaLevel <= 100
+
 
 #----------------------------------------------------------------------
 # SHIELD
@@ -4416,7 +4712,7 @@ Show
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x) FLASKS
+# FLASKS
 #======================================================================
 # Handling for flasks. Includes styling, level progression and other
 # conditions
@@ -4618,7 +4914,7 @@ Show
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x) SKILL GEMS
+# SKILL GEMS
 #======================================================================
 # Add Description
 #----------------------------------------------------------------------
@@ -4655,14 +4951,14 @@ Show
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x) ESSENCES
+# ESSENCES
 #======================================================================
 
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x) CURRENCY
+# CURRENCY
 #======================================================================
     
 Show # Fallback for new currency
@@ -4673,7 +4969,25 @@ Show # Fallback for new currency
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
 
 #======================================================================
-# x) UNSORTED
+# LEAGUE-SPECIFIC ITEMS
+#======================================================================
+# Each temporary league often comes with its own unique items and gear
+# that are either exclusive to the league or become part of the game 
+# permanently after the league ends
+#----------------------------------------------------------------------
+    
+#-----------------------------------------------------------------------
+# SETTLERS OF KALGUUR
+#-----------------------------------------------------------------------
+
+Show
+	Class Gold
+
+
+#|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
+
+#======================================================================
+# CATCH-ALL
 #======================================================================
 
 Show #Misc Items / League Specific
