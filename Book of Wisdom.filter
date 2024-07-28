@@ -3170,7 +3170,7 @@ Show
 	AreaLevel <= 70
 
 Show
-	BaseType "Two-Toned Boots (Fire and Cold Resistance)"
+	BaseType "Two-Toned Boots"
 	DropLevel >= 70
 	AreaLevel <= 78
 
@@ -3226,7 +3226,7 @@ Show
 	AreaLevel <= 70
 
 Show
-	BaseType "Two-Toned Boots (Fire and Lightning Resistance)"
+	BaseType "Two-Toned Boots"
 	DropLevel >= 70
 	AreaLevel <= 78
 
@@ -3292,7 +3292,7 @@ Show
 	AreaLevel <= 70
 
 Show
-	BaseType "Two-Toned Boots (Cold and Lightning Resistance)"
+	BaseType "Two-Toned Boots"
 	DropLevel >= 70
 	AreaLevel <= 78
 
