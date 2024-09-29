@@ -8,15 +8,16 @@
 # - Add lowlvl energy shield belt
 # - Add (high lvl) quality flasks (maybe to Vendor Recipes)
 # - Rework Essences
-# - Rework Currency
+# - Rework Currency with tiers and beams/map icons (sort by market value?)
 # - Rework Vendor Recipes
 # - Rework Skill Gems
+# - Rework Maps
 # - Add map highlight
 # - Rework jewels
 # - Add delve DONE
 # - Add support for Cluster Jewels
 # - Add utility flasks
-# - Add section for Rings & Amulets
+# - Add section for Rings & Amulets (How to filter?)
 # - Add Quivers
 # - Add highlight for cold res rings until merveil (~lvl12) DONE
 # - Add support for identified items + high res mods + high life mods
@@ -5006,6 +5007,7 @@ Show # Fallback for new currency
 
 Show
 	Class Gold
+	CustomAlertSound "gold.wav"
 
 
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #x ||
